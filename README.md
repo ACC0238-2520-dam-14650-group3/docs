@@ -524,12 +524,12 @@ Descripción: Plataforma líder en carpooling a nivel global. Conecta conductore
 
 
 | Competitive Analysis Landscape        |                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ¿Por qué llevar a cabo este análisis? | Este análisis nos permite identificar competidores con distintos grados de madurez en el ecosistema de movilidad colaborativa: desde iniciativas universitarias locales hasta plataformas globales de carpooling.<br/>De esta forma podemos contrastar nuestra propuesta con alternativas existentes, posicionándonos como una opción intermedia enfocada en **seguridad, comunidad universitaria y accesibilidad**. |
 
 
-|                         |                             | **Nuestra Startup**                                                                                                   | **EnRuta (PUCP)**                                                | **inDrive (Peer-to-Peer)**                                                               | **BlaBlaCar (Carpooling Global)**                                                 |
-| ----------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+|                         |                             | **Nuestra Startup(ÑanGO)**                                                                                            | **EnRuta (PUCP)**                                                | **inDrive (Peer-to-Peer)**                                                               | **BlaBlaCar (Carpooling Global)**                                                 |
+|-------------------------|-----------------------------|-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | **PERFIL**              | Overview                    | App universitaria de carpooling que conecta **estudiantes conductores y pasajeros** de una misma comunidad académica. | App universitaria PUCP para compartir rutas entre estudiantes.   | App global peer-to-peer donde conductor y pasajero **negocian el precio** de cada viaje. | Plataforma global de carpooling que conecta viajes de media/larga distancia.      |
 | **PERFIL**              | Ventaja competitiva (valor) | **Seguridad + Comunidad**: usuarios verificados como estudiantes + confianza entre pares.                             | Exclusividad universitaria y foco en seguridad.                  | Flexibilidad en negociación de precios y gran disponibilidad.                            | Alcance internacional, amplia base de usuarios y trayectoria consolidada.         |
 | **Perfil de Marketing** | Mercado objetivo            | Estudiantes universitarios de Lima y posteriormente de LatAm.                                                         | Estudiantes de la PUCP.                                          | Usuarios urbanos globales que buscan transporte económico y flexible.                    | Viajeros interurbanos y de larga distancia en todo el mundo.                      |
@@ -572,14 +572,51 @@ Se han diseñado entrevistas semiestructuradas para dos segmentos objetivo princ
 
 - **Segmento 1: Estudiantes con vehículo**
   -  **Objetivo:** Entender sus motivaciones para compartir viajes, preocupaciones sobre seguridad y expectativas de una plataforma de carpooling.
-  -  Preguntas clave:
+
+**Preguntas para el Segmento 1: Estudiantes con vehículo**
     
-
-
+1. ¿Con qué frecuencia utilizas tu vehículo para ir a la universidad?
+2. ¿Cuánto gastas aproximadamente al mes en combustible y estacionamiento?
+3. ¿Qué opinas sobre compartir tu vehículo con otros estudiantes?
+4. ¿Qué incentivo te motivaría más a ofrecer viajes compartidos? (ej. reducción de costos, compañía, recompensas).
+5. ¿Qué tan importante sería para ti contar con un sistema de calificaciones o validación de pasajeros?
+6. ¿Qué tipo de compensación esperarías recibir por ofrecer un asiento (dinero, beneficios, descuentos, etc.)?
+7. ¿Qué funcionalidades crees que debería tener una aplicación que te ayude a organizar tus viajes compartidos?
+8. ¿Qué tan cómodo te sentirías coordinando viajes con pasajeros mediante una app?
+9. ¿Qué preocupaciones tendrías al transportar a otros estudiantes? (ej. seguridad, puntualidad, responsabilidad legal).
+10. ¿Qué condiciones deberían cumplirse para que realmente ofrezcas tu auto?
 
 - **Segmento 2: Estudiantes sin vehículo**
   - **Objetivo:** Identificar sus principales desafíos de movilidad, criterios para elegir transporte y disposición a usar una app de carpooling.
 
+**Preguntas para el Segmento 2: Estudiantes sin vehículo**
+
+1. ¿Qué medio de transporte utilizas actualmente para ir a la universidad?
+2. ¿Qué aspectos te incomodan más de tu medio de transporte actual? (ej. tiempo, seguridad, costos, comodidad).
+3. ¿Cuánto tiempo promedio tardas en llegar a la universidad?
+4. ¿Cuánto gastas semanalmente en transporte?
+5. ¿Qué tan dispuesto estarías a compartir un viaje con otros estudiantes de tu universidad? ¿Por qué? 
+6. ¿Qué beneficios esperarías obtener al usar un servicio de carpooling entre estudiantes? 
+7. ¿Qué tan importante es para ti la seguridad al usar un servicio de transporte compartido? 
+8. ¿Preferirías un servicio más económico aunque tarde un poco más, o pagar más por ahorrar tiempo?
+9. ¿Con qué frecuencia utilizas aplicaciones móviles para tus actividades diarias? 
+10. ¿Qué características valoras más en una aplicación de transporte (ej. facilidad de uso, rapidez, métodos de pago, calificaciones de usuarios)?
+11. ¿Qué te generaría dudas o desconfianza al usar una plataforma de carpooling con otros estudiantes?
+12. ¿Qué condiciones deberían cumplirse para que realmente decidas usar un servicio de carpooling?
+
+### 2.2.2. Registro de entrevistas
+
+- **Segmento 1: Estudiantes con vehículo**
+
+
+- **Segmento 2: Estudiantes sin vehículo**
+
+Nombre: Huber Antonio Requejo
+Edad: 22 años
+Universidad: Universidad Pontificia Católica del Perú (PUCP)
+Carrera: Economía
+
+### 2.2.3 Análisis de entrevistas
     
 ## 2.3 Needfinding
 En esta sección se presentan las herramientas y técnicas utilizadas para identificar y comprender las necesidades de nuestros posibles usuarios, basándose en las entrevistas realizadas y el análisis de los segmentos objetivo.

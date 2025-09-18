@@ -608,12 +608,14 @@ Se han diseñado entrevistas semiestructuradas para dos segmentos objetivo princ
 
 - **Segmento 1: Estudiantes con vehículo**
 
-Nombre: Luis Fernando Rojas(Referencial)
-Edad: 21 años
-Universidad: Universidad de Lima(Referencial)
-Carrera: Ingeniería Industrial(Referencial)
-![Imagen Entrevista Luis](imgs/entrevistas/luis.png)
-Resumen de la entrevista: (TO-DO)
+Nombre: Maria Pilares
+Edad: 23 años
+Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
+Carrera: Ingeniería de Software
+![Imagen Entrevista Maria](imgs/entrevistas/maria.png)
+Resumen de la entrevista: María actualmente utiliza su vehículo personal para ir a la universidad, lo que le permite mayor comodidad y flexibilidad en sus horarios. Sin embargo, reconoce que los costos asociados al combustible y estacionamiento son elevados, gastando aproximadamente 300 soles mensuales en estos conceptos.
+Está abierta a la idea de compartir su vehículo con otros estudiantes, siempre y cuando exista un sistema de verificación y calificación que le brinde confianza. Valora mucho la seguridad y preferiría contar con una plataforma que le permita coordinar viajes de manera sencilla y segura. Además, considera que recibir algún tipo de compensación económica o beneficios adicionales sería un incentivo importante para ofrecer viajes compartidos.
+
 
 
 
@@ -624,7 +626,8 @@ Edad: 22 años
 Universidad: Universidad Pontificia Católica del Perú (PUCP)
 Carrera: Economía
 ![Imagen Entrevista Huber](imgs/entrevistas/huber.png)
-Resumen de la entrevista: (TO-DO)
+Resumen de la entrevista: Huber nos comenta que normalmente utiliza el transporte público para ir a la universidad debido a que reside lejos del campus. Sin embargo, ha experimentado situaciones de inseguridad y robos en varias ocasiones, lo que le genera preocupación. Tarda aproximadamente 1 hora y 30 minutos en llegar a la universidad y gasta alrededor de 70 soles semanales en transporte.
+Además, Huber nos comenta que normalmente los taxis de aplicativos no todos suelen ser personas confiables, y que prefiere no usarlos a menos que sea una emergencia. Está bastante dispuesto a compartir un viaje con otros estudiantes, ya que considera que esto podría reducir sus costos y mejorar la seguridad al viajar con personas conocidas. Valora mucho la seguridad en un servicio de transporte compartido y preferiría pagar un poco más si eso significa llegar más rápido y seguro.
 
 
 Nombre: Eduardo Ventura
@@ -632,12 +635,88 @@ Edad: 22 años
 Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
 Carrera: Ingeniería de Software
 ![Imagen Entrevista Eduardo](imgs/entrevistas/eduardo.png)
-Resumen de la entrevista: (TO-DO)
+Resumen de la entrevista: Eduardo nos comenta que actualmente utiliza el transporte público para ir a la universidad, lo cual le genera incomodidad debido a la falta de seguridad y la congestión en las horas punta. Tarda aproximadamente una hora en llegar a la universidad y gasta alrededor de 70 soles semanales en transporte.
+Está bastante dispuesto a compartir un viaje con otros estudiantes, ya que considera que esto podría reducir sus costos y mejorar la seguridad al viajar con personas conocidas. Valora mucho la seguridad en un servicio de transporte compartido y preferiría pagar un poco más si eso significa llegar más rápido y seguro.
 
+Nombre: Sebastian Arevalo
+Edad: 20 años
+Universidad: Universidad San Martín de Porres (USMP)
+Carrera: Ingeniería de Software
+![Imagen Entrevista Sebastian](imgs/entrevistas/eduardo.png)
+Resumen de la entrevista: 
 
+- ¿Qué medio de transporte utilizas actualmente para ir a la universidad?
+Generalmente uso buses de transporte público porque son lo más barato, aunque muchas veces se llenan demasiado y es incómodo. A veces recurro a aplicaciones de taxi cuando estoy apurado, pero solo en casos puntuales porque el costo es bastante más alto.
+
+- ¿Qué aspectos te incomodan más de tu medio de transporte actual?
+Lo que más me incomoda es la falta de puntualidad y la cantidad de gente que viaja apretada en las horas pico, lo que hace el trayecto estresante. Además, me preocupa bastante la inseguridad, ya que he visto o escuchado de robos frecuentes dentro de los buses y combis.
+
+- ¿Cuánto tiempo promedio tardas en llegar a la universidad?
+Normalmente me toma entre una hora y una hora y media llegar, aunque en hora punta puede llegar a ser casi dos horas. Esto significa que tengo que salir con mucha anticipación para no llegar tarde, lo cual me desgasta bastante todos los días.
+
+- ¿Cuánto gastas semanalmente en transporte?
+Gasto en promedio entre 60 y 80 soles a la semana, considerando los pasajes diarios de ida y vuelta. A veces la cifra sube porque termino pidiendo un aplicativo de taxi cuando salgo tarde o tengo alguna entrega importante en la universidad.
+
+- ¿Qué tan dispuesto estarías a compartir un viaje con otros estudiantes de tu universidad? ¿Por qué?
+Estaría bastante dispuesto, porque al final somos parte de la misma comunidad universitaria y eso me daría más confianza. Además, compartir un viaje significaría reducir costos y tener un trayecto más seguro en comparación al transporte público tradicional.
+
+- ¿Qué beneficios esperarías obtener al usar un servicio de carpooling entre estudiantes?
+El primer beneficio que esperaría es el ahorro de dinero frente a lo que gasto en taxis o aplicativos. También valoro la seguridad de viajar con personas conocidas de la universidad y la comodidad de tener un trayecto más directo y menos cansado que en un bus lleno.
+
+- ¿Qué tan importante es para ti la seguridad al usar un servicio de transporte compartido?
+Para mí la seguridad es un factor clave, incluso más importante que el costo o el tiempo de viaje. No usaría un servicio si no sé con quién voy, o si no hay medidas claras para garantizar que las personas que viajan están verificadas.
+
+- ¿Preferirías un servicio más económico aunque tarde un poco más, o pagar más por ahorrar tiempo?
+Depende de la situación, porque si tengo un examen o debo llegar muy puntual, preferiría pagar un poco más por un viaje rápido. Sin embargo, en la mayoría de los días me inclinaría por algo más económico para no gastar tanto a la semana.
+
+- ¿Con qué frecuencia utilizas aplicaciones móviles para tus actividades diarias?
+Uso aplicaciones casi a diario, ya sea para pedir comida, comprar algo, hacer pagos o transportarme. Estoy acostumbrado a que las apps me faciliten la vida, así que no tendría problema en usar una para organizar mis viajes a la universidad.
+
+- ¿Qué características valoras más en una aplicación de transporte?
+Valoro que la aplicación sea sencilla de usar, con precios claros y sin costos ocultos. También que tenga funciones de seguridad como compartir la ubicación en tiempo real y que muestre información detallada sobre los pasajeros y conductores.
+
+- ¿Qué te generaría dudas o desconfianza al usar una plataforma de carpooling con otros estudiantes?
+Me generaría desconfianza que no haya un sistema de verificación de identidad o que cualquiera pueda registrarse sin un control. También dudaría si no hubiera un canal claro para reportar situaciones incómodas o emergencias durante el viaje.
+
+- ¿Qué condiciones deberían cumplirse para que realmente decidas usar un servicio como este?
+Que el servicio sea seguro con verificación de usuarios y monitoreo de los viajes en tiempo real. Además, que los precios sean justos y que la app sea clara con las rutas y horarios, mostrándome con quién viajo antes de aceptar el recorrido.
 
 
 ### 2.2.3 Análisis de entrevistas
+
+
+En esta sección se presenta un análisis detallado de las entrevistas realizadas a los segmentos objetivo, identificando patrones comunes, necesidades clave y oportunidades para el diseño de la solución.
+
+**Segmento 1: Estudiantes con vehículo**
+
+- **Patrones comunes:**
+  - Alta disposición a compartir viajes con compañeros de universidad.
+  - Preocupación significativa por la seguridad y confianza en los pasajeros.
+  - Interés en incentivos económicos y beneficios adicionales.
+  - Valoración de una plataforma fácil de usar y con funciones claras.
+
+- **Necesidades clave:**
+  - Sistema de verificación de identidad para pasajeros.
+  - Funcionalidades de calificación y reseñas para generar confianza.
+  - Opciones de compensación claras y justas por ofrecer viajes.
+  - Notificaciones y recordatorios para coordinar viajes.
+
+
+**Segmento 2: Estudiantes sin vehículo**
+
+- **Patrones comunes:**
+  - Uso frecuente de transporte público con preocupaciones sobre seguridad e incomodidad.
+  - Disposición a compartir viajes con otros estudiantes para reducir costos.
+  - Preferencia por aplicaciones móviles que faciliten la organización de viajes.
+  - Importancia de la seguridad y verificación de usuarios.
+  - Demoras significativas en los trayectos diarios.
+
+- **Necesidades clave:**
+  - Sistema de verificación de identidad para conductores.
+  - Funcionalidades de calificación y reseñas para evaluar la confianza.
+  - Opciones de ahorro económico frente a transporte tradicional.
+  - Interfaz intuitiva y fácil de usar en la aplicación móvil.
+  - Puntualidad y claridad en rutas y horarios.
     
 ## 2.3 Needfinding
 En esta sección se presentan las herramientas y técnicas utilizadas para identificar y comprender las necesidades de nuestros posibles usuarios, basándose en las entrevistas realizadas y el análisis de los segmentos objetivo.

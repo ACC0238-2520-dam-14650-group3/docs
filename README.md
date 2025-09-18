@@ -540,6 +540,8 @@ Edad: 23 años
 Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
 Carrera: Ingeniería de Software
 ![Imagen Entrevista Maria](imgs/entrevistas/maria.png)
+[Entrevista Maria Pilares](https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EfqMxusZwpxCtOOdNQogo8UB-QCBgiuyAeFFA3gOB-ksXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LWucCn) 
+
 Resumen de la entrevista: María actualmente utiliza su vehículo personal para ir a la universidad, lo que le permite mayor comodidad y flexibilidad en sus horarios. Sin embargo, reconoce que los costos asociados al combustible y estacionamiento son elevados, gastando aproximadamente 300 soles mensuales en estos conceptos.
 Está abierta a la idea de compartir su vehículo con otros estudiantes, siempre y cuando exista un sistema de verificación y calificación que le brinde confianza. Valora mucho la seguridad y preferiría contar con una plataforma que le permita coordinar viajes de manera sencilla y segura. Además, considera que recibir algún tipo de compensación económica o beneficios adicionales sería un incentivo importante para ofrecer viajes compartidos.
 
@@ -553,6 +555,8 @@ Edad: 22 años
 Universidad: Universidad Pontificia Católica del Perú (PUCP)
 Carrera: Economía
 ![Imagen Entrevista Huber](imgs/entrevistas/huber.png)
+[Entrevista Huber Antonio](https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EfqMxusZwpxCtOOdNQogo8UB-QCBgiuyAeFFA3gOB-ksXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LWucCn)
+
 Resumen de la entrevista: Huber nos comenta que normalmente utiliza el transporte público para ir a la universidad debido a que reside lejos del campus. Sin embargo, ha experimentado situaciones de inseguridad y robos en varias ocasiones, lo que le genera preocupación. Tarda aproximadamente 1 hora y 30 minutos en llegar a la universidad y gasta alrededor de 70 soles semanales en transporte.
 Además, Huber nos comenta que normalmente los taxis de aplicativos no todos suelen ser personas confiables, y que prefiere no usarlos a menos que sea una emergencia. Está bastante dispuesto a compartir un viaje con otros estudiantes, ya que considera que esto podría reducir sus costos y mejorar la seguridad al viajar con personas conocidas. Valora mucho la seguridad en un servicio de transporte compartido y preferiría pagar un poco más si eso significa llegar más rápido y seguro.
 
@@ -562,6 +566,8 @@ Edad: 22 años
 Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
 Carrera: Ingeniería de Software
 ![Imagen Entrevista Eduardo](imgs/entrevistas/eduardo.png)
+[Entrevista Eduardo Ventura](https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EfqMxusZwpxCtOOdNQogo8UB-QCBgiuyAeFFA3gOB-ksXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LWucCn)
+
 Resumen de la entrevista: Eduardo nos comenta que actualmente utiliza el transporte público para ir a la universidad, lo cual le genera incomodidad debido a la falta de seguridad y la congestión en las horas punta. Tarda aproximadamente una hora en llegar a la universidad y gasta alrededor de 70 soles semanales en transporte.
 Está bastante dispuesto a compartir un viaje con otros estudiantes, ya que considera que esto podría reducir sus costos y mejorar la seguridad al viajar con personas conocidas. Valora mucho la seguridad en un servicio de transporte compartido y preferiría pagar un poco más si eso significa llegar más rápido y seguro.
 
@@ -570,6 +576,8 @@ Edad: 20 años
 Universidad: Universidad San Martín de Porres (USMP)
 Carrera: Ingeniería de Software
 ![Imagen Entrevista Sebastian](imgs/entrevistas/Interview1-1.png)
+[Entrevista Sebastian Arevalo](https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EfqMxusZwpxCtOOdNQogo8UB-QCBgiuyAeFFA3gOB-ksXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LWucCn)
+
 Resumen de la entrevista: 
 
 - ¿Qué medio de transporte utilizas actualmente para ir a la universidad?

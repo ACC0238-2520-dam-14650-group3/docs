@@ -15,10 +15,11 @@
 <p align="center"><strong>Team members:</strong></p>
 
 | Nombre                            | Código     |
-| --------------------------------- | ---------- |
+|-----------------------------------|------------|
 | Gamarra Vega, Anderson Jose       | u202016154 |
 | Castañeda Llanos, Kevin Alexander | U202318814 |
 | Peña Riofrio, Maria Fernanda      | u202113279 |
+| Grandez Mansilla, Jean Pierre     | u202212484 |
 
 
 <p align="center"><strong>Ciclo 2025-02</strong></p>

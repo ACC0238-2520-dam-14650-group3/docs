@@ -124,7 +124,7 @@ Mi nombre es Jorge Enrique Guevara Tejada, soy un estudiante que se caracteriza 
 #### As-is Scenario Mapping Estudiantes universitarios que necesitan movilizarse
 
 <p align="center">
-    <img src="imgs/as-is-1.png" alt="as-is-EstudiantesSinVehi_v2"/>
+    <img src="imgs/as-is-one.png" alt="as-is-EstudiantesSinVehi_v2"/>
 </p>
 
 ####  As-is Scenario Mapping Estudiantes Universitarios propietarios de un vehículo
@@ -215,7 +215,7 @@ Mi nombre es Jorge Enrique Guevara Tejada, soy un estudiante que se caracteriza 
 ### 2.4.2  Impact Mapping
 
 <p align="center">
-    <img src="imgs/impactMapÑango.png" alt="as-is-agencias_v2"/>
+    <img src="imgs/ImpactMapÑango.png" alt="impactMapNango"/>
 </p>
 
 ### 2.4.3 Product Backlog

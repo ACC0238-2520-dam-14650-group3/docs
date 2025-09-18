@@ -1217,6 +1217,6 @@ erDiagram
     jsonb raw_payload
     timestamp occurred_at
   }
- ||--o{ PAYMENT_LOGS : has
+ PAYMENTS ||--o{ PAYMENT_LOGS : has
 ```
 

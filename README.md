@@ -1087,6 +1087,8 @@ El Deployment Diagram representa la disposición física de los componentes de �
 - `RoutesOutboxPublisher` (Kafka/Rabbit)
     
 #### 2.6.1.5. Software Architecture Component Level Diagram
+![routes-component](./imgs/route-component.jpg)
+
 #### 2.6.1.6. Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Domain Layer Class Diagrams
 ![domian-routes](./imgs/routes-domain.png)
@@ -1179,6 +1181,8 @@ erDiagram
 - `PaymentsOutboxPublisher` (Kafka/Rabbit)
  
 #### 2.6.2.5. Software Architecture Component Level Diagram
+![payment-component](./imgs/payment-component.jpg)
+
 #### 2.6.2.6. Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Domain Layer Class Diagrams
 
@@ -1196,7 +1200,7 @@ erDiagram
     numeric amount
     varchar currency
     varchar status
-    varchar provider           "e.g. STRIPE"
+    varchar provider           "STRIPE"
     varchar provider_ref       "stripe payment_intent id"
     timestamp created_at
     timestamp confirmed_at

@@ -426,15 +426,6 @@ Estudiantes universitarios de Lima Metropolitana, especialmente en zonas con may
 - Buscan seguridad a través de perfiles verificados y sistemas de calificación de conductores y pasajeros.
 - Valoran la conveniencia de coordinar viajes desde el celular sin depender de alternativas riesgosas o costosas.
 
-
-
-- **Jorge Enrique Guevara Tejada:**
-
-**Descripción:** <br>
-Mi nombre es Jorge Enrique Guevara Tejada, soy un estudiante que se caracteriza por su alto sentido de la responsabilidad y un fuerte compromiso con su equipo. Me esfuerzo continuamente por superar los desafíos académicos, dedicando tiempo adicional a mejorar en las áreas donde siento que puedo crecer. Mi objetivo no es sólo alcanzar un rendimiento académico satisfactorio, sino también contribuir de manera significativa al éxito del equipo, asegurando que cada proyecto en el que participó refleja nuestro esfuerzo y dedicación colectivos.
-
-![JorgeGuevara-Image-Profile](imgs/jorgefoto.jpg) 
-
 ## 2.4 Requirements specification
 
 ### As-is Scenario Mapping

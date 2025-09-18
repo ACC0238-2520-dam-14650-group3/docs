@@ -15,11 +15,13 @@
 <p align="center"><strong>Team members:</strong></p>
 
 | Nombre                            | Código     |
-| --------------------------------- | ---------- |
+|-----------------------------------|------------|
 | Gamarra Vega, Anderson Jose       | u202016154 |
 | Castañeda Llanos, Kevin Alexander | U202318814 |
 | Peña Riofrio, Maria Fernanda      | u202113279 |
-| Guevara Tejada, Jorge Enrique | U202318814 |
+| Grandez Mansilla, Jean Pierre     | u202212484 |
+| Guevara Tejada, Jorge Enrique     | U202318814 |
+
 
 
 <p align="center"><strong>Ciclo 2025-02</strong></p>
@@ -144,7 +146,9 @@ Mi nombre es Jorge Enrique Guevara Tejada, soy un estudiante que se caracteriza 
 
 ![JorgeGuevara-Image-Profile](imgs/jorgefoto.jpg) 
 
-
+- **Jean Pierre Grandez Mansilla:**
+**Descripción:** <br>
+- Mi nombre es Jean Pierre Grandez Mansilla, tengo 21 años y soy estudiante de Ingeniería de Software, actualmente en mi 7mo ciclo. Me gusta la programación, pero sobre todo me interesa entender cómo funcionan realmente las cosas detrás de cada tecnología. Últimamente me enfoco en aprender sobre cloud, serverless y también me llama la atención el desarrollo móvil. Además, la música es una parte importante de mi día a día.
 ## 1.2. Solution Profile
 En esta sección se abordará el perfil de la solución teniendo en cuenta el problema y las ideas que se deben resolver para fomentar la seguridad de los estudiantes.
 

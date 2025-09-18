@@ -1089,6 +1089,8 @@ El Deployment Diagram representa la disposición física de los componentes de �
 #### 2.6.1.5. Software Architecture Component Level Diagram
 #### 2.6.1.6. Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Domain Layer Class Diagrams
+![domian-routes](./imgs/routes-domain.png)
+
 ##### 2.6.1.6.2. Database Diagram
 
 ```mermaid
@@ -1179,6 +1181,9 @@ erDiagram
 #### 2.6.2.5. Software Architecture Component Level Diagram
 #### 2.6.2.6. Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Domain Layer Class Diagrams
+
+![domain-layer](./imgs/payments-domain.png)
+
 ##### 2.6.2.6.2. Database Diagram
 
 ```mermaid

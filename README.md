@@ -17,6 +17,7 @@
 | Nombre                            | Código     |
 | --------------------------------- | ---------- |
 | Gamarra Vega, Anderson Jose       | u202016154 |
+| Castañeda Llanos, Kevin Alexander | U202318814 |
 
 
 <p align="center"><strong>Ciclo 2025-02</strong></p>
@@ -97,4 +98,12 @@
 **Descripción:** <br>
 Mi nombre es Anderson Jose Gamarra Vega, tengo 25 años , estudiante de Ingeniería de Software. Desde siempre he sentido una gran pasión por la tecnología, pero me decanto especialmente por el desarrollo de software, pues me fascina aprender nuevos lenguajes de programación, diseñar soluciones digitales y afrontar retos mediante código. Esta inclinación hacia el software fue lo que me motivó a elegir esta carrera, y actualmente estoy profundizando en áreas como backend, arquitectura de software, metodologías agile.
 
-![AndersonGamarra-Image-Profile](imgs/anderson.jpg)
+![AndersonGamarra-Image-Profile](imgs/anderson.jpg) 
+
+- **Kevin Alexander Castañeda Llanos:**
+
+**Descripción:** <br>
+
+Mi nombre es Kevin Alexander Castañeda Llanos, tengo 19 años y soy estudiante de la carrera de Ingeniería de Software. Siempre me gusto la tecnología y senti curiosidad por aprender en como funcionaba la creacióna de aplicaciones o paginas web. Esta fue mi principal inspiración para estudiar algo relacionado al TI. Además, me gustó la idea de desarrollar proyectos y diseñar soluciones que ayuden a solucionar problemas de los demás con ayuda de las personas.
+
+![KevinCastañeda-Image-Profile](imgs/kevin-profile.jpg)

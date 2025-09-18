@@ -503,3 +503,162 @@ Estudiantes universitarios de Lima Metropolitana, especialmente en zonas con may
 - Buscan seguridad a través de perfiles verificados y sistemas de calificación de conductores y pasajeros.
 - Valoran la conveniencia de coordinar viajes desde el celular sin depender de alternativas riesgosas o costosas.
 
+# Capítulo II: Requirements Development and Software Solution Design
+## 2.1. Competidores
+
+Se han identificado los siguientes competidores en el mercado de soluciones de movilidad colaborativa y carpooling para estudiantes universitarios y usuarios urbanos:
+
+- Competidor 1: EnRuta (PUCP)
+
+Descripción: Plataforma universitaria que conecta a estudiantes de la PUCP para crear “salas de viaje” según puntos de partida y destino. No gestiona pagos, su foco es la seguridad y la confianza entre miembros de la comunidad educativa.
+
+- Competidor 2: inDrive (Peer-to-Peer)
+
+Descripción: App internacional de ride-hailing que permite la negociación directa entre conductores y pasajeros. Aunque no está orientada exclusivamente a estudiantes, es un referente en movilidad colaborativa bajo un modelo peer-to-peer, con presencia en múltiples ciudades.
+
+- Competidor 3: BlaBlaCar (Carpooling Global)
+
+Descripción: Plataforma líder en carpooling a nivel global. Conecta conductores con pasajeros que comparten trayectos de media y larga distancia. Su foco es la optimización de costos y la sostenibilidad, consolidándose como el ejemplo más avanzado de carpooling digital.
+
+### 2.1.1. Análisis competitivo
+
+
+| Competitive Analysis Landscape        |                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Por qué llevar a cabo este análisis? | Este análisis nos permite identificar competidores con distintos grados de madurez en el ecosistema de movilidad colaborativa: desde iniciativas universitarias locales hasta plataformas globales de carpooling.<br/>De esta forma podemos contrastar nuestra propuesta con alternativas existentes, posicionándonos como una opción intermedia enfocada en **seguridad, comunidad universitaria y accesibilidad**. |
+
+
+|                         |                             | **Nuestra Startup**                                                                                                   | **EnRuta (PUCP)**                                                | **inDrive (Peer-to-Peer)**                                                               | **BlaBlaCar (Carpooling Global)**                                                 |
+| ----------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **PERFIL**              | Overview                    | App universitaria de carpooling que conecta **estudiantes conductores y pasajeros** de una misma comunidad académica. | App universitaria PUCP para compartir rutas entre estudiantes.   | App global peer-to-peer donde conductor y pasajero **negocian el precio** de cada viaje. | Plataforma global de carpooling que conecta viajes de media/larga distancia.      |
+| **PERFIL**              | Ventaja competitiva (valor) | **Seguridad + Comunidad**: usuarios verificados como estudiantes + confianza entre pares.                             | Exclusividad universitaria y foco en seguridad.                  | Flexibilidad en negociación de precios y gran disponibilidad.                            | Alcance internacional, amplia base de usuarios y trayectoria consolidada.         |
+| **Perfil de Marketing** | Mercado objetivo            | Estudiantes universitarios de Lima y posteriormente de LatAm.                                                         | Estudiantes de la PUCP.                                          | Usuarios urbanos globales que buscan transporte económico y flexible.                    | Viajeros interurbanos y de larga distancia en todo el mundo.                      |
+| **Perfil de Marketing** | Estrategia de marketing     | Difusión universitaria, convenios institucionales, marketing digital en campus.                                       | Comunicación interna de la universidad, canales institucionales. | Marketing masivo con foco en ahorro y flexibilidad.                                      | Marketing global con casos de éxito y enfoque en sostenibilidad.                  |
+| **Perfil de Producto**  | Productos & servicios       | App móvil con reservas de asientos, validación de identidad y pagos integrados.                                       | App móvil básica con salas de viaje y sin gestión de pagos.      | App móvil con negociación de tarifas, geolocalización y sistema de reputación.           | App y web con planificación de viajes, reservas, pagos y sistema de calificación. |
+| **Perfil de Producto**  | Precios & costos            | Modelo accesible: costo compartido con tarifa base universitaria.                                                     | Gratuita (sin monetización).                                     | Precios variables según negociación entre conductor y pasajero.                          | Tarifa definida por el conductor; comisión por uso de plataforma.                 |
+| **Perfil de Producto**  | Canales (Web/Móvil)         | App móvil + web de soporte, con foco en comunidad universitaria.                                                      | App móvil interna PUCP.                                          | App móvil (iOS/Android).                                                                 | App móvil y sitio web global.                                                     |
+| **Análisis SWOT**       | Fortalezas                  | Comunidad universitaria cerrada, seguridad, accesibilidad económica.                                                  | Exclusividad universitaria, percepción de seguridad.             | Flexibilidad en tarifas, presencia internacional.                                        | Amplia base de usuarios, trayectoria global, confianza en marca.                  |
+| **Análisis SWOT**       | Debilidades                 | Recursos limitados, crecimiento dependiente de convenios con universidades.                                           | Limitado a una sola universidad, sin modelo de monetización.     | Riesgo de inseguridad al negociar con desconocidos.                                      | Poco enfoque en estudiantes y viajes cortos urbanos.                              |
+| **Análisis SWOT**       | Oportunidades               | Escalar a otras universidades, integrar funciones de pago y reputación, crecer en LatAm.                              | Expandirse a otras universidades.                                | Captar estudiantes como nuevo segmento objetivo.                                         | Expandirse hacia viajes urbanos cortos y convenios con universidades.             |
+| **Análisis SWOT**       | Amenazas                    | Entrada de apps globales al nicho universitario, resistencia cultural al carpooling.                                  | Dependencia de políticas internas de la universidad.             | Competencia con taxis tradicionales y ride-hailing.                                      | Competidores emergentes más especializados en nichos como estudiantes.            |
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Para fortalecer nuestra propuesta frente a los competidores identificados, se plantean las siguientes estrategias y tácticas:
+
+- Diferenciación por Seguridad y Comunidad
+  - Implementar un sistema de verificación obligatoria de identidad universitaria (carné, correo institucional).
+  - Potenciar el sentido de pertenencia y confianza al limitar la plataforma a estudiantes. 
+
+- Enfoque en Universidades y Jóvenes 
+  - Establecer convenios con universidades para promover la app dentro de campus. 
+  - Posicionar la solución como una alternativa económica, segura y confiable frente al transporte público y ride-hailing.
+
+- Escalabilidad Regional 
+  - Comenzar en Lima con universidades privadas y públicas estratégicas. 
+  - Expandir posteriormente a otras ciudades de Latinoamérica con fuerte concentración universitaria.
+
+- Valor agregado en la experiencia de usuario 
+  - Pagos integrados y transparentes dentro de la app. 
+  - Funciones de reputación (calificaciones, reseñas) para generar confianza. 
+  - Incentivos para conductores (reducción de costos de combustible, beneficios por viajes frecuentes).
+
+## 2.2. Entrevistas.
+
+En esta sección se detallan las entrevistas realizadas a los segmentos objetivo identificados previamente, con el fin de comprender mejor sus necesidades, comportamientos y expectativas respecto a soluciones de monitoreo de cadena de frío en el sector salud.
+### 2.2.1. Diseño de entrevistas.
+
+Se han diseñado entrevistas semiestructuradas para dos segmentos objetivo principales, con el objetivo de profundizar con sus necesidades y validar nuestras hipótesis iniciales.
+
+- **Segmento 1: Estudiantes con vehículo**
+  -  **Objetivo:** Entender sus motivaciones para compartir viajes, preocupaciones sobre seguridad y expectativas de una plataforma de carpooling.
+  -  Preguntas clave:
+    
+
+
+
+- **Segmento 2: Estudiantes sin vehículo**
+  - **Objetivo:** Identificar sus principales desafíos de movilidad, criterios para elegir transporte y disposición a usar una app de carpooling.
+
+    
+## 2.3 Needfinding
+En esta sección se presentan las herramientas y técnicas utilizadas para identificar y comprender las necesidades de nuestros posibles usuarios, basándose en las entrevistas realizadas y el análisis de los segmentos objetivo.
+
+### 2.3.1. User personas
+    
+Se desarrollaron dos user personas respecto a los segmentos objetivo identificados previamente, con el fin de representar de manera concreta y detallada a los usuarios potenciales de la aplicación ÑanGo.
+
+**Persona 1: Estudiante con vehículo*
+
+![Imagen User Persona 1](imgs/user-personas/personav1.png)
+
+**Persona 2: Estudiante sin vehículo**
+
+![Imagen User Persona 2](imgs/user-personas/personav2.png)
+### 2.3.2. User Task Matrix
+
+En esta sección se presentan las matrices de tareas para los dos segmentos objetivo, detallando las actividades clave que realizan en su rutina diaria de transporte hacia la universidad.
+
+- Segmento 1: Estudiantes con vehículo
+
+| **Tareas**                                                          | **Frecuencia** | **Importancia** |
+|---------------------------------------------------------------------|----------------|-----------------|
+| Conducir diariamente hacia la universidad                           | Alta           | Alta            |
+| Coordinar con amigos o conocidos para compartir viaje               | Media          | Media           |
+| Cubrir gastos de combustible y mantenimiento                        | Alta           | Alta            |
+| Adaptar horarios de salida según tráfico                            | Alta           | Alta            |
+| Buscar y pagar estacionamiento en la universidad                    | Alta           | Alta            |
+| Evaluar costos de transporte alternativo (apps, transporte público) | Media          | Media           |
+| Considerar seguridad al viajar solo                                 | Alta           | Alta            |
+
+
+- Segmento 2: Estudiantes sin vehículo
+
+| **Tareas**                                             | **Frecuencia** | **Importancia** |
+|--------------------------------------------------------|----------------|-----------------|
+| Buscar opciones de transporte para llegar a clases     | Alta           | Alta            |
+| Coordinar con amigos o conocidos para compartir viaje  | Media          | Media           |
+| Pagar pasajes                                          | Alta           | Alta            |
+| Adaptar horarios de salida según tráfico               | Alta           | Alta            |
+| Viajar con incomodidad o estrés                        | Alta           | Alta            |
+| Evaluar costos de transporte alternativo (taxis, apps) | Media          | Media           |
+| Esperar transporte en paraderos                        | Alta           | Alta            |
+| Considerar seguridad durante el trayecto               | Alta           | Alta            |
+
+
+### 2.3.3. User Journey Mapping
+Detallamos los recorridos de usuario para ambos segmentos, identificando puntos de contacto, emociones y oportunidades de mejora en su experiencia de transporte diario.
+
+**Segmento 1: Estudiante con vehículo**
+
+![Imagen User Journey Mapping](imgs/user-journey/journey1.png)
+
+**Segmento 2: Estudiante sin vehículo**
+![Imagen User Journey Mapping](imgs/user-journey/journey2.png)
+
+### 2.3.4. Empathy Map
+    
+**Segmento 1: Estudiante con vehículo**
+
+![Imagen Empathy Map](imgs/empathy-map/map1.png)
+
+**Segmento 2: Estudiante sin vehículo**
+![Imagen Empathy Map](imgs/empathy-map/map2.png)
+
+### 2.3.5 Ubiquitous Language
+
+| **Término**                       | **Definición**                                                                                                                             |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **Ride (Viaje)**                  | Desplazamiento realizado desde un punto de origen hasta un destino.                                                                        |
+| **Carpooling (Viaje compartido)** | Modalidad en la que varios usuarios comparten un mismo trayecto en un vehículo para optimizar costos y reducir tráfico.                    |
+| **Driver (Conductor)**            | Usuario propietario de un vehículo que ofrece asientos disponibles para compartir.                                                         |
+| **Passenger (Pasajero)**          | Usuario que busca un asiento disponible en un vehículo para trasladarse a un destino común.                                                |
+| **Route (Ruta)**                  | Camino definido que conecta el origen y el destino de un viaje.                                                                            |
+| **Match (Coincidencia)**          | Proceso mediante el cual el sistema identifica conductores y pasajeros con rutas compatibles.                                              |
+| **Fare (Tarifa)**                 | Costo asociado al viaje, que puede ser compartido entre conductor y pasajeros.                                                             |
+| **Community (Comunidad)**         | Conjunto de usuarios verificados (estudiantes universitarios) que participan en la plataforma.                                             |
+| **Safety (Seguridad)**            | Conjunto de medidas y funciones que garantizan la protección del usuario durante el viaje.                                                 |
+| **Verification (Verificación)**   | Proceso por el cual se valida que un usuario pertenece a la comunidad universitaria antes de acceder a los servicios.                      |
+| **Trust (Confianza)**             | Percepción positiva que los usuarios tienen sobre la fiabilidad de otros miembros de la comunidad, reforzada por calificaciones o reseñas. |
+| **Availability (Disponibilidad)** | Oportunidad de encontrar un viaje en un horario y ruta determinados.                                                                       |
+| **Schedule (Horario)**            | Momento específico en el que se realiza un viaje.                                                                                          |

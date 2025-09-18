@@ -569,7 +569,7 @@ Nombre: Sebastian Arevalo
 Edad: 20 años
 Universidad: Universidad San Martín de Porres (USMP)
 Carrera: Ingeniería de Software
-![Imagen Entrevista Sebastian](imgs/entrevistas/eduardo.png)
+![Imagen Entrevista Sebastian](imgs/entrevistas/Interview1-1.png)
 Resumen de la entrevista: 
 
 - ¿Qué medio de transporte utilizas actualmente para ir a la universidad?

@@ -535,6 +535,14 @@ Se han diseñado entrevistas semiestructuradas para dos segmentos objetivo princ
 
 - **Segmento 1: Estudiantes con vehículo**
 
+Nombre: Luis Fernando Rojas(Referencial)
+Edad: 21 años
+Universidad: Universidad de Lima(Referencial)
+Carrera: Ingeniería Industrial(Referencial)
+![Imagen Entrevista Luis](imgs/entrevistas/luis.png)
+Resumen de la entrevista: (TO-DO)
+
+
 
 - **Segmento 2: Estudiantes sin vehículo**
 
@@ -542,6 +550,19 @@ Nombre: Huber Antonio Requejo
 Edad: 22 años
 Universidad: Universidad Pontificia Católica del Perú (PUCP)
 Carrera: Economía
+![Imagen Entrevista Huber](imgs/entrevistas/huber.png)
+Resumen de la entrevista: (TO-DO)
+
+
+Nombre: Eduardo Ventura
+Edad: 22 años
+Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
+Carrera: Ingeniería de Software
+![Imagen Entrevista Eduardo](imgs/entrevistas/eduardo.png)
+Resumen de la entrevista: (TO-DO)
+
+
+
 
 ### 2.2.3 Análisis de entrevistas
     

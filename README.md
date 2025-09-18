@@ -1025,3 +1025,189 @@ El Deployment Diagram representa la disposición física de los componentes de �
    <p align="center">
     <img src="imgs/deploy.png" alt="deploy_diagram"/>
 </p>
+
+
+### 2.6.1. Bounded Context: **Routes**
+
+#### 2.6.1.1. Domain Layer
+
+**Propósito:** publicar/editar/eliminar rutas hacia la universidad.
+
+**Entities / Aggregate**
+
+- `Route` _(Aggregate Root)_: `routeId`, `driverId`, `origin: GeoPoint`, `destination: GeoPoint`, `departureAt`, `availableSeats`, `pricePerSeat: Money`, `status: RouteStatus`, `stops: List<Stop>`, `distanceKm`, `durationMinutes`.
+- `Stop`: `stopId`, `order`, `location: GeoPoint`, `description?`.
+    
+
+**Value Objects**
+
+- `GeoPoint { lat, lon, address? }`
+- `Money { amount, currency }`
+- `RouteId`, `UserId`
+- `RouteStatus` _(enum: DRAFT, PUBLISHED, CANCELED)_
+
+**Repositories (interfaces)**
+
+- `RouteRepository { save, findById, findPublished(filter), delete }`
+
+**Domain Services**
+
+- `RoutePolicies { canPublish(route), validateCapacity(route) }`
+
+**Domain Events**
+
+- `RoutePublished`, `RouteEdited`, `RouteCanceled`
+
+> **Regla clave**: la **distancia y duración** provienen de **Google Maps Distance Matrix/Directions**; el dominio solo guarda el _resultado_ (número), no datos de mapas.
+
+#### 2.6.1.2. Interface Layer
+
+- `RoutesController` (REST):
+    - `POST /routes` _(create & publish draft or publish later)_
+    - `PUT /routes/{id}`
+    - `POST /routes/{id}/publish`
+    - `DELETE /routes/{id}`
+    - `GET /routes` _(list published, filtros: origin/destination radius, time window, driverId)_
+
+#### 2.6.1.3. Application Layer
+
+- Command Handlers:  
+    `CreateRouteHandler`, `EditRouteHandler`, `PublishRouteHandler`, `CancelRouteHandler`
+    
+- Event Handlers: publican a broker `Route*` (para que **Reservations** o **Notifications** reaccionen).
+    
+- **Integración Google Maps** (puerta de aplicación):  
+    `DistanceService` (puerto) ← `GoogleMapsDistanceAdapter` (adaptador de Infra).  
+    Se invoca al **crear/editar** para calcular `distanceKm` y `durationMinutes`.
+
+#### 2.6.1.4. Infrastructure Layer
+
+- `RouteRepositoryJpa` (PostgreSQL)
+- `GoogleMapsDistanceAdapter` (HTTP → Maps Directions/Distance Matrix)
+- `RoutesOutboxPublisher` (Kafka/Rabbit)
+    
+#### 2.6.1.5. Software Architecture Component Level Diagram
+#### 2.6.1.6. Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Domain Layer Class Diagrams
+##### 2.6.1.6.2. Database Diagram
+
+```mermaid
+erDiagram
+  ROUTES {
+    uuid id PK
+    uuid driver_id
+    double origin_lat
+    double origin_lon
+    double destination_lat
+    double destination_lon
+    timestamp departure_at
+    int available_seats
+    numeric price_amount
+    varchar price_currency
+    varchar status
+    double distance_km
+    int duration_minutes
+    timestamp created_at
+    timestamp updated_at
+  }
+
+  ROUTE_STOPS {
+    uuid id PK
+    uuid route_id FK
+    int stop_order
+    double lat
+    double lon
+    varchar description
+  }
+
+  ROUTES ||--o{ ROUTE_STOPS : contains
+```
+
+### 2.6.2. Bounded Context: **Payments**
+## 2.6.2.1. Domain Layer
+
+**Propósito:** cobrar al pasajero por asientos reservados y liquidar al conductor.
+
+**Aggregate principal**
+
+- `Payment` _(Aggregate Root)_: `paymentId`, `reservationId`, `payerId`, `driverId`, `amount: Money`, `status: PaymentStatus`, `provider: PaymentProvider`, `providerRef` (p.ej. `stripePaymentIntentId`), `createdAt`, `confirmedAt?`, `canceledAt?`.
+
+**Value Objects**
+
+- `Money`, `PaymentId`, `UserId`, `ReservationId`
+- `PaymentStatus` _(enum: CREATED, REQUIRES_ACTION, CONFIRMED, CANCELED, FAILED, REFUNDED)_
+- `PaymentProvider` _(enum: STRIPE)_
+
+**Domain Services**
+
+- `PaymentFactory` (crea Payment desde comando de cobro)
+- `SettlementPolicy` (calcula comisiones/fee)
+
+**Repositories (interfaces)**
+
+- `PaymentRepository { save, findById, findByProviderRef, markConfirmed, markFailed, markRefunded }`
+
+**Domain Events**
+
+- `PaymentCreated`, `PaymentConfirmed`, `PaymentFailed`, `PaymentRefunded`
+
+## 2.6.2.2. Interface Layer
+
+- `PaymentsController` (REST):
+    
+    - `POST /payments` (crea intento de pago para una reserva)
+    - `POST /payments/{id}/confirm` (para flujos server-confirmation)
+    - `POST /payments/webhooks/stripe` (**webhook endpoint**)
+    - `GET /payments/{id}`
+
+## 2.6.2.3. Application Layer
+
+- Command Handlers: `CreatePaymentHandler`, `ConfirmPaymentHandler`, `RefundPaymentHandler`
+- Event Handlers: publica `PaymentConfirmed` para que **Reservations** marque la reserva como **pagada**.
+    
+- **Integración Stripe**:
+    
+    - Puerto `PaymentGateway` con métodos: `createPaymentIntent`, `confirmPayment`, `refund`.
+    - Adaptador `StripeGatewayAdapter` (SDK/HTTP).
+
+## 2.6.2.4. Infrastructure Layer
+
+- `PaymentRepositoryJpa` (PostgreSQL)
+- `StripeGatewayAdapter` (Stripe SDK/HTTP)
+- `PaymentsOutboxPublisher` (Kafka/Rabbit)
+ 
+#### 2.6.2.5. Software Architecture Component Level Diagram
+#### 2.6.2.6. Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Domain Layer Class Diagrams
+##### 2.6.2.6.2. Database Diagram
+
+```mermaid
+erDiagram
+  PAYMENTS {
+    uuid id PK
+    uuid reservation_id
+    uuid payer_id
+    uuid driver_id
+    numeric amount
+    varchar currency
+    varchar status
+    varchar provider           "e.g. STRIPE"
+    varchar provider_ref       "stripe payment_intent id"
+    timestamp created_at
+    timestamp confirmed_at
+    timestamp canceled_at
+    timestamp updated_at
+  }
+
+  PAYMENT_LOGS {
+    uuid id PK
+    uuid payment_id FK
+    varchar source             "api|webhook|scheduler"
+    varchar event_type         "created|requires_action|confirmed|failed|refunded"
+    text message
+    jsonb raw_payload
+    timestamp occurred_at
+  }
+ ||--o{ PAYMENT_LOGS : has
+```
+

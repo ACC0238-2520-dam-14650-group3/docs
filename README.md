@@ -107,3 +107,111 @@ Mi nombre es Anderson Jose Gamarra Vega, tengo 25 años , estudiante de Ingenier
 Mi nombre es Kevin Alexander Castañeda Llanos, tengo 19 años y soy estudiante de la carrera de Ingeniería de Software. Siempre me gusto la tecnología y senti curiosidad por aprender en como funcionaba la creacióna de aplicaciones o paginas web. Esta fue mi principal inspiración para estudiar algo relacionado al TI. Además, me gustó la idea de desarrollar proyectos y diseñar soluciones que ayuden a solucionar problemas de los demás con ayuda de las personas.
 
 ![KevinCastañeda-Image-Profile](imgs/kevin-profile.jpg)
+
+
+## 2.5 Strategic-Level Domain-Driven Design
+
+### 2.5.1 EventStorming
+
+Una forma de poder entender a profundidad el dominio de negocio y poder definir, encontrar escenarios, reglas de negocio y posibles eventos, es la realización de un Eventstorming. Esta actividad se basa en la realización de una reunión que hubo con el equipo de aproximadamente 1-2 horas, en donde 
+al principio, se realiza una lluvida de ideas acerca de lo que podria pasar cuando un usuario utiliza la aplicación móvil. El enfoque se centró en capturar la mayor cantidad de conocimiento del dominio desde una perspectiva colaborativa, permitiendo así una primera aproximación al modelo general del negocio. Utilizamos Miro para realizar esta actividad
+
+Link del Miro: https://miro.com/welcomeonboard/bXZGMTYzS2FOK1R5d2svRjdldmFOT1d0ejVCZ00raFVHZHdJZWZlSjRyUUJLVHNENEJ1VGppWllMV2FlTkQwK24ycWtpdjVZc2pkUFV4Qy9MYUhYY3NMVDJJZkppWlFFakFnMFdlTWh1SWVjQ2xnQTNSc3pqK21xL1BWVnJyVElQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=486650419475
+
+
+Step 1: Unstructured Exploration
+
+Lluvia de ideas con eventos importantes dentro del dominio de Ñango:
+
+![EventStorming](imgs/eventstorming.jpg)
+
+Step 2: Timelines
+
+Organización de las ideas del paso 1, armando posibles lineas de flujo.
+
+![Timeline-Eventstorming](imgs/timeline.jpg)
+
+Step 3: Paint Points
+
+Los "puntos de dolor" son los eventos conflictivos que den hagan que la experiencia de usuario sea negativa.
+
+![Paint-points-eventstorming](imgs/paint-points.jpg)
+
+#### 2.5.1.1 Candidate Bounded Contexts
+
+Aqui definimos los posibles bounded context que tendra nuestra aplicación en el futuro, destacamos siete de estos:
+
+- Identify & Access Context: Encargado del registro, log in y validación de credenciales de usuarios.
+
+- Profile Context: Se encargará de permitirle al usuario que pueda editar su perfil y cambiar cuando quiera de rol (de chofer a pasajero o viceversa).
+
+- Route Management Context: Los choferes podrán crear rutas, publicar rutas, cancelar rutas y gestionar en general estas.
+
+- Booking Context: Los pasajeros podrán pedir reservas para realizar viajes a sus destinos, permitirá enviar solicitudes de viaje, verficiar si hay plazas para un viaje, etc.
+
+- Trip Context: Página que se encargará de funcionar únicamente cuando el viaje este sucediendo, permitirá calificar el viaje, ver el proceso del viaje y coordinar el viaje.
+
+- Communication Context: Página de comunicaciones durante el viaje, permitirá a los usuarios enviar mensajes entre sí, cancelar el viaje y notificar 
+recordatorios.
+
+- Payment & Cost-Sharing Context: Página de pagos que se encargará de verificar que el pasajero realiza el pago de parte del usuario, antes de que inicie el viaje.
+
+
+Flujo general: Mostraremos la interacción y la conexión entre bounded contexts.
+
+![Candidate-bounded-contexts](imgs/candidate-bounded-contexts.jpg)
+
+#### 2.5.1.2 Domain Message Flows Modeling
+
+Security: Verificar que los datos del usuario estén seguros y que sus credenciales sean correctas a la hora de logearse.
+
+![security-message-flow](imgs/security-message-flows.jpg)
+
+Trip - Driver: El proceso que seguirá el chofér cuando inicie una ruta.
+
+![trip-driver-message-flow](imgs/trip-driver-message-flows.jpg)
+
+Trip - Passenger: El proceso que seguirá un pasajero cuando necesite reservar un viaje.
+
+![trip-passenger-message-flow](imgs/trip-passenger-message-flows.jpg)
+
+Communication: Comunicación que tendrán los usuarios durante el viaje.
+
+![communication-message-flow](imgs/communication-message-flows.jpg)
+
+
+#### 2.5.1.3 Bounded Context Canvases
+
+Identify & Access Context:
+
+![iac-canvases](imgs/iac-canvases.jpg)
+
+Profile Context:
+
+![pc-canvases](imgs/pc-canvases.jpg)
+
+Route Management Context:
+
+![rmc-canvases](imgs/rmc-canvases.jpg)
+
+Booking Context:
+
+![bc-canvases](imgs/bc-canvases.jpg)
+
+Trip Context:
+
+![tc-canvases](imgs/tc-canvases.jpg)
+
+Communication Context:
+
+![cc-canvases](imgs/cc-canvases.jpg)
+
+Payment & Cost-Sharing Context:
+
+![pcsc-canvases](imgs/pcsc-canvases.jpg)
+
+### 2.5.2 Context Mapping
+
+El context mapping es una técnica utilizada en el desarrollo de software, especialmente en el enfoque Domain-Driven Design (DDD), nos ayuda a visualizar y gestionar las relaciones entre los diferentes Bounded Contexts dentro de un Sistema. En este caso, se mostrará el Context Mapping desarrollado para nuestro sistema:
+
+![context-mapping](imgs/context-mapping.jpg)

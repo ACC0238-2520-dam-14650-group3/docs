@@ -439,6 +439,8 @@ Mi nombre es Jorge Enrique Guevara Tejada, soy un estudiante que se caracteriza 
 
 ### As-is Scenario Mapping
 
+El As-is Scenario Mapping describe la situación actual de los estudiantes universitarios frente a la necesidad de movilizarse hacia la universidad. Este análisis permite identificar los comportamientos, pensamientos y emociones que experimentan tanto los estudiantes que no cuentan con vehículo propio como aquellos que sí lo poseen. En este escenario se evidencian los principales problemas: inseguridad, falta de coordinación, costos elevados y dependencia de medios de transporte informales o poco confiables. Este punto de partida es esencial para comprender las dificultades que ÑanGo busca resolver.
+
 #### As-is Scenario Mapping Estudiantes universitarios que necesitan movilizarse
 
 <p align="center">
@@ -452,6 +454,8 @@ Mi nombre es Jorge Enrique Guevara Tejada, soy un estudiante que se caracteriza 
 </p>
 
 ### To-be Scenario Mapping
+
+El To-be Scenario Mapping presenta la experiencia proyectada de los estudiantes universitarios al utilizar ÑanGo, una solución digital de transporte compartido. En este escenario futuro, tanto los estudiantes que requieren movilidad como los que poseen vehículo cuentan con una plataforma confiable que les permite planificar, coordinar y realizar viajes de forma segura y eficiente. Con el uso de funcionalidades como publicación de rutas, solicitudes de viaje, confirmaciones automáticas, chat interno y evaluaciones, se optimiza la experiencia de traslado, reduciendo costos y aumentando la confianza de la comunidad universitaria.
 
 #### To-be Scenario Mapping Estudiantes universitarios que necesitan movilizarse
 
@@ -698,20 +702,27 @@ El context mapping es una técnica utilizada en el desarrollo de software, espec
 
 
 ### 2.5.3 Software Architecture
-#### 2.5.1.2 Software Architecture Context Level Diagrams
+#### 2.5.3.1 Software Architecture Context Level Diagrams
+
+El Context Level Diagram muestra la visión general de la aplicación ÑanGo, identificando a los actores principales (estudiantes con y sin vehículo) y la manera en que interactúan con el sistema. Este nivel permite comprender los límites de la solución, los sistemas externos involucrados y el flujo de información esencial para el funcionamiento de la plataforma.
 
 <p align="center">
     <img src="imgs/diagramaContextoÑango.png" alt="context_diagram_ñango"/>
 </p>
 
-#### 2.5.1.2 Software Architecture Container Level Diagrams
+#### 2.5.3.2 Software Architecture Container Level Diagrams
+
+El Container Level Diagram detalla los principales contenedores que componen la arquitectura de ÑanGo, incluyendo la aplicación móvil, la landing page, los microservicios, la base de datos y los sistemas externos integrados. Este nivel permite visualizar cómo se distribuyen las responsabilidades, las tecnologías utilizadas y cómo se comunican entre sí los diferentes componentes.
 
 <p align="center">
     <img src="imgs/diagramaContenedoresÑango.png" alt="container_diagram_ñango"/>
 </p>
 
-#### 2.5.1.2 Software Architecture Deployment Diagrams
+#### 2.5.3.3 Software Architecture Deployment Diagrams
+
+El Deployment Diagram representa la disposición física de los componentes de ÑanGo en el entorno de infraestructura, mostrando los servidores, contenedores y servicios en la nube necesarios para el despliegue. Este nivel describe cómo se implementa la solución en términos de hardware, software y servicios externos, asegurando escalabilidad, seguridad y disponibilidad para los usuarios.
+
    
    <p align="center">
-    <img src="imgs/to-be-.png" alt="components_diagram_ñango"/>
+    <img src="imgs/deploy.png" alt="deploy_diagram"/>
 </p>

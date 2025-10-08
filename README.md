@@ -97,10 +97,30 @@
       - [2.6.x.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)  
 
 
+### [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-ui/ux-design)
+
+- [3.1. Product design](#31-product-design)
+  - [3.1.1. Style Guidelines](#311-style-guidelines)
+    - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines) 
+  - [3.1.2. Information Architecture](#312-information-architecture)
+    - [3.1.2.1. Organization Systems](#3121-organization-systems)
+    - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+    - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+    - [3.1.2.4. Searching Systems](#3124-searching-systems)
+    - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+  - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+    - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+    - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+  - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+    - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+    - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+    - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+    - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+    - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+
+
 # Capítulo I: 
-
-## 1.1.  Startup Profile
-
+## 1.1  Startup Profile
 ### 1.1.1. Descripción de la Startup
 
 TinkuyTech es una startup creada por unos estudiantes de la Facultad de Ingeniería de la Universidad Peruana de Ciencias Aplicadas (UPC) con el propósito de responder a una necesidad de la comunidad de estudiantes universitarios: un transporte seguro, accesible y confiable. Observando las dificultades que enfrentan los estudiantes para trasladarse diariamente, desde altos costos en taxis y aplicaciones de movilidad hasta la inseguridad en el transporte informal, ÑanGo propone una solución innovadora que conecta a estudiantes con movilidad propia (choferes) con compañeros que requieren transporte (pasajeros).
@@ -112,7 +132,6 @@ Nuestra Misión es facilitar el transporte universitario mediante una aplicació
 
 **Visión:**
 Nuestra visión es aspirar a ser la plataforma líder en movilidad universitaria en el Perú, reconocida por nuestro compromiso con la seguridad, la sostenibilidad y la experiencia del usuario, contribuyendo a transformar la forma en que los estudiantes se movilizan y fortaleciendo una cultura de transporte compartido responsable.
-
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -1219,4 +1238,33 @@ erDiagram
   }
  PAYMENTS ||--o{ PAYMENT_LOGS : has
 ```
+
+# Capítulo III: Solution UI/UX Design
+## 3.1 Product design 
+### 3.1.1. Style Guidelines 
+#### 3.1.1.1. General Style Guidelines 
+
+### 3.1.2. Information Architecture 
+#### 3.1.2.1. Organization Systems 
+#### 3.1.2.2. Labelling Systems 
+#### 3.1.2.3. SEO Tags and Meta Tags 
+#### 3.1.2.4. Searching Systems 
+#### 3.1.2.5. Navigation Systems 
+
+### 3.1.3. Landing Page UI Design 
+#### 3.1.3.1. Landing Page Wireframe 
+
+#### 3.1.3.2. Landing Page Mock-up 
+
+
+### 3.1.4. Mobile Applications UX/UI Design 
+#### 3.1.4.1. Mobile Applications Wireframes 
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams 
+
+#### 3.1.4.3. Mobile Applications Mock-ups 
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams 
+
+#### 3.1.4.5. Mobile Applications Prototyping 
 

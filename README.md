@@ -1249,6 +1249,7 @@ erDiagram
 La paleta de colores se definió tomando como punto de partida el logotipo, de modo que se preserve la consistencia visual y refuerce el carácter de la marca. Se usaron gamas frías por su asociación con fiabilidad y actualidad. Esta selección permite aplicar los colores en fondos, botones y textos manteniendo suficiente contraste, cumpliendo criterios de accesibilidad y favoreciendo una experiencia clara y legible.
 
 ![paletaDeColorees](imgs/chapter3/Color_Palette.png)
+
 *Fuente:* Elaboración propia
 
 **Tipografía**
@@ -1271,6 +1272,7 @@ En ÑanGo se utiliz Inter por su alta legibilidad y tiene un estilo moderno. Arm
 El logtipo se concibe para transmitir cercanía y confianz desde una geometría limpia y fácilmente reconocible. Las líneas suaves y contemporáneas refuerzan la idea de accesibilidad y fluidez en la experiencia. La tipografía, clara y legible, acompoaña el carácter colaborativo del servicio. Inspirado en la noción de “camino compartido” y “movimiento”, el símbolo representa el trayecto conjunto y el vínculo entre estudiantes que se apoyan para movilizarse, reflejando el espíritu práctico y solidario de ÑanGo.
 
 ![LogoÑango](https://github.com/ASI0729-Final-Project/docs/blob/main/imgCap4/LogoPrincipal.png?raw=true)
+
 *Fuente:* Elaboración propia
 
 **Iconos**
@@ -1280,6 +1282,7 @@ La selección de íconos prioriza la usabilidad y la orientación rápida hacia 
 ![Logos_Secundarios](imgs/chapter3/Logos_Secundarios.png)
 
 *Nota:* Se emplea un logotipo alterno para mejorar la legibilidad y el contraste en fondos oscuros.
+
 *Fuente:* Elaboración propia.
 
 El uso sistemático de estos íconos refuerza el reconocimiento visual de las acciones, reduce la carga cognitiva y mejora la experiencia general del usuario.
@@ -1299,6 +1302,7 @@ Se ha realizado dos vistas para la aplicación de Ñango, se basa en dos esquema
 
 *Figura:* Organization System – Driver.
 ![systemorg_driver](imgs/chapter3/organization_systems_driver.png)
+
 *Fuente:* Elaboración propia.
 
 
@@ -1307,6 +1311,7 @@ La figura presenta la estructura de navegación para el perfil de conductor. El 
 
 *Figura:* Organization System – Passenger.
 ![systemorg_passenger](imgs/chapter3/organization_systems_passenger.png)
+
 *Fuente:* Elaboración propia.
 
 **Pasajero**
@@ -1323,6 +1328,7 @@ El conjunto de información Ñango será representado por el sistema mediante la
 |History| Registro de los viajes del conductor, incluyendo los estados pendiente, confirmado o realizado.|
 
 *Nota:* Correspondiente a la vista de Conductor
+
 *Fuente:* Elaboración propia
 
 |Labelyng System | Descripción |
@@ -1332,6 +1338,7 @@ El conjunto de información Ñango será representado por el sistema mediante la
 |History| Historial de viajes del pasajero con sus detalles, incluido el estado actual de cada viaje. |
 
 *Nota:* Correspondiente a la vista de Pasajero*
+
 *Fuente:* Elaboración propia
 
 #### 3.1.2.3. SEO Tags and Meta Tags 
@@ -1374,10 +1381,12 @@ Para ofrecer una experiencia fluida, la aplicación organiza su navegación en d
 
 ![nav_system_driver](imgs/chapter3/navigation_system_driver.png)
 *Nota:* Estructura de navegación correspondiente al rol de conductor.
+
 *Fuente:* Elaboración propia.
 
 ![nav_system_passenger](imgs/chapter3/navigartion_system_passenger.png)
 *Nota:* Estructura de navegación correspondiente al rol de pasajero.
+
 *Fuente:* Elaboración propia.
 
 En conjunto, este esquema jerárquico (global + local) estructura la interfaz con claridad, mejora la descubribilidad de funciones y reduce la curva de aprendizaje. Al adaptar los recorridos según el perfil (pasajero o conductor), se ofrece una experiencia coherente y personalizada, alineada con los objetivos de accesibilidad, eficiencia y simplicidad de la plataforma.
@@ -1385,8 +1394,91 @@ En conjunto, este esquema jerárquico (global + local) estructura la interfaz co
 ### 3.1.3. Landing Page UI Design 
 #### 3.1.3.1. Landing Page Wireframe 
 
+**Home de la landing page**
+![home_landing](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/Landing1.png)
+
+*Nota:* El wireframe muestra la sección Home de la landing page, con un mensaje principal, botones de registro (Start for Free) y una barra de navegación con accesos a las secciones clave del sitio.
+
+*Fuente:* Elaboración Propia
+
+**Sección "How it Works"**
+![how_it_works](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/Landing2.png)
+
+*Nota:* El wireframe presenta la sección How It Works, donde se explica de forma simple y visual el funcionamiento de la plataforma en tres pasos: buscar u ofrecer un viaje, confirmar y dividir costos, y calificar la experiencia.
+
+*Fuente:* Elaboración Propia
+
+**Sección "About Us"**
+![about_us](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/Landing3.png)
+
+*Nota:* Muestra la misión y visión de Ñango, junto con su enfoque en movilidad estudiantil.
+
+*Fuente:* Elaboración Propia
+
+**Sección "Features"**
+![features](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/Landing4.png)
+
+*Nota:* Presenta los beneficios clave de la plataforma: ahorro, networking y sostenibilidad.
+
+*Fuente:* Elaboración Propia
+
+**Sección "Plans**
+![plans](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/Landing5.png)
+
+*Nota:* Se detallan los planes de suscripción disponibles, con sus respectivas funcionalidades.
+
+*Fuente:* Elaboración Propia
+
+**Sección "Be Ñango**
+![be_ñango](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/Landing6.png)
+
+*Nota:* Contiene el formulario de registro para nuevos usuarios de la plataforma.
+
+*Fuente:* Elaboración Propia
+
 #### 3.1.3.2. Landing Page Mock-up 
 
+**Home de la landing page**
+![home_](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/MLanding1.png)
+
+*Nota:* El mockup muestra la sección Home de la landing page, con un mensaje principal, botones de registro (Start for Free) y una barra de navegación con accesos a las secciones clave del sitio.
+
+*Fuente:* Elaboración Propia
+
+**Sección "How it Works"**
+![how_it_works_](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/MLanding2.png)
+
+*Nota:* El mockup presenta la sección How It Works, donde se explica de forma simple y visual el funcionamiento de la plataforma en tres pasos: buscar u ofrecer un viaje, confirmar y dividir costos, y calificar la experiencia.
+
+*Fuente:* Elaboración Propia
+
+**Sección "About Us"**
+![about_us_](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/MLanding3.png)
+
+*Nota:*  Muestra la misión y visión de Ñango, junto con su enfoque en movilidad estudiantil.
+
+*Fuente:* Elaboración Propia
+
+**Sección "Features"**
+![features_](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/MLanding4.png)
+
+*Nota:* Presenta los beneficios clave de la plataforma: ahorro, networking y sostenibilidad.
+
+*Fuente:* Elaboración Propia
+
+**Sección "Plans"**
+![plans_](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/MLanding5.png)
+
+*Nota:* Se detallan los planes de suscripción disponibles, con sus respectivas funcionalidades..
+
+*Fuente:* Elaboración Propia
+
+**Sección "Be Ñango"**
+![be_ñango_](https://github.com/ASI0729-Final-Project/docs/raw/main/imgCap4/Landing/MLanding6.png)
+
+*Nota:* Contiene el formulario para los usuarios puedan entrar a la plataforma.
+
+*Fuente:* Elaboración Propia
 
 ### 3.1.4. Mobile Applications UX/UI Design 
 #### 3.1.4.1. Mobile Applications Wireframes 

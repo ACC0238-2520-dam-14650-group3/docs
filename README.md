@@ -1244,12 +1244,143 @@ erDiagram
 ### 3.1.1. Style Guidelines 
 #### 3.1.1.1. General Style Guidelines 
 
+**Colores**
+
+La paleta de colores se definió tomando como punto de partida el logotipo, de modo que se preserve la consistencia visual y refuerce el carácter de la marca. Se usaron gamas frías por su asociación con fiabilidad y actualidad. Esta selección permite aplicar los colores en fondos, botones y textos manteniendo suficiente contraste, cumpliendo criterios de accesibilidad y favoreciendo una experiencia clara y legible.
+
+![paletaDeColorees](imgs/chapter3/Color_Palette.png)
+*Fuente:* Elaboración propia
+
+**Tipografía**
+
+En ÑanGo se utiliz Inter por su alta legibilidad y tiene un estilo moderno. Armamos una jerarquía simple jugando con tamaños y pesos (de Regular a SemiBold/Bold): los títulos destacan, los subtítulos guían y el texto de cuerpo se siente cómodo. Así la lectura y la navegación son más fáciles, y el look de la app se mantiene alineado con la marca.
+
+![Inter_Tipografía](https://github.com/ASI0729-Final-Project/docs/blob/main/imgCap4/Tipograf%C3%ADa.png?raw=true)
+
+*Nota:* La jerarquía visual implementada en la aplicación móvil utiliza tamaños de fuente consistentes y proporcionales para organizar la información de manera clara y estructurada. Cabe resaltar que esta estructura está diseñada versión móvil de la plataforma.
+
+*Fuente:* Elaboración propia
+
+**Branding**
+
+Ñango es una plataforma orienda al carpooling universitarios qur prioriza una experiencia simple y ágil. La marca se plantera como soporte confiables en el día a día académicom conectando a estudiantes que requieren movilidad con quienes pueden ofrecer traslado. Su propuesta promueve eficinecia operativa, seguridad y cooperación dentro del campus, posicionando a ÑanGo como una alternativa actual y solidaria que optimiza los desplazamientos cotidianos y fortalece el sentido de comunidad,
+
+
+**Logotipo**
+
+El logtipo se concibe para transmitir cercanía y confianz desde una geometría limpia y fácilmente reconocible. Las líneas suaves y contemporáneas refuerzan la idea de accesibilidad y fluidez en la experiencia. La tipografía, clara y legible, acompoaña el carácter colaborativo del servicio. Inspirado en la noción de “camino compartido” y “movimiento”, el símbolo representa el trayecto conjunto y el vínculo entre estudiantes que se apoyan para movilizarse, reflejando el espíritu práctico y solidario de ÑanGo.
+
+![LogoÑango](https://github.com/ASI0729-Final-Project/docs/blob/main/imgCap4/LogoPrincipal.png?raw=true)
+*Fuente:* Elaboración propia
+
+**Iconos**
+
+La selección de íconos prioriza la usabilidad y la orientación rápida hacia funciones críticas de la plataforma: mensajería entre pasajero y conductor, creación/gestión de reservas (incluida la reprogramación) y edición de perfil o retroalimentación del viaje. Este set contribuye a una navegación más ágil y a una interacción consistente en todas las pantallas.
+
+![Logos_Secundarios](imgs/chapter3/Logos_Secundarios.png)
+
+*Nota:* Se emplea un logotipo alterno para mejorar la legibilidad y el contraste en fondos oscuros.
+*Fuente:* Elaboración propia.
+
+El uso sistemático de estos íconos refuerza el reconocimiento visual de las acciones, reduce la carga cognitiva y mejora la experiencia general del usuario.
+
+**Tono de Comunicación**
+
+La voz de ÑanGo es cercana, clara y profesional. Se privilegia un estilo directo y sencillo para que pasajeros y conductores comprendan los mensajes sin ambigüedades. Este enfoque ayuda a transmitir confianza y seguridad, y humaniza cada interacción a lo largo del viaje.
+
+**Language**
+
+La comunicación se plantea con un lenguaje inclusivo, accesible y de fácil lectura. Se evitan tecnicismos y términos innecesariamente complejos para que cualquier persona, independientemente de su familiaridad con la tecnología, pueda interactuar con la plataforma sin barreras.
+
 ### 3.1.2. Information Architecture 
 #### 3.1.2.1. Organization Systems 
+
+Se ha realizado dos vistas para la aplicación de Ñango, se basa en dos esquemas, primero es el pasajero y el segundo conductor. A continuación se mostrará las dos estructuras para el sistemas de organización de la aplicación web.
+
+*Figura:* Organization System – Driver.
+![systemorg_driver](imgs/chapter3/organization_systems_driver.png)
+*Fuente:* Elaboración propia.
+
+
+**Conductor**
+La figura presenta la estructura de navegación para el perfil de conductor. El acceso inicia en “Login”, donde el usuario “Enter Credentials”, selecciona “Join Plan” y completa la “Profile Verification”. Desde “Home Screen”, el conductor puede “Post Route” para publicar un viaje. En el módulo “Routes” se gestiona el estado de las reservas mediante “Request Management”. A su vez, “Requests” permite revisar solicitudes recibidas y tomar acciones en “Decision Management for Requests”; en este flujo también se consultan “Comments” registrados por los pasajeros. De forma transversal, el conductor puede revisar su “History” y administrar su cuenta en “Account Settings”, donde se incluyen “Edit Profile”, “Language”, “Notifications”, “Fix Credentials” y “Support” para soporte y ajustes de perfil.
+
+*Figura:* Organization System – Passenger.
+![systemorg_passenger](imgs/chapter3/organization_systems_passenger.png)
+*Fuente:* Elaboración propia.
+
+**Pasajero**
+La figura muestra la estructura de navegación para el perfil de pasajero. El flujo comienza en “Login”, continuando con “Enter Credentials”, la elección del “Join Plan” y la “Profile Verification”. Desde “Home Screen”, el usuario accede a “Search Trip” para buscar rutas disponibles. En “Quotes”, visualiza opciones y procede con “Reserve Trip” para confirmar su reserva. El historial de viajes se consulta en “History”, que además habilita “Reschedule” (reprogramar con el mismo conductor cuando aplique) y “Notifications”. Finalmente, en “Account Settings” se centraliza la administración de la cuenta: “Edit Profile”, “Language”, “Notifications”, “Fix Credentials” y “Support” para asistencia.
+
 #### 3.1.2.2. Labelling Systems 
+El conjunto de información Ñango será representado por el sistema mediante las siguientes etiquetas.
+
+|Labeling System | Descripción |
+|-----------------|-------------|
+|Home| Pantalla de bienvenida de la web/app con un mensaje destacado y un botón (CTA) que dirige al módulo “Routes”.|
+|Routes| Área donde el conductor define y gestiona los detalles de la ruta que ofrecerá a los pasajeros.|
+|Request| Sección para revisar las solicitudes de los usuarios (pasajeros), mostrando datos como fecha de envío, nombre de la ruta, estado de la solicitud, entre otros.|
+|History| Registro de los viajes del conductor, incluyendo los estados pendiente, confirmado o realizado.|
+
+*Nota:* Correspondiente a la vista de Conductor
+*Fuente:* Elaboración propia
+
+|Labelyng System | Descripción |
+|----------------|-------------|
+|Home| Pantalla inicial que recibe al usuario con un mensaje llamativo y un botón (CTA) que lo lleva a “Quotes”.|
+|Quotes| Módulo que muestra las opciones/cotizaciones de viaje disponibles según la búsqueda realizada por el usuario.|
+|History| Historial de viajes del pasajero con sus detalles, incluido el estado actual de cada viaje. |
+
+*Nota:* Correspondiente a la vista de Pasajero*
+*Fuente:* Elaboración propia
+
 #### 3.1.2.3. SEO Tags and Meta Tags 
+
+**SEO (Landing Page)**
+Title: "Ñango – Share the ride, save the day"
+
+Meta Description: "Connect with classmates and share rides to campus in a safe, affordable, and eco-friendly way. Ñango offers a tech-based carpooling solution designed for students in Peru."
+
+Keywords: "Ñango, student carpooling, shared transportation, campus rides, university mobility, safe ride app, ride sharing Peru, student transport solution"
+
+Author: TinkuyTech Team
+
+**ASO (App Store Optimization)**
+
+App Title: Ñango — Share the ride, save the day
+
+App Keywords: carpool universitario, transporte compartido, campus, movilidad, ride sharing, estudiantes, Perú
+
+App Subtitle: Safer campus rides with classmates
+
+Description: "Connect with classmates and share rides to campus in a safe, affordable, and eco-friendly way. Ñango offers a tech-based carpooling solution designed for students in Peru."
+
 #### 3.1.2.4. Searching Systems 
+
+Los sistemas de búsqueda ayudan al usuario a ubicar rápidamente contenidos puntuales, ya sea mediante un campo de búsqueda o navegando por categorías. Para ello, se definió una estructura centrada en describir las funciones que permiten buscar, filtrar y encontrar. Con esto se mantiene un esquema ordenado que mejora la precisión y la velocidad durante el proceso de búsqueda.
+
+| Searching systems | Descripción |
+|-------------------|-------------|
+|Search for trips  | Redirige a la sección de "Quotes", en la que este permite al usuario (pasajero) buscar viajes disponibles según "starting point", "destination", "departure date" y "departure time" |
+|Searching Join Trip | En la sección de "Quotes", el usuario (pasajero) puede unirse a uno de los viajes disponibles, para ello presiona el botón "Join Trip". |
+|Searching Comments | El usuario (pasajero o conductor) puede ver los comentarios hacia el conductor. El pasajero los usa para decidir unirse a un viaje; el conductor para autoevaluarse y mejorar. Ambos pueden filtrar por calificación "Rating". |
+|Searching History | En la sección "History" el usuario (pasajero) filtra "Month", "Type of trip" and "Travel expenses" para tener un mejor control de sus reservas y del dinero gastado por viaje. Mientras que para la vista del usuario "conductor" solo se filtra "Month" y "Trip cost" pues este revisa el historial por viaje con sus pasajeros y el costo individual. |
+|Searching Requests | El usuario (conductor) busca las reservas para poder ver y aceptar a los pasajeros que deseen que se una al viaje en la sección "Request Management", a traves de los filtros "type", "status" y "Date Range".De esta manera puede crear un chat personalizado solo para el grupo de viaje |
+|Chat by Trip	| Filtra conversaciones grupales según el estado del viaje (Confirmado, Completado, etc.) para ambas vistas del usuario (pasajero y conductor) |
+
 #### 3.1.2.5. Navigation Systems 
+
+Para ofrecer una experiencia fluida, la aplicación organiza su navegación en dos capas: Navegación Global y Navegación Local. La global concentra los accesos a las secciones principales de la plataforma y se presenta de forma persistente en la parte inferior de la interfaz móvil. La local, en cambio, opera dentro de cada módulo principal y expone sus subsecciones (p. ej., pestañas, menús contextuales o breadcrumbs), permitiendo recorrer funciones específicas de manera ordenada y eficiente.
+
+![nav_system_driver](imgs/chapter3/navigation_system_driver.png)
+*Nota:* Estructura de navegación correspondiente al rol de conductor.
+*Fuente:* Elaboración propia.
+
+![nav_system_passenger](imgs/chapter3/navigartion_system_passenger.png)
+*Nota:* Estructura de navegación correspondiente al rol de pasajero.
+*Fuente:* Elaboración propia.
+
+En conjunto, este esquema jerárquico (global + local) estructura la interfaz con claridad, mejora la descubribilidad de funciones y reduce la curva de aprendizaje. Al adaptar los recorridos según el perfil (pasajero o conductor), se ofrece una experiencia coherente y personalizada, alineada con los objetivos de accesibilidad, eficiencia y simplicidad de la plataforma.
 
 ### 3.1.3. Landing Page UI Design 
 #### 3.1.3.1. Landing Page Wireframe 

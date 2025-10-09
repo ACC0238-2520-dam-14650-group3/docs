@@ -2115,5 +2115,12 @@ La comunicación fue constante a través de plataforma usada: WhatsApp; y utiliz
 ![Imagen de la entrevista](imgs/entrevistas/sebastian-1.png)
 [Entrevista a Sebastian Arevalo](https://youtu.be/y5FOhu3mylo)
 
+- Entrevista a Jose Sosa
+  Edad: 20
+  Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
+  Carrera: Ingeniería de Sistemas
 
 #### 4.3.3. Evaluaciones según heurísticas
+![Imagen de la entrevista](imgs/validacion-entrevista2)
+[Entrevista a Jose Sosa](https://www.youtube.com/watch?v=gwhtOEFI0Sc)
+

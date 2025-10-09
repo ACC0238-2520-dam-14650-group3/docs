@@ -1765,3 +1765,8 @@ En conjunto, este esquema jerárquico (global + local) estructura la interfaz co
 
 #### 3.1.4.5. Mobile Applications Prototyping 
 
+En esta sección elaboramos una muestra de lo que sería el prototipo de la aplicación móvil con interacción
+![prototype](image-1.png)
+
+Enlace a los mockups en Figma: [Mock-Up Prototype Ñango](https://www.figma.com/proto/YrBfhEDP1ev8Q1IXCmLRBg/%C3%91ANGO?node-id=342-4681&p=f&t=LtwIN6Pne5zDGvGm-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=342%3A4681)
+

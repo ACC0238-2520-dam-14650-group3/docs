@@ -1973,7 +1973,7 @@ Además, se configuraron los siguientes parámetros:
 ![landing-page-dokploy](./imgs/landing-page-dokploy.png)
 
 
-#### 4.2.1. Sprint n
+#### 4.2.1. Sprint 1
 Podemos considerar al Sprint Planning como una "ceremonia" fundamental dentro de la metodología ágil Scrum. Su propósito es definir el objetivo del sprint y planificar el trabajo que se realizará durante el mismo. En esta primera planificación, como detallaremos en adelante, el equipo se reunió para analizar los requerimientos del proyecto, priorizar las tareas del backlog y asignar responsabilidades entre los integrantes. Esta sesión permitió establecer una visión compartida sobre los entregables a corto plazo y sentar las bases del desarrollo inicial de la aplicación movil, partiendo del desarrollo del landing page.
 
 ##### 4.2.1.1. Sprint Planning 1
@@ -2001,6 +2001,22 @@ El objetivo principal de este Sprint fue avanzar en el desarrollo de las funcion
 ![trello-sprint1](./imgs/sprint1-trello.png)
 
 Enlace al trello: https://trello.com/invite/b/68e82abdd78299ef5e5d3523/ATTI0dc5611a4631c610dcf19bb2b603aafb35EFC687/nango-sprint
+
+| Sprint # | Sprint 1 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | Description | Estimated (Hours) | Assigned To | Status |
+| US01 | Registro de cuenta | Crear la opción de crear una nueva cuenta | 1 | Anderson | Done |
+| US02 | Inicio de sesión | Crear la opción de iniciar sesión | 1 | Anderson | Done |
+| US03 | Recuperación de contraseña | Crear la opción de recuperar la contraseña | 1 | Anderson | Done |
+| US05 | Buscar rutas disponibles | Ver las rutas disponibles para los pasajeros | 2 | Kevin | Done
+| US09 | Solicitar unirse a una ruta | Pasajero que quiera realizar una reserva  | 2 | Kevin | Done
+| US06 | Publicar Ruta | Crear la opción para que un conductor cree una ruta | 2  | - | To Do |
+| US26 | Configurar Notificaciones | Crear la configuración del gestor de notifacciones | 1 | Jean | Done |
+| US25 | Autenticación con JWT | Configurar la autenticación de usuario con JWT | 2 | Anderson | Done |
+| US27 | Ver información de Ñango | Como usuario quiero ver la info. de Ñango en la Landing Page | 1 | Anderson | Done |
+| US30 | Endpoint de login | Como developer quiero exponer un endpoint de login para iniciar sesión. | 1 | Anderson | Done |
+| US33 | Endpoint de solicitudes | Como developer quiero exponer un endpoint para gestionar solicitudes. | 1 | Kevin | Done |
 
 ##### 4.2.1.3. Development Evidence for Sprint Review
 

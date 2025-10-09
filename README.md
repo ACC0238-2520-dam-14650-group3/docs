@@ -2046,8 +2046,70 @@ En esta sección se presentan evidencias de la ejecución de la App Movil y la L
 
 
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
+Aqui se documentan los servicios del backend del proyecto Ñango
+
+
+## **IAM Service**
+
+**Base URL:** `/api/v1`
+**Auth requerida:** Bearer Token (para endpoints protegidos como `/users/`)
+
+|  Método  | Endpoint         | Descripción                               |
+| :------: | :--------------- | :---------------------------------------- |
+| **POST** | `/auth/register` | Registrar nuevo usuario.                  |
+| **POST** | `/auth/login`    | Iniciar sesión y obtener token JWT.       |
+|  **GET** | `/users/`        | Listar usuarios (requiere autenticación). |
+
+**Schemas visibles en Swagger:**
+`HTTPValidationError`, `LoginRequest`, `RegisterRequest`, `TokenResponse`, `UserOut`, `ValidationError`.
+
+
+![notification-swagger](imgs/document/iam.jpeg)
+
+
+
+## **Booking Service**
+
+|   Método   | Endpoint                        | Descripción                                |
+| :--------: | :------------------------------ | :----------------------------------------- |
+|   **GET**  | `/api/v1/bookings`              | Listar todas las reservas registradas.     |
+|  **POST**  | `/api/v1/bookings`              | Crear una nueva reserva.                   |
+| **DELETE** | `/api/v1/bookings/{booking_id}` | Eliminar una reserva por su identificador. |
+
+![notification-swagger](imgs/document/booking.jpeg)
+
+
+## **Notification Service**
+**Base URL:** `/api/v1`
+
+
+|   Método  | Endpoint                                       | Descripción                                          |
+| :-------: | :--------------------------------------------- | :--------------------------------------------------- |
+|  **POST** | `/api/v1/notifications`                        | Crear una nueva notificación.                        |
+|  **GET**  | `/api/v1/notifications/users/{user_id}`        | Obtener las notificaciones de un usuario específico. |
+| **PATCH** | `/api/v1/notifications/{notification_id}/read` | Marcar una notificación como leída.                  |
+
+
+|   Método  | Endpoint                              | Descripción                              |
+| :-------: | :------------------------------------ | :--------------------------------------- |
+|  **POST** | `/api/v1/preferences`                 | Crear preferencias de notificación.      |
+|  **GET**  | `/api/v1/preferences/users/{user_id}` | Obtener preferencias de un usuario.      |
+| **PATCH** | `/api/v1/preferences/{preference_id}` | Actualizar preferencias de notificación. |
+
+![notification-swagger](imgs/document/notify.png)
+
+
+
+
+¿Deseas que integre este bloque actualizado dentro del documento completo con **IAM**, **Notification** y **Booking**, en formato Markdown uniforme para tu reporte final del sprint?
+(Puedo reemplazar la versión anterior del IAM por esta y entregarte todo el bloque completo final listo para copiar y pegar.)
+
 
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+- Landing Page de Ñango
+![landing](imgs/evidences/landing1.jpeg)
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2121,6 +2183,6 @@ La comunicación fue constante a través de plataforma usada: WhatsApp; y utiliz
   Carrera: Ingeniería de Sistemas
 
 #### 4.3.3. Evaluaciones según heurísticas
-![Imagen de la entrevista](imgs/validacion-entrevista2)
+![Imagen de la entrevista](imgs/validacion-entrevista2.png)
 [Entrevista a Jose Sosa](https://www.youtube.com/watch?v=gwhtOEFI0Sc)
 

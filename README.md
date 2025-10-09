@@ -1974,10 +1974,33 @@ Además, se configuraron los siguientes parámetros:
 
 
 #### 4.2.1. Sprint n
+Podemos considerar al Sprint Planning como una "ceremonia" fundamental dentro de la metodología ágil Scrum. Su propósito es definir el objetivo del sprint y planificar el trabajo que se realizará durante el mismo. En esta primera planificación, como detallaremos en adelante, el equipo se reunió para analizar los requerimientos del proyecto, priorizar las tareas del backlog y asignar responsabilidades entre los integrantes. Esta sesión permitió establecer una visión compartida sobre los entregables a corto plazo y sentar las bases del desarrollo inicial de la aplicación movil, partiendo del desarrollo del landing page.
 
-##### 4.2.1.1. Sprint Planning n
+##### 4.2.1.1. Sprint Planning 1
+| **Sprint #**                | 1                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 05/10/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través de Google Meet |
+| **Prepared by**             | Gamarra Vega, Anderson Jose	       |
+| **Attendees (to planning meeting)** | Castañeda Llanos, Kevin Alexander, Peña Riofrio, Maria Fernanda,Grandez Mansilla, Jean Pierre, Guevara Tejada, Jorge Enrique	 |
+| **Sprint 1 Review Summary** | Completar el desarrollo de los capítulos 3 y 4 del reporte. Codificación y despliegue del Landing Page. Creación de frontend de secciones core y backend al 70% |
+| **Sprint 1 Retrospective Summary** | Se realizó la distribución de temas para completar la documentación, además de diseñar e implementar la primera versión de nuestro landing page, creación de las secciones core de
+la aplicación movil, y la creación del 70% del backend |
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 1 Goal**           | **Nos enfocamos** en diseñar y desarrollar la landing page de Ñango y la creación de secciones del frontend, y la creación de algunos bounded context en el backend. **Creemos que** esto dará una idea inicial de como servirá y los objetivos que pretendemos cumplir con nuestra aplicación movil. **Esto se confirmará** cuando la Landing Page, frontend y backend estén listos para el despliegue y en las entrevistas de validación, sean positivas con respecto a nuestro proyecto  |
+| **Sprint n Velocity**       | 1 semana                           |
+| **Sum of Story Points**     | 20                                 |
 
-##### 4.2.1.2. Sprint Backlog n
+
+##### 4.2.1.2. Sprint Backlog 1
+
+El objetivo principal de este Sprint fue avanzar en el desarrollo de las funcionalidades clave de nuestra solución, priorizando aquellas que nos permitieran entregar una versión funcional inicial de la Landing Page y establecer las bases para el desarrollo posterior del sistema, creando secciones core en el frotned y cumpliendo con el 70% del backend. Para organizar y dar seguimiento a las tareas, utilizamos la herramienta Trello como nuestro tablero de control, donde cada integrante podía visualizar, actualizar y colaborar en las actividades asignadas. A continuación, se presenta una captura del tablero correspondiente al sprint 1:
+
+![trello-sprint1](./imgs/sprint1-trello.png)
+
+Enlace al trello: https://trello.com/invite/b/68e82abdd78299ef5e5d3523/ATTI0dc5611a4631c610dcf19bb2b603aafb35EFC687/nango-sprint
 
 ##### 4.2.1.3. Development Evidence for Sprint Review
 

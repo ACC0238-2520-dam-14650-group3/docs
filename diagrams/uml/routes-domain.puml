@@ -1,0 +1,79 @@
+@startuml
+package "Routes :: Domain" {
+
+  class Route {
+    - id: RouteId
+    - driverId: UserId
+    - origin: GeoPoint
+    - destination: GeoPoint
+    - departureAt: LocalDateTime
+    - availableSeats: int
+    - pricePerSeat: Money
+    - status: RouteStatus
+    - distanceKm: double
+    - durationMinutes: int
+    - stops: List<Stop>
+    + edit(...): void
+    + publish(): void
+    + cancel(): void
+  }
+
+  class Stop {
+    - stopId: UUID
+    - order: int
+    - location: GeoPoint
+    - description: String
+  }
+
+  class GeoPoint {
+    +lat: double
+    +lon: double
+    +address: String
+  }
+
+  class Money {
+    +amount: BigDecimal
+    +currency: String
+  }
+
+  class RouteId {
+    +value: UUID
+  }
+
+  class UserId {
+    +value: UUID
+  }
+
+  enum RouteStatus {
+    DRAFT
+    PUBLISHED
+    CANCELED
+  }
+
+  interface RouteRepository {
+    +save(r: Route): void
+    +findById(id: RouteId): Route
+    +findPublished(filter: Object): List<Route>
+    +delete(id: RouteId): void
+  }
+
+  interface DistanceService {
+    +compute(origin: GeoPoint, destination: GeoPoint, stops: List<Stop>): DistanceResult
+  }
+
+  class DistanceResult {
+    +km: double
+    +minutes: int
+  }
+
+  class RoutePolicies {
+    +canPublish(r: Route): boolean
+    +validateCapacity(r: Route): void
+  }
+
+  Route "1" o-- "0..*" Stop
+  RouteRepository ..> Route
+  RoutePolicies ..> Route
+  Route ..> DistanceService : uses (via application)
+}
+@enduml

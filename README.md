@@ -116,7 +116,31 @@
     - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
     - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
     - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
-    - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+    - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)a
+
+### [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+
+- [4. Product Implementation & Validation](#4-product-implementation--validation)
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint n](#421-sprint-n)
+      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
+      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+
 
 
 # Capítulo I: 
@@ -1770,3 +1794,207 @@ En esta sección elaboramos una muestra de lo que sería el prototipo de la apli
 
 Enlace a los mockups en Figma: [Mock-Up Prototype Ñango](https://www.figma.com/proto/YrBfhEDP1ev8Q1IXCmLRBg/%C3%91ANGO?node-id=342-4681&p=f&t=LtwIN6Pne5zDGvGm-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=342%3A4681)
 
+# Capítulo IV: Product Implementation & Validation
+
+## 4. Product Implementation & Validation
+
+### 4.1. Software Configuration Management
+
+En la sección siguiente, se describirán las herramientas, convenciones, referencias y configuraciones utilizadas durante el desarrollo del proyecto, las cuales ayudaron a mantener la coherencia en el trabajo realizado.
+
+#### 4.1.1. Software Development Environment Configuration
+
+En este apartado se presentan los distintos programas, plataformas y entornos de software que el equipo de desarrollo empleó para ejecutar las actividades relacionadas con la implementación del proyecto Ñango.
+
+#### Project Management
+
+**Trello:** [https://trello.com/](https://trello.com/)  
+Trello se utilizó para la gestión de tareas y la organización del flujo de trabajo del equipo. Cada tarea se representó mediante tarjetas agrupadas en listas según su estado y responsable. Además, se emplearon etiquetas de colores y checklists para visualizar el progreso, facilitando así el seguimiento y control de los avances del proyecto.
+
+**Google Meet:** [https://meet.google.com/](https://meet.google.com/)  
+Se empleó Google Meet para realizar reuniones periódicas entre los integrantes del equipo, con el propósito de coordinar actividades, discutir propuestas de diseño, revisar avances y definir las fechas de entrega de cada sprint.
+
+#### Requirements Management
+
+**Trello:** [https://trello.com/](https://trello.com/)  
+Trello también fue utilizado para la gestión de requisitos y la planificación del **product backlog**. Las historias de usuario se priorizaron utilizando la secuencia de Fibonacci, y se agruparon en épicas para mantener una estructura clara y jerárquica de las funcionalidades del sistema.
+
+#### Product UX/UI Design
+
+**Figma:** [https://www.figma.com/](https://www.figma.com/)  
+Figma fue la herramienta principal para el diseño de **wireframes**, **mockups** y **prototipos interactivos** de la aplicación móvil y la landing page de Ñango, asegurando consistencia visual y una experiencia de usuario intuitiva.
+
+**Miro:** [https://miro.com/es/](https://miro.com/es/)  
+Miro se empleó para realizar los diagramas de **As-Is** y **To-Be Scenario Mapping**, así como el **Strategic-Level Domain-Driven Design**, lo que permitió visualizar procesos actuales y propuestos para los distintos segmentos de usuarios objetivo.
+
+**LucidChart:** [https://www.lucidchart.com/](https://www.lucidchart.com/)  
+LucidChart se utilizó para la elaboración de **diagramas de flujo**, **diagramas de arquitectura de software** y otros esquemas que describen las interacciones entre los componentes del sistema.
+
+**Vertabelo:** [https://vertabelo.com/](https://vertabelo.com/)  
+Vertabelo fue empleado para el diseño de los **diagramas de bases de datos** de los principales _bounded contexts_ del proyecto Ñango.
+
+**UXPressia:** [https://uxpressia.com/](https://uxpressia.com/)  
+UXPressia permitió crear **User Personas**, **Empathy Maps**, **Journey Maps** e **Impact Maps**, empleando plantillas visuales que facilitaron la documentación y exportación del trabajo de diseño UX.
+
+#### Software Development
+
+**Landing Page**  
+La landing page de Ñango se desarrolló utilizando **HTML**, **CSS** y **JavaScript**, aplicando estilos personalizados para garantizar un diseño atractivo, responsivo y coherente con la identidad visual del proyecto. El sitio fue optimizado para su despliegue en **GitHub Pages**.
+
+**Frontend móvil (Android Studio)**  
+Para el segmento de usuarios con dispositivos Android, se desarrolló un **frontend nativo** en **Android Studio**, utilizando **XML** para la definición de interfaces gráficas y **Kotlin** para la lógica de la aplicación. Esto permitió una experiencia fluida y una integración nativa con el ecosistema Android.
+
+**Backend**  
+El backend del proyecto Ñango se implementó con **Python** y las librerias **Fastapi, Pydantic, SqlAlchemy**, exponiendo **APIs RESTful** conectadas a una base de datos **PostgreSql**. Este componente maneja la lógica del negocio, la validación de datos y la comunicación segura entre el frontend y el servidor.
+
+#### Software Testing
+
+Para la validación funcional de la **Landing Page**, el **Backend** y las **aplicaciones móviles**, se utilizaron herramientas de desarrollo integradas en navegadores como **Google Chrome**.
+
+#### Software Deployment
+
+**Dokploy:** [https://dokploy.com/](https://dokploy.com/)  
+Todos los servicios fueron desplegados en **Dokploy**, integrando el repositorio del proyecto para realizar despliegues automatizados. Esta plataforma permitió configurar fácilmente el entorno de producción, gestionar variables de entorno y mantener un flujo de entrega continua (**CI/CD**) sin necesidad de configuraciones adicionales manuales.
+
+#### Software Documentation
+
+**Structurizr:** [https://structurizr.com/](https://structurizr.com/)  
+Structurizr se empleó para generar **diagramas C4** (contexto, contenedor y componentes), permitiendo documentar la arquitectura del sistema de forma clara y actualizable.
+
+**GitHub:** [https://github.com/](https://github.com/)  
+GitHub fue la plataforma central del proyecto Ñango, albergando el código de la **Landing Page**, el **Backend**, la **aplicación móvil** y la **documentación**. Su sistema de control de versiones facilitó la colaboración y el seguimiento de cambios.
+
+#### 4.1.2. Source Code Management
+
+
+La administración y versionado del código fuente se realizó a través de varios repositorios alojados en **GitHub**, bajo la organización oficial del proyecto:  
+**Organización:** [https://github.com/UniLink-Grupo3](https://github.com/UniLink-Grupo3)
+
+- **Repositorio de documentación:** [link](https://github.com/ACC0238-2520-dam-14650-group3/docs/tree/main?tab=readme-ov-file)
+    
+- **Repositorio de la Landing Page:** [link](https://github.com/ACC0238-2520-dam-14650-group3/landing-page)
+    
+- **Repositorio de la Aplicación Móvil:** [link](https://github.com/ACC0238-2520-dam-14650-group3/app)
+    
+
+Para el control de versiones, se empleó el modelo **Gitflow**, que permite estructurar las ramas y mantener un flujo de trabajo ordenado:
+
+- **main:** Contiene las versiones estables listas para producción.
+    
+- **feature:** Se crean para el desarrollo de nuevas funcionalidades o mejoras específicas (por ejemplo: `feature/auth-module`).
+    
+
+Este enfoque permitió mantener control sobre las versiones del código, minimizar conflictos y garantizar un desarrollo colaborativo eficiente.
+
+#### 4.1.3. Source Code Style Guide & Conventions
+
+Para mantener la coherencia del código en los distintos componentes del proyecto Ñango, se establecieron las siguientes guías y convenciones:
+
+- **HTML**: para la estructura de la Landing Page.
+    
+- **CSS**: para los estilos visuales y el diseño responsivo.
+    
+- **TypeScript**: para la interactividad y las funcionalidades dinámicas.
+    
+- **Kotlin**: para el desarrollo nativo de la aplicación móvil Android.
+    
+- **Python**: para el backend y la creación de APIs RESTful conectadas a PostgreSql.
+
+#### 4.1.4. Software Deployment Configuration
+
+Para el despliegue de la **Landing Page** del proyecto **Ñango**, se utilizó la plataforma **Dokploy**, empleando como fuente una imagen previamente construida y publicada en el **GitHub Container Registry (GHCR)**.  
+Esta estrategia permitió automatizar el proceso de implementación y garantizar que el entorno de producción ejecutara exactamente la misma versión empaquetada durante la fase de desarrollo.
+
+🔗 _[Ñango Landing Page – Dokploy](https://nango-dam.homeservergv.com/)
+
+### 4.2. Landing Page & Mobile Application Implementation
+
+#### **1. Publicación automática de la imagen en GitHub Container Registry (GHCR)**
+
+El proceso de construcción y publicación de la imagen Docker de la **Landing Page de Ñango** se encuentra completamente automatizado mediante un **workflow de GitHub Actions**.  
+Cada vez que se realizan cambios en la rama principal (**main**) y se crea una nueva etiqueta de versión (**tag**), el pipeline se ejecuta automáticamente, generando una nueva imagen y publicándola en el **GitHub Container Registry (GHCR)** bajo la organización del proyecto.
+
+Este flujo garantiza la trazabilidad entre el código fuente y las versiones desplegadas, además de facilitar la integración continua (**CI/CD**) con Dokploy.
+
+El proceso automatizado sigue las siguientes etapas:
+
+1. **Detección del evento de despliegue:**  
+    El workflow se activa automáticamente cuando se realiza un _push_ en la rama `main` o cuando se crea una etiqueta de versión (por ejemplo, `v1.0.0`).
+    
+2. **Construcción de la imagen Docker:**  
+    GitHub Actions ejecuta el comando de construcción dentro del pipeline:
+    
+    ```bash
+    docker build -t ghcr.io/unilink-grupo3/nango-landing-page:${{ github.ref_name }} .
+    ```
+    
+    Aquí, `${{ github.ref_name }}` corresponde al nombre del tag o rama que generó el evento.
+    
+3. **Autenticación en GHCR:**  
+    El workflow utiliza un **token de acceso personal (PAT)** configurado como _secret_ dentro del repositorio (`GHCR_TOKEN`) para autenticarse de manera segura con el registro:
+    
+    ```bash
+    echo ${{ secrets.GHCR_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+    ```
+    
+4. **Publicación automática de la imagen:**  
+    Finalmente, la imagen se publica en el **GitHub Container Registry** bajo el nombre:
+    
+    ```
+    ghcr.io/unilink-grupo3/nango-landing-page:latest
+    ghcr.io/unilink-grupo3/nango-landing-page:${{ github.ref_name }}
+    ```
+    
+    Esto permite mantener una versión “latest” para el despliegue continuo y versiones específicas etiquetadas por cada release.
+    
+
+De esta manera, cada versión estable de la **Landing Page** queda automáticamente empaquetada y disponible en el registro de contenedores, lista para ser desplegada en **Dokploy** sin intervención manual.
+
+
+![landing-page-ci-cd](./imgs/landinpage-ci-cd.png)
+
+#### **2. Creación del servicio en Dokploy**
+
+Desde el panel principal de **Dokploy**, se seleccionó la opción **“New Project”** → **“Deploy from Container Image”**.  
+En el campo de configuración de la imagen, se especificó la ruta al contenedor publicado en GitHub Container Registry:
+
+```
+ghcr.io/unilink-grupo3/nango-landing-page:latest
+```
+
+Además, se configuraron los siguientes parámetros:
+
+- **Nombre del servicio:** `nango-landing-page`
+    
+- **Puerto expuesto:** `80` o `5173` (según el Dockerfile del proyecto)
+    
+- **Auto-redeploy:** activado, para que cada nueva versión de la imagen publicada en GHCR se despliegue automáticamente.
+
+![landing-page-dokploy](./imgs/landing-page-dokploy.png)
+
+
+#### 4.2.1. Sprint n
+
+##### 4.2.1.1. Sprint Planning n
+
+##### 4.2.1.2. Sprint Backlog n
+
+##### 4.2.1.3. Development Evidence for Sprint Review
+
+##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+##### 4.2.1.5. Execution Evidence for Sprint Review
+
+##### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+##### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+##### 4.2.1.8. Team Collaboration Insights during Sprint
+
+### 4.3. Validation Interviews
+
+#### 4.3.1. Diseño de Entrevistas
+
+#### 4.3.2. Registro de Entrevistas
+
+#### 4.3.3. Evaluaciones según heurísticas

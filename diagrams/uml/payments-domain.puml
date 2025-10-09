@@ -1,0 +1,71 @@
+@startuml
+package "Payments :: Domain" {
+
+  class Payment {
+    - id: PaymentId
+    - reservationId: ReservationId
+    - payerId: UserId
+    - driverId: UserId
+    - amount: Money
+    - status: PaymentStatus
+    - provider: PaymentProvider
+    - providerRef: String
+    - createdAt: LocalDateTime
+    - confirmedAt: LocalDateTime
+    - canceledAt: LocalDateTime
+    + markRequiresAction(): void
+    + markConfirmed(ref: String): void
+    + markFailed(reason: String): void
+    + markRefunded(): void
+  }
+
+  class Money {
+    +amount: BigDecimal
+    +currency: String
+  }
+
+  class PaymentId {
+    +value: UUID
+  }
+
+  class UserId {
+    +value: UUID
+  }
+
+  class ReservationId {
+    +value: UUID
+  }
+
+  enum PaymentStatus {
+    CREATED
+    REQUIRES_ACTION
+    CONFIRMED
+    CANCELED
+    FAILED
+    REFUNDED
+  }
+
+  enum PaymentProvider {
+    STRIPE
+  }
+
+  interface PaymentRepository {
+    +save(p: Payment): void
+    +findById(id: PaymentId): Payment
+    +findByProviderRef(ref: String): Payment
+    +markConfirmed(id: PaymentId, ref: String): void
+    +markFailed(id: PaymentId): void
+    +markRefunded(id: PaymentId): void
+  }
+
+  interface PaymentGateway {
+    +createPaymentIntent(amount: Money, reservationId: ReservationId, payerId: UserId): String
+    +confirmPayment(intentId: String): void
+    +refund(intentId: String, amount: Money): void
+  }
+
+  PaymentRepository ..> Payment
+  Payment ..> Money
+  Payment ..> PaymentGateway : via application
+}
+@enduml

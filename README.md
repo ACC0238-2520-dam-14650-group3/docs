@@ -1483,11 +1483,285 @@ En conjunto, este esquema jerárquico (global + local) estructura la interfaz co
 ### 3.1.4. Mobile Applications UX/UI Design 
 #### 3.1.4.1. Mobile Applications Wireframes 
 
+**Registro en la aplicación**
+![nav](imgs/chapter3/wireframes_nav_usu.png)
+*Nota:* Wireframes del ingreso a la aplicación, tanto el de registro e inicio de sesión, el recuperar la contraseña si ya iniciaste sesión y el seleccionar plan.
+
+*Fuente:* Elaboración Propia
+
+**Profile verification - Conductor**
+
+<img src="imgs/chapter3/wireframes_profile_verif_driver.png" width="300" height="300">
+
+*Nota:* Wireframes del profile verification del los usuarios (conductores), donde se verifican sus datos personales como licencia y el ID de la universidad.
+
+*Fuente:* Elaboración Propia
+
+**Configuración de la cuenta - Conductor**
+![settings_driver](imgs/chapter3/wireframes_settings_driver.png)
+
+*Nota:* Wireframes del inicio de la aplicación, vas a la opción de las notificaiones o a la cuenta del perfil, y te desplaza diferentes opciones como: "My Profile", "Notifications", "Change Password", "Language" y "Support".
+
+*Fuente:* Elaboración Propia
+
+**Rutas - Conductor**
+
+<img src="imgs/chapter3/wireframes_routes_driver.png" width="300" height="300">
+
+*Nota:* Wireframes que muestra la interfaz don el conducotr, puede generar detalles de su ruta.
+
+*Fuente:* Elaboración Propia
+
+**Solicitudes - Conductor**
+![request_driver](imgs/chapter3//wireframes_request_driver.png)
+
+*Nota:* Wireframes que muestran el proceso de las solicitudes y repogramaciones, junto con 3 botones que permite al conductor realizar acciones como aceptar la solicitud del viaje, añadir al pasajero al grupo de chat con otros estudiantes dek viaje, y el tercero permite rechazar la solicitd del pasajero.
+
+*Fuente:* Elaboración Propia
+
+**Comentarios y chats grupales - Conductor**
+![chat](imgs/chapter3/wireframes_conversation_driver.png)
+
+*Nota:* Wireframes donde se puede visualizar los comentarios del conductor y los wireframes de los chat grupales con los pasajeros, al costado del chat se puede observar si el viaje ya fuer realizado o solo si se ha confirmado.
+
+*Fuente:* Elaboración Propia
+
+
+**Historial - Conductor**
+
+<img src="imgs/chapter3/wireframes_history_driver.png" width="300" height="300">
+
+*Nota:* En estos wireframes se muestran el historial de los detalles de sus rutas como los pasajeros, en donde inicio, el destino, la fecha, hora, el numero de pasajeros, el costo total y por cada pasajero y el estado de la solicitud
+
+*Fuente:* Elaboración Propia
+
+**Configuración de la cuenta - Pasajero**
+![setting_pass](imgs/chapter3/wireframes_setting_passenger.png)
+
+*Nota:* Wireframes del perfil del pasajero, a la ruta de configuración de la cuenta, las notificaciones, para cambiar la contraseña, cambiar de idioma y el soporte de la aplicación.
+
+*Fuente:* Elaboración Propia
+
+**Búsqueda de rutas - Pasajero**
+![quotes_pass](imgs/chapter3/wireframes_reserve_passenger.png)
+
+*Nota:* Wireframes sobre la búsqueda de un estudiante para las rutas disponibles, y la reserva de ella, también antes de reservar se pueden observar los wireframes de los comentarios del conductor los wireframes de notificación de cuando el conductor aceptar al viaje.
+
+*Fuente:* Elaboración Propia
+
+
+**Chat grupales - Pasajero**
+
+<img src="imgs/chapter3/wireframes_chat_passenger.png" width="300" height="300">
+
+*Nota:* Wireframes de los chat de grupos de los pasajeros con el conductor
+
+*Fuente:* Elaboración Propia
+
+
+**Historial - Pasajero**
+
+<img src="imgs/chapter3/wireframes_history_passenger.png" width="300" height="300">
+
+
+*Nota:* Wireframes donde se muestra el historial de los viajes anteriores de los usuarios, acá se muestran las opciones que se quieren personalizar, además información detallada del viaje como en donde inicio, el destino, el día, la hora, el nombre del conductor, además de el estado de este. También se visualiza dos opciones que es sobre volver a relizar el viaje o hacer un comentario al conductor.
+
+*Fuente:* Elaboración Propia
+
+
+**Historial 2 - Pasajero**
+
+<img src="imgs/chapter3/wireframes_reschudele_passenger.png" width="300" height="300">
+
+*Nota:* Wireframes basados en el anterior del historial, para volver realizar el viaje con la mismo información y si quieres cambiar alguna opción, el siguiente es para hacer el comentario al conductor de su viaje.
+
+*Fuente:* Elaboración Propia
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams 
+
+**User goal: Registra con un plan**
+![wireflow1](imgs/chapter3/wireflow1.png)
+
+*Nota:* Diagrama de flujo respecto al conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Registrar con un plan**
+![wireflow2](imgs/chapter3/wireflow2.png)
+
+*Nota:* Diagrama de flujo respecto al pasajero
+
+*Fuente:* Elaboración Propia
+
+**User goal: Recuperación de contraseña desde el inicio de sesión**
+![wireflow3](imgs/chapter3/wireflow3.png)
+
+*Nota:* Diagrama de flujo respecto al user pasajero y conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Editar pefil desde la configuración de la cuenta**
+![wireflow4](imgs/chapter3/wireflow4.png)
+
+*Nota:* Diagrama de flujo respecto al user pasajero o conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Cambio de contraseña desde la configuración de la cuenta**
+![wireflow5](imgs/chapter3/wireflow5.png)
+
+*Nota:* Diagrama de flujo respecto al user pasajero o conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Navegar en el dashboard del conductor**
+![wireflow6](imgs/chapter3/wireflow6.png)
+
+*Nota:* Diagrama de flujo respecto al user conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Navegar en el dashboard de**
+![wireflow7](imgs/chapter3/wireflow7.png)
+
+*Nota:* Diagrama de flujo respecto al user pasajero
+
+*Fuente:* Elaboración Propia
 
 #### 3.1.4.3. Mobile Applications Mock-ups 
 
+**Registro en la aplicación móvil**
+![m_registro](imgs/chapter3/mockup_nav_usu.png)
+
+*Nota:* Mockups del registro de la aplicación tanto para las personas que se regitsran por primera vez, como usuarios ya existentes, también se puede ver los mockups de la selección del plan y su pago de ella, además se ve los mockups para recuperar la contraseña desde el inicio de sesión.
+
+*Fuente:* Elaboración Propia
+
+**Profile verification - Conductor**
+
+<img src="imgs/chapter3/mockup_profile_verif_driver.png" width="300" height="300">
+
+*Nota:* Acá se muestran los mockups de la verificación del perfil del conductor, para poder tener en cuenta la placa del carro, su licencia y su ID universitario.
+
+*Fuente:* Elaboración Propia
+
+**Configuración de la cuenta - Conductor**
+![m_settings](imgs/chapter3/mockup_setting_driver.png)
+
+*Nota:* Los mockups que se presentan son la condiguración de la cuenta, aca se pueden ir a los otros mockups como: My profile, Notifications, Change Password, Language, Support, además tenemos el mokcup de notificaciones.
+
+*Fuente:* Elaboración Propia
+
+**Rutas - Conductor**
+
+<img src="imgs/chapter3/mockup_routes_driver.png" width="300" height="300">
+
+*Nota:* Los mockups presentes muestra la interfaz donde el condcutor puede generar el detalle de su ruta.
+
+*Fuente:* Elaboración Propia
+
+**Solicitudes - Conductor**
+![m_request](imgs/chapter3/mockup_request_driver.png)
+
+*Nota:* Mockups que muestran el proceso de las solicitudes y reprogramaciones, junto con 3 botones que permite al conductor realizar acciones como aceptar la solicitud del viaje, añadir al pasajero al grupo de chat con otros estudiantes del viaje, y el tercero permite rechazar la solicitud del pasajero.
+
+*Fuente:* Elaboración Propia
+
+**Comentarios y chats grupales - Conductor**
+
+![m_chats](imgs/chapter3/mockup_conver_driver.png)
+
+*Nota:* Mockups donde se puede visualizar los comentarios del conductor y los wireframes de los chat grupales con los pasajeros, al costado del chat se puede observar si el viaje ya fuer realizado o solo si se ha confirmado.
+
+*Fuente:* Elaboración Propia
+
+**Historial - Conductor**
+
+<img src="imgs/chapter3/mockup_history_driver.png" width="300" height="300">
+
+*Nota:* En estos mockups se muestran el historial de los detalles de sus rutas como los pasajeros, en donde inicio, el destino, la fecha, hora, el numero de pasajeros, el costo total y por cada pasajero y el estado de la solicitud
+
+*Fuente:* Elaboración Propia
+
+**Configuración de la cuenta - Pasajero**
+![m_settings_pass](imgs/chapter3/mockup_setting_passenger.png)
+
+*Nota:* Mockups del perfil del pasajero, a la ruta de configuración de la cuenta, las notificaciones, para cambiar la contraseña, cambiar de idioma y el soporte de la aplicación.
+
+*Fuente:* Elaboración Propia
+
+**Búsqueda de rutas - Pasajero**
+
+![m_routes_pass](imgs/chapter3/mockup_reserve_passenger.png)
+
+*Nota:* Mockups sobre la búsqueda de un estudiante para las rutas disponibles, y la reserva de ella, también antes de reservar se pueden observar los wireframes de los comentarios del conductor los wireframes de notificación de cuando el conductor aceptar al viaje.
+
+*Fuente:* Elaboración Propia
+
+**Chat grupales - Pasajero**
+
+<img src="imgs/chapter3/mockup_chat_passenger.png" width="300" height="300">
+
+*Nota:* Mockups de los chat de grupos de los pasajeros con el conductor
+
+*Fuente:* Elaboración Propia
+
+**Historial - Pasajero**
+![m_history_pass](imgs/chapter3/mockup_reschedule_passenger.png)
+
+*Nota:* Wireframes donde se muestra el historial de los viajes anteriores de los usuarios, acá se muestran las opciones que se quieren personalizar, además información detallada del viaje como en donde inicio, el destino, el día, la hora, el nombre del conductor, además de el estado de este. También se visualiza dos mockups que es sobre volver a realizar el viaje o hacer un comentario al conductor que provienen de los botones que se muestran en el historial.
+
+*Fuente:* Elaboración Propia
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams 
+**User goal: Registra con un plan**
+![wireflow1](imgs/chapter3/userflow1.png)
+
+*Nota:* Diagrama de flujo respecto al conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Registrar con un plan**
+![wireflow2](imgs/chapter3/userflow2.png)
+
+*Nota:* Diagrama de flujo respecto al pasajero
+
+*Fuente:* Elaboración Propia
+
+**User goal: Recuperación de contraseña desde el inicio de sesión**
+![wireflow3](imgs/chapter3/userflow3.png)
+
+*Nota:* Diagrama de flujo respecto al user pasajero y conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Editar pefil desde la configuración de la cuenta**
+![wireflow4](imgs/chapter3/userflow4.png)
+
+*Nota:* Diagrama de flujo respecto al user pasajero o conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Cambio de contraseña desde la configuración de la cuenta**
+![wireflow5](imgs/chapter3/userflow5.png)
+
+*Nota:* Diagrama de flujo respecto al user pasajero o conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Navegar en el dashboard del conductor**
+![wireflow6](imgs/chapter3/userflow6.png)
+
+*Nota:* Diagrama de flujo respecto al user conductor
+
+*Fuente:* Elaboración Propia
+
+**User goal: Navegar en el dashboard de**
+![wireflow7](imgs/chapter3/userflow7.png)
+
+*Nota:* Diagrama de flujo respecto al user pasajero
+
+*Fuente:* Elaboración Propia
 
 #### 3.1.4.5. Mobile Applications Prototyping 
 

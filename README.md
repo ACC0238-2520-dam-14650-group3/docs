@@ -1981,6 +1981,32 @@ Además, se configuraron los siguientes parámetros:
 
 ##### 4.2.1.3. Development Evidence for Sprint Review
 
+| **Repository**           | **Branch**     | **Commit Id** | **Commit Message**                                            | **Commit Message Body**                                                                          | **Committed on (Date)** |
+|--------------------------|----------------|---------------|---------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------|
+| **Landing-page**         | `prod`         | `46bbe04`     | first commit and add project structure                        | -                                                                                                | 07/10/2025              |
+| **Landing-page**         | `prod`         | `a4a7b55`     | fix: Fix nginx conf                                           | Corrección de configuración Nginx para despliegue productivo.                                    | 07/10/2025              |
+| **Landing-page**         | `prod`         | `4703af8`     | chore: change container name prod                             | Se actualizó el nombre del contenedor para entorno de producción.                                | 07/10/2025              |
+| **Landing-page**         | `prod`         | `f288caf`     | chore: add deploy job on pipeline                             | Se añadió job de despliegue en el pipeline CI/CD.                                                | 07/10/2025              |
+| **Landing-page**         | `prod`         | `6b7a542`     | fix: Remote sha tag for image and add latest tag              | Actualización de etiquetas de imágenes Docker.                                                   | 07/10/2025              |
+| **Landing-page**         | `prod`         | `9a079e8`     | add docker compose file                                       | Se añadió archivo docker-compose para orquestar servicios.                                       | 07/10/2025              |
+| **Landing-page**         | `prod`         | `e96572f`     | add verify and build pipeline                                 | Configuración de pasos de verificación y build en el pipeline.                                   | 07/10/2025              |
+| **Frontend**             | `main`         | `a9cf05e`     | Subiendo vistas: login, profilevalidation, home y routes      | Se agregaron las vistas principales del frontend: login, registro, perfil, home y rutas básicas. | 08/10/2025              |
+| **Notification Service** | `notification` | `1bd8b7f`     | feat(app): setup main application and dependencies            | Se configuró la aplicación principal en FastAPI con las dependencias necesarias.                 | 09/10/2025              |
+| **Notification Service** | `notification` | `2702663`     | feat(config): add configuration and dependency injection      | Se agregó configuración inicial y gestión de dependencias para el servicio.                      | 09/10/2025              |
+| **Notification Service** | `notification` | `12b1e98`     | feat(api): implement REST API endpoints with FastAPI          | Se implementaron endpoints principales del servicio Notification.                                | 09/10/2025              |
+| **Notification Service** | `notification` | `0c0e8eb`     | feat(infrastructure): implement infrastructure adapters       | Se añadieron adaptadores de infraestructura (repositorios y persistencia).                       | 09/10/2025              |
+| **Notification Service** | `notification` | `4d2ccf9`     | feat(application): implement application layer with use cases | Se implementó la capa de aplicación con casos de uso definidos.                                  | 09/10/2025              |
+| **Notification Service** | `notification` | `1a6f13c`     | feat(domain): implement domain layer with DDD patterns        | Implementación de la capa de dominio con entidades bajo arquitectura DDD.                        | 09/10/2025              |
+| **Booking Service**      | `bookings`     | `03db29b`     | add first version of booking service (only post method)       | Se implementó endpoint inicial POST para creación de reservas.                                   | 08/10/2025              |
+| **Booking Service**      | `bookings`     | `7bccd94`     | Add first version of booking-service (post, delete, getAll)   | Se ampliaron endpoints para CRUD completo (POST, DELETE, GETALL).                                | 09/10/2025              |
+| **Booking Service**      | `bookings`     | `5754776`     | Update .gitignore                                             | Se actualizó configuración del repositorio.                                                      | 09/10/2025              |
+| **IAM Service**          | `main`         | `ae2494f`     | first commit                                                  | Configuración inicial del servicio de autenticación.                                             | 08/10/2025              |
+| **IAM Service**          | `main`         | `75835b5`     | add fastapi dependency                                        | Se añadió dependencia principal de FastAPI.                                                      | 08/10/2025              |
+| **IAM Service**          | `main`         | `0e9a584`     | Add structure project                                         | Se estructuró el proyecto con sus carpetas base (app, routes, core, etc.).                       | 08/10/2025              |
+| **IAM Service**          | `main`         | `49ab2f9`     | Change steps for init service mode dev                        | Ajuste de pasos para ejecución en modo desarrollo.                                               | 08/10/2025              |
+| **IAM Service**          | `main`         | `73c526b`     | add service v0.1                                              | Versión inicial funcional del servicio IAM con endpoints básicos.                                | 09/10/2025              |
+| **IAM Service**          | `main`         | `643a047`     | ci: change webhook url to deploy on dokploy                   | Configuración del webhook para despliegue automático del servicio IAM.                           | 09/10/2025              |
+
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
 ##### 4.2.1.5. Execution Evidence for Sprint Review

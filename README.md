@@ -2010,6 +2010,40 @@ Además, se configuraron los siguientes parámetros:
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
 ##### 4.2.1.5. Execution Evidence for Sprint Review
+ 
+En esta sección se presentan evidencias de la ejecución de la App Movil y la Landing Page del proyecto Ñango
+
+- Primera View de la App Movil
+![app1](imgs/evidences/main.jpeg)
+
+- Registro de usuario en la App Movil
+![app2](imgs/evidences/register.jpeg)
+
+- Inicio de sesión en la App Movil
+![app3](imgs/evidences/signin.jpeg)
+
+- Resetear contraseña en la App Movil
+![app4](imgs/evidences/reset.jpeg)
+
+- Home de la App Movil
+![app5](imgs/evidences/home.jpeg)
+
+- Landing Page de Ñango
+![landing](imgs/evidences/landing.jpeg)
+
+- Validación de perfil en la App Movil
+![app7](imgs/evidences/profile-validation.jpeg)
+
+- Cuenta del usuario en la App Movil
+![app6](imgs/evidences/account.jpeg)
+
+- Rutas en la App Movil
+![app8](imgs/evidences/routes.jpeg)
+
+- Rutas detalladas en la App Movil
+![app9](imgs/evidences/routes2.jpeg)
+
+
 
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
 

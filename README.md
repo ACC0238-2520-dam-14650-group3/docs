@@ -2021,6 +2021,44 @@ Además, se configuraron los siguientes parámetros:
 
 #### 4.3.1. Diseño de Entrevistas
 
+
+## **Segmento 1: Estudiantes con vehículo (Conductores)**
+
+**Objetivo:** Validar la claridad del proceso de registro, la facilidad de uso y la percepción de seguridad en la aplicación ÑanGo desde la perspectiva del conductor.
+
+**Preguntas para el Segmento 1: Estudiantes con vehículo**
+
+1. ¿El proceso de registro y verificación del perfil como conductor donde se sube la licencia, se colocan los datos del vehículo y se elige el tipo de usuario te resulta claro y confiable?
+2. ¿Consideras que la verificación de identidad y datos del vehículo aumenta tu confianza para usar la aplicación con otros estudiantes?
+3. ¿La pantalla de inicio y el mensaje “Share the ride, save the day” te motivan a usar la app y entender rápidamente su propósito?
+4. ¿Qué tan sencillo te resulta generar una ruta indicando punto de partida, destino, horario y precio grupal en la pantalla “Routes”?
+5. ¿Te parece útil la función de “View Request” para revisar y aceptar pasajeros interesados en tus rutas?
+6. ¿Crees que la posibilidad de compartir tus viajes con otros estudiantes te ayudaría a reducir costos de gasolina y estacionamiento?
+7. ¿La distribución de iconos y botones en el menú inferior (Home, Routes, Requests, History) te resulta intuitiva y fácil de usar mientras estás en movimiento?
+8. ¿Te sentirías cómodo compartiendo tu ruta y horario con otros usuarios verificados dentro de tu misma universidad?
+9. ¿Qué tan importante consideras recibir notificaciones sobre nuevas solicitudes de pasajeros o recordatorios de tus viajes programados?
+10. ¿Qué tipo de funciones adicionales te motivarían a usar ÑanGo con más frecuencia? (Por ejemplo, un sistema de calificaciones, chat interno o recompensas por viajes compartidos).
+
+---
+
+## **Segmento 2: Estudiantes sin vehículo (Pasajeros)**
+
+**Objetivo:** Validar la percepción de confianza, accesibilidad y usabilidad de la aplicación ÑanGo desde la perspectiva de los estudiantes que buscan unirse a rutas.
+
+**Preguntas para el Segmento 2: Estudiantes sin vehículo**
+
+1. ¿El proceso de registro y verificación de identidad como pasajero te parece confiable y necesario para sentirte seguro al usar la aplicación?
+2. ¿La pantalla de inicio y el mensaje “Share the ride, save the day” te ayudan a comprender rápidamente el propósito de la app?
+3. ¿Qué tan sencillo te resulta buscar y unirte a rutas disponibles creadas por otros estudiantes?
+4. ¿Consideras útil la opción de visualizar detalles del conductor (como carrera, calificación o número de viajes realizados) antes de unirte a una ruta?
+5. ¿Te gustaría poder enviar solicitudes de viaje personalizadas indicando tu punto de recogida o tus horarios disponibles?
+6. ¿Qué tan importante consideras recibir notificaciones sobre la aceptación de tus solicitudes o recordatorios de tus viajes próximos?
+7. ¿La distribución de los iconos y menús (Home, Routes, Requests, History) te resulta intuitiva para encontrar y gestionar tus viajes?
+8. ¿Qué tan cómodo te sentirías compartiendo tus datos básicos (como nombre, carrera o foto) con otros usuarios verificados dentro de la misma universidad?
+9. ¿Qué elementos te harían confiar más en los conductores dentro de la aplicación (verificación, reseñas, historial de viajes, etc.)?
+10. ¿Qué funcionalidades adicionales te motivarían a usar ÑanGo con más frecuencia? (Por ejemplo, recompensas, historial de viajes, chat interno, o sistema de calificaciones).
+
+
 #### 4.3.2. Registro de Entrevistas
 
 #### 4.3.3. Evaluaciones según heurísticas

@@ -2051,6 +2051,16 @@ En esta sección se presentan evidencias de la ejecución de la App Movil y la L
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
 
+Aqui se documentan las reuniones de equipo y las decisiones tomadas durante el sprint.
+
+La comunicación fue constante a través de plataforma usada: WhatsApp; y utilizamos herramientas como Trello, GitHub Pull Requests para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
+
+- Commits en GitHub: 
+![commits](imgs/git-colabs.png)
+
+- Trello:
+![trello](imgs/sprint1-trello.png)
+
 ### 4.3. Validation Interviews
 
 #### 4.3.1. Diseño de Entrevistas

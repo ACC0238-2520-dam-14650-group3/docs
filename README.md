@@ -2106,10 +2106,14 @@ Aqui se documentan los servicios del backend del proyecto Ñango
 
 
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint, se llevó a cabo el despliegue de la landing page de Ñango, intentamos crear esta página web con la mayor cantidad de información posible.
 
 
 - Landing Page de Ñango
 ![landing](imgs/evidences/landing1.jpeg)
+
+- Landing Page Responsive 
+![landing-rsponsive](imgs/deployevidence2.jpg)
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
 

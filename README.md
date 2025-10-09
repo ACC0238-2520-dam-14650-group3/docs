@@ -2061,4 +2061,15 @@ Además, se configuraron los siguientes parámetros:
 
 #### 4.3.2. Registro de Entrevistas
 
+**Segmento 1: Estudiantes con vehículo (Conductores)**
+
+- Entrevista a Sebastian Arevalo:
+  Edad: 23 años
+  Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
+  Carrera: Ingeniería de Software
+
+![Imagen de la entrevista](imgs/entrevistas/sebastian-1.png)
+[Entrevista a Sebastian Arevalo](https://youtu.be/y5FOhu3mylo)
+
+
 #### 4.3.3. Evaluaciones según heurísticas

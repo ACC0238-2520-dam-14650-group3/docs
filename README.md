@@ -2068,7 +2068,7 @@ En esta sección se presentan evidencias de la ejecución de la App Movil y la L
 ![app5](imgs/evidences/home.jpeg)
 
 - Landing Page de Ñango
-![landing](imgs/evidences/landing.jpeg)
+![landing](imgs/landing-page-dokploy.png)
 
 - Validación de perfil en la App Movil
 ![app7](imgs/evidences/profile-validation.jpeg)

@@ -31,7 +31,43 @@
 
 | Versión | Fecha | Autor | Descripción de Modificación |
 | ------- | ----- | ----- | --------------------------- |
-| TB1 | 06/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo I: Introducción <br> Capítulo II: Requirements  & Analysis|
+| TB1 | 06/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo I: Introducción <br> Capítulo II: Requirements Development and Software Solution Design|
+| TB2 | 07/10/2025 | TinkuyTech |  Redación de los capítulos: <br> Capítulo III: Solution UI/UX Design <br> Capítulo IV: Product Implementation & Validation|
+| TB3 | 23/10/2025 | TinkuyTech |  |
+
+# Project Report Collaboration Insights
+
+A continuación, se presenta el proceso seguido para la elaboración del informe en cada entrega, acompañado de capturas de pantalla que evidencian los análisis de colaboración y los registros de commits realizados en GitHub dentro del repositorio correspondiente.
+
+**URL del Repositorio del Informe:** https://github.com/ACC0238-2520-dam-14650-group3/docs
+
+**Link de los repositorios de la organización:** https://github.com/ACC0238-2520-dam-14650-group3
+
+**Entrega N°1: TB1**
+
+- Todos los integrantes del equipo participaron en la elaboración del informe, distribuyendo el trabajo por capítulos específicos. Esta organización permitió un progreso equilibrado y eficiente en su desarrollo.
+
+- Asimismo, se definieron plazos para la culminación de cada capítulo, lo que ayudó a mantener un ritmo constante y ordenado en el avance del proyecto.
+
+![Commits-TB1](imgs/collaboration-insights/Commits_TB1_TB2_REPORT_DAM.png)
+*Historial de commits*
+
+![Colaboradores-TB1](imgs/collaboration-insights/Colaboradores_TB1_DAM.png)
+*Colaboradores del proyecto en Github*
+
+----
+
+**Entrega N°2: TP**
+
+- Todos los miembros del equipo participaron en diferentes aspectos del entregable. Algunos se encargaron del diseño de la aplicación, otros se enfocaron en la documentación, mientras que una parte del grupo trabajó en el desarrollo del front-end y los demás se responsabilizaron del backend.
+
+- Se establecieron fechas límite para completar cada tarea asignada y, aunque surgieron algunos inconvenientes durante el proceso, el equipo logró superarlos mediante una colaboración efectiva y trabajo conjunto.
+
+![Commits-TB1-report](imgs/collaboration-insights/Commits_TB1_TB2_REPORT_DAM.png)
+![Commits-TB1-front](imgs/collaboration-insights/Commits_TB2_front.png)
+![Commits-TB1-landing](imgs/collaboration-insights/Commits_TB2_landing.png)
+*Historial de commits en la documentación, en el fron-end y la landing-page*
+
 
 
 
@@ -141,6 +177,139 @@
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 
+
+# Student outcome
+
+ABET – EAC - Student Outcome 7
+
+Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+
+<table>
+  <tr>
+    <th class="criterio">Criterio específico</th>
+    <th class="acciones">Acciones realizadas</th>
+    <th class="conclusiones">Conclusiones</th>
+  </tr>
+
+  <!-- Fila 1 -->
+  <tr>
+    <td>
+      Actualiza conceptos y conocimientos necesarios<br> 
+      para su desarrollo profesional y en especial <br>
+      para su proyecto en soluciones de software. <br>
+    </td>
+    <td>
+      <table class="subtable">
+        <tr><td><b>Gamarra Vega, Anderson Jose: </b></td></tr>
+        <tr><td><b>Castañeda Llanos, Kevin Alexander: </b></td></tr>
+        <tr><td><b>Peña Riofrio, Maria Fernanda: </b>
+        <p><b>TB1: </b> Durante la TB1, reforcé mis conocimientos aplicando metodologías como el Lean UX Process y herramientas de análisis (5W y 2H, UX Canvas, Hypothesis Statements),desarrollando el Capítulo 1 del proyecto. Esto me permitió actualizar mis competencias en el diseño y planteamiento de soluciones de software.</p>
+        <p><b>TP: </b> En la TP, actualicé mis habilidades en diseño digital al crear toda la interfaz móvil en Figma, aplicando principios de usabilidad y diseño visual coherente. Este proceso fortaleció mis capacidades en la creación de interfaces funcionales y modernas.</p>
+        </td></tr>
+        <tr><td><b>Grandez Mansilla, Jean Pierre: </b></td></tr>
+        <tr><td><b>Guevara Tejada, Jorge Enrique: </b></td></tr>
+      </table>
+    </td>
+    <td>
+      <p><b>TB1:</b> Como equipo, fortalecimos nuestros conocimientos aplicando diversas herramientas, como Uxpressia para la elaboración de user personas y journey mapping, Structurizr para el desarrollo del modelo C4, además de realizar un análisis de la competencia. Gracias a estas herramientas, logramos diseñar una solución de software más completa, coherente y centrada en las necesidades del usuario.</p>
+      <p><b>TP:</b> Durante la TP, fue necesario repasar y revisar las grabaciones de las clases del profesor. Estos recursos resultaron fundamentales para comprender los conceptos y avanzar en el desarrollo del proyecto de manera autónoma.</p>
+    </td>
+  </tr>
+  <!-- Fila 2 -->
+  <tr>
+    <td>
+      Reconoce la necesidad del aprendizaje <br>
+      permanente para el desempeño profesional <br>
+      y el desarrollo de proyectos en soluciones <br>
+      de software.
+    </td>
+    <td>
+      <table class="subtable">
+        <tr><td><b>Gamarra Vega, Anderson Jose: </b></td></tr>
+        <tr><td><b>Castañeda Llanos, Kevin Alexander: </b></td></tr>
+        <tr><td><b>Peña Riofrio, Maria Fernanda: </b>
+        <p><b>TB1: </b> Durante la TB1, comprendí la importancia del aprendizaje continuo al aplicar nuevas metodologías de diseño  centradas en el usuario. Esto me impulsó a investigar  
+        y mejorar mis conocimientos de manera autónoma para el desarrollo del proyecto.</p>
+        <p><b>TP: </b> En la TP, el diseño completo de la interfaz móvil en Figma me permitió seguir aprendiendo de forma práctica, explorando  nuevas herramientas y recursos. Reafirmé la importancia del aprendizaje constante para adaptarme a los avances en el desarrollo de software.</p>
+        </td></tr>
+        <tr><td><b>Grandez Mansilla, Jean Pierre: </b></td></tr>
+        <tr><td><b>Guevara Tejada, Jorge Enrique: </b></td></tr>
+      </table>
+    </td>
+    <td>
+    <p><b>TB1:</b> La implementación de nuevas metodologías y la realización de entrevistas a usuarios nos motivaron a investigar y aprender de manera constante. Este proceso nos ayudó a comprender las necesidades reales del público objetivo y a aplicar estrategias colaborativas, valorando la importancia del aprendizaje continuo en nuestra formación profesional.</p>
+    <p><b>TP:</b>Trabajar por primera vez con Android Studio y comprender su estructura de desarrollo representó un reto significativo. No obstante, fue una experiencia enriquecedora que nos permitió descubrir el proceso de creación de una aplicación y familiarizarnos con el lenguaje Kotlin, fortaleciendo nuestras habilidades técnicas.</p>
+    </td>
+  </tr>
+
+</table>
+
+# Objetivos SMART
+
+<!-- Integrante 1 -->
+  <table>
+    <tr><th><b>Gamarra Vega, Anderson Jose</b></th></tr>
+    <tr>
+      <td>
+        <p class="objetivo"><b>Objetivo SMART 1:</b></p>
+        <p>Escribe aquí el primer objetivo SMART del integrante.</p>
+        <p class="objetivo"><b>Objetivo SMART 2:</b></p>
+        <p>Escribe aquí el segundo objetivo SMART del integrante.</p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Integrante 2 -->
+  <table>
+    <tr><th><b>Castañeda Llanos, Kevin Alexander</b></th></tr>
+    <tr>
+      <td>
+        <p class="objetivo"><b>Objetivo SMART 1:</b></p>
+        <p>Escribe aquí el primer objetivo SMART del integrante.</p>
+        <p class="objetivo"><b>Objetivo SMART 2:</b></p>
+        <p>Escribe aquí el segundo objetivo SMART del integrante.</p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Integrante 3 -->
+  <table>
+    <tr><th><b>Peña Riofrio, Maria Fernanda</b></th></tr>
+    <tr>
+      <td>
+        <p class="objetivo"><b>Objetivo SMART 1:</b></p>
+        <p>Fortalecer mis competencias en el desarrollo de aplicaciones móviles, profundizando en el uso de Android Studio y Kotlin mediante la creación de al menos dos proyectos funcionales en un plazo de seis meses después de graduarme, con el fin de dominar la programación de interfaces intuitivas y mantener una práctica constante en entornos reales.</p>
+        <p class="objetivo"><b>Objetivo SMART 2:</b></p>
+        <p>Desarrollar mis habilidades en diseño UX/UI aplicando herramientas profesionales como Figma, completando dos cursos especializados y elaborando un portafolio digital con al menos cinco prototipos de alta fidelidad en el primer año tras mi titulación, con el propósito de consolidar mi perfil como diseñadora y desarrolladora front-end.</p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Integrante 4 -->
+  <table>
+    <tr><th><b>Grandez Mansilla, Jean Pierre: </b></th></tr>
+    <tr>
+      <td>
+        <p class="objetivo"><b>Objetivo SMART 1:</b></p>
+        <p>Escribe aquí el primer objetivo SMART del integrante.</p>
+        <p class="objetivo"><b>Objetivo SMART 2:</b></p>
+        <p>Escribe aquí el segundo objetivo SMART del integrante.</p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Integrante 5 -->
+  <table>
+    <tr><th><b>Guevara Tejada, Jorge Enrique</b>/th></tr>
+    <tr>
+      <td>
+        <p class="objetivo"><b>Objetivo SMART 1:</b></p>
+        <p>Escribe aquí el primer objetivo SMART del integrante.</p>
+        <p class="objetivo"><b>Objetivo SMART 2:</b></p>
+        <p>Escribe aquí el segundo objetivo SMART del integrante.</p>
+      </td>
+    </tr>
+  </table>
 
 
 # Capítulo I: 

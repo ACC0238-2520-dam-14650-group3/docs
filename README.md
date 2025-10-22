@@ -194,27 +194,25 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
   <!-- Fila 1 -->
   <tr>
     <td>
-      Actualiza conceptos y conocimientos necesarios<br> 
+      Actualiza conceptos y conocimientos necesarios<br>
       para su desarrollo profesional y en especial <br>
-      para su proyecto en soluciones de software. <br>
+      para su proyecto en soluciones de software.
     </td>
     <td>
-      <table class="subtable">
-        <tr><td><b>Gamarra Vega, Anderson Jose: </b></td></tr>
-        <tr><td><b>Castañeda Llanos, Kevin Alexander: </b></td></tr>
-        <tr><td><b>Peña Riofrio, Maria Fernanda: </b>
-        <p><b>TB1: </b> Durante la TB1, reforcé mis conocimientos aplicando metodologías como el Lean UX Process y herramientas de análisis (5W y 2H, UX Canvas, Hypothesis Statements),desarrollando el Capítulo 1 del proyecto. Esto me permitió actualizar mis competencias en el diseño y planteamiento de soluciones de software.</p>
-        <p><b>TP: </b> En la TP, actualicé mis habilidades en diseño digital al crear toda la interfaz móvil en Figma, aplicando principios de usabilidad y diseño visual coherente. Este proceso fortaleció mis capacidades en la creación de interfaces funcionales y modernas.</p>
-        </td></tr>
-        <tr><td><b>Grandez Mansilla, Jean Pierre: </b></td></tr>
-        <tr><td><b>Guevara Tejada, Jorge Enrique: </b></td></tr>
-      </table>
+      <p><b>Gamarra Vega, Anderson José:</b></p>
+      <p><b>Castañeda Llanos, Kevin Alexander:</b></p>
+      <p><b>Peña Riofrio, María Fernanda:</b></p>
+      <p><b>TB1:</b> Durante la TB1, reforcé mis conocimientos aplicando metodologías como el Lean UX Process y herramientas de análisis (5W y 2H, UX Canvas, Hypothesis Statements), desarrollando el Capítulo 1 del proyecto. Esto me permitió actualizar mis competencias en el diseño y planteamiento de soluciones de software.</p>
+      <p><b>TP:</b> En la TP, actualicé mis habilidades en diseño digital al crear toda la interfaz móvil en Figma, aplicando principios de usabilidad y diseño visual coherente. Este proceso fortaleció mis capacidades en la creación de interfaces funcionales y modernas.</p>
+      <p><b>Grandez Mansilla, Jean Pierre:</b></p>
+      <p><b>Guevara Tejada, Jorge Enrique:</b></p>
     </td>
     <td>
       <p><b>TB1:</b> Como equipo, fortalecimos nuestros conocimientos aplicando diversas herramientas, como Uxpressia para la elaboración de user personas y journey mapping, Structurizr para el desarrollo del modelo C4, además de realizar un análisis de la competencia. Gracias a estas herramientas, logramos diseñar una solución de software más completa, coherente y centrada en las necesidades del usuario.</p>
       <p><b>TP:</b> Durante la TP, fue necesario repasar y revisar las grabaciones de las clases del profesor. Estos recursos resultaron fundamentales para comprender los conceptos y avanzar en el desarrollo del proyecto de manera autónoma.</p>
     </td>
   </tr>
+
   <!-- Fila 2 -->
   <tr>
     <td>
@@ -224,25 +222,21 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       de software.
     </td>
     <td>
-      <table class="subtable">
-        <tr><td><b>Gamarra Vega, Anderson Jose: </b></td></tr>
-        <tr><td><b>Castañeda Llanos, Kevin Alexander: </b></td></tr>
-        <tr><td><b>Peña Riofrio, Maria Fernanda: </b>
-        <p><b>TB1: </b> Durante la TB1, comprendí la importancia del aprendizaje continuo al aplicar nuevas metodologías de diseño  centradas en el usuario. Esto me impulsó a investigar  
-        y mejorar mis conocimientos de manera autónoma para el desarrollo del proyecto.</p>
-        <p><b>TP: </b> En la TP, el diseño completo de la interfaz móvil en Figma me permitió seguir aprendiendo de forma práctica, explorando  nuevas herramientas y recursos. Reafirmé la importancia del aprendizaje constante para adaptarme a los avances en el desarrollo de software.</p>
-        </td></tr>
-        <tr><td><b>Grandez Mansilla, Jean Pierre: </b></td></tr>
-        <tr><td><b>Guevara Tejada, Jorge Enrique: </b></td></tr>
-      </table>
+      <p><b>Gamarra Vega, Anderson José:</b></p>
+      <p><b>Castañeda Llanos, Kevin Alexander:</b></p>
+      <p><b>Peña Riofrio, María Fernanda:</b></p>
+      <p><b>TB1:</b> Durante la TB1, comprendí la importancia del aprendizaje continuo al aplicar nuevas metodologías de diseño centradas en el usuario. Esto me impulsó a investigar y mejorar mis conocimientos de manera autónoma para el desarrollo del proyecto.</p>
+      <p><b>TP:</b> En la TP, el diseño completo de la interfaz móvil en Figma me permitió seguir aprendiendo de forma práctica, explorando nuevas herramientas y recursos. Reafirmé la importancia del aprendizaje constante para adaptarme a los avances en el desarrollo de software.</p>
+      <p><b>Grandez Mansilla, Jean Pierre:</b></p>
+      <p><b>Guevara Tejada, Jorge Enrique:</b></p>
     </td>
     <td>
-    <p><b>TB1:</b> La implementación de nuevas metodologías y la realización de entrevistas a usuarios nos motivaron a investigar y aprender de manera constante. Este proceso nos ayudó a comprender las necesidades reales del público objetivo y a aplicar estrategias colaborativas, valorando la importancia del aprendizaje continuo en nuestra formación profesional.</p>
-    <p><b>TP:</b>Trabajar por primera vez con Android Studio y comprender su estructura de desarrollo representó un reto significativo. No obstante, fue una experiencia enriquecedora que nos permitió descubrir el proceso de creación de una aplicación y familiarizarnos con el lenguaje Kotlin, fortaleciendo nuestras habilidades técnicas.</p>
+      <p><b>TB1:</b> La implementación de nuevas metodologías y la realización de entrevistas a usuarios nos motivaron a investigar y aprender de manera constante. Este proceso nos ayudó a comprender las necesidades reales del público objetivo y a aplicar estrategias colaborativas, valorando la importancia del aprendizaje continuo en nuestra formación profesional.</p>
+      <p><b>TP:</b> Trabajar por primera vez con Android Studio y comprender su estructura de desarrollo representó un reto significativo. No obstante, fue una experiencia enriquecedora que nos permitió descubrir el proceso de creación de una aplicación y familiarizarnos con el lenguaje Kotlin, fortaleciendo nuestras habilidades técnicas.</p>
     </td>
   </tr>
-
 </table>
+
 
 # Objetivos SMART
 

@@ -280,17 +280,17 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
   </table>
 
   <!-- Integrante 4 -->
-  <table>
-    <tr><th><b>Grandez Mansilla, Jean Pierre: </b></th></tr>
-    <tr>
-      <td>
-        <p class="objetivo"><b>Objetivo SMART 1:</b></p>
-        <p>Escribe aquí el primer objetivo SMART del integrante.</p>
-        <p class="objetivo"><b>Objetivo SMART 2:</b></p>
-        <p>Escribe aquí el segundo objetivo SMART del integrante.</p>
-      </td>
-    </tr>
-  </table>
+<table>
+  <tr><th><b>Grandez Mansilla, Jean Pierre</b></th></tr>
+  <tr>
+    <td>
+      <p class="objetivo"><b>Objetivo SMART 1:</b></p>
+      <p>Profundizar mis conocimientos en arquitectura MVVM y Clean Architecture mediante la práctica constante con Kotlin y Jetpack Compose, dedicándome a mejorar dentro de los primeros seis meses después de graduarme para reforzar buenas prácticas de desarrollo y mantenerme actualizado con las últimas tendencias en desarrollo Android nativo.</p>
+      <p class="objetivo"><b>Objetivo SMART 2:</b></p>
+      <p>Ampliar mi dominio en desarrollo multiplataforma con Flutter y el patrón BLoC, realizando ejercicios prácticos y explorando diferentes casos de uso durante el primer año tras mi titulación, con el fin de diversificar mis habilidades técnicas y estar preparado para proyectos que requieran soluciones multiplataforma eficientes.</p>
+    </td>
+  </tr>
+</table>
 
   <!-- Integrante 5 -->
   <table>

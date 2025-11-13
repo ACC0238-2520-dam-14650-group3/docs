@@ -68,8 +68,16 @@ A continuación, se presenta el proceso seguido para la elaboración del informe
 ![Commits-TB1-landing](imgs/collaboration-insights/Commits_TB2_landing.png)
 *Historial de commits en la documentación, en el fron-end y la landing-page*
 
+**Entrega N°3: TB2**
 
+- Todos los miembros del equipo participaron en diferentes aspectos del entregable. Algunos se encargaron del diseño de la aplicación en kotlin, otros Report, otros se enfocaron en la documentación, mientras que una parte del grupo trabajó en el desarrollo del front-end y los demás se responsabilizaron del backend.
 
+- Se establecieron fechas límite para completar cada tarea asignada y, aunque surgieron algunos inconvenientes durante el proceso, el equipo logró superarlos mediante una colaboración efectiva y trabajo conjunto.
+
+![Commits-TB2-report](imgs/Commits_TB2_REPORT.png)
+![Commits_TB2_FRONT_KOTLIN](imgs/Commits_TB2_FRONT_KOTLIN.png)
+![Commits_TB2_FRONT_FLUTTER](imgs/Commits_TB2_FRONT_FLUTTER.png)
+*Historial de commits en la documentación, en el fron-end en flutter y kotlin adempas del backend*
 
 # Index
 
@@ -163,15 +171,24 @@ A continuación, se presenta el proceso seguido para la elaboración del informe
     - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
   - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
-    - [4.2.1. Sprint n](#421-sprint-n)
-      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
-      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+   - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -200,12 +217,22 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     </td>
     <td>
       <p><b>Gamarra Vega, Anderson José:</b></p>
+      <p><b>TB1:</b> Durante la TB1, reforcé mis conocimientos aplicando metodologías de análisis y diseño como Lean UX Process, 5W y 2H, UX Canvas y Hypothesis Statements, lo que permitió estructurar con claridad el Capítulo 1 del proyecto. Este proceso me ayudó a actualizar mis competencias en el planteamiento y diseño inicial de soluciones de software.</p>
+      <p><b>TP:</b> En la TP, consolidé habilidades técnicas al elaborar toda la interfaz móvil en Figma, aplicando principios de usabilidad y diseño visual consistente. Esto fortaleció mis capacidades en la creación de interfaces modernas y funcionales, complementando el desarrollo previo realizado en las etapas anteriores.</p>
+      <p><b>TB2:</b>En la TB2, profundicé en el desarrollo backend construyendo servicios fundamentales para el proyecto, entre ellos el IAM Service desarrollado en Python con FastAPI. Esta experiencia me permitió actualizar y ampliar significativamente mis conocimientos en arquitectura de servicios, manejo de autenticación, buenas prácticas de API y uso práctico del framework FastAPI.</p>
       <p><b>Castañeda Llanos, Kevin Alexander:</b></p>
+      <p><b>TB1:</b> Apoyé en el desarrollo de la documentación del proyecto realizando actividades como los candidate bounded context, entre otros, que permitirían luego entender los componentes y vistas que se necesitaran para la realización de la aplicación móvil</p>
+      <p><b>TP:</b>En el Trabajo Parcial me encargué de la realización del backend usando Python + FastAPI, creando el bounded context de reservas para implementarlo en el futuro con la aplicación móvil, ya sea en Kotlin y Jetpack Compose o Flutter y Dart.</p>
+      <p><b>TB2:</b>Me encargué de la creación de varias vistas, componentes, pop ups, entre otros, realizando la creación de vistas core del negocio, específicamente para los conductores, creando interfaces para el chat, historial de viajes, crear rutas, los planes de pago de nuestra aplicación, entre otros .</p>
       <p><b>Peña Riofrio, María Fernanda:</b></p>
       <p><b>TB1:</b> Durante la TB1, reforcé mis conocimientos aplicando metodologías como el Lean UX Process y herramientas de análisis (5W y 2H, UX Canvas, Hypothesis Statements), desarrollando el Capítulo 1 del proyecto. Esto me permitió actualizar mis competencias en el diseño y planteamiento de soluciones de software.</p>
       <p><b>TP:</b> En la TP, actualicé mis habilidades en diseño digital al crear toda la interfaz móvil en Figma, aplicando principios de usabilidad y diseño visual coherente. Este proceso fortaleció mis capacidades en la creación de interfaces funcionales y modernas.</p>
+      <p><b>TB2:</b>Durante la TB2 consolidé aprendizajes al elaborar el reporte del proyecto y desarrollar vistas iniciales en Flutter para la app móvil. Apliqué principios de diseño de interfaces, estructura de navegación básica y componentes de Material para garantizar legibilidad y coherencia visual. Este trabajo me permitió actualizar conceptos sobre organización de UI, manejo de estados simples y buenas prácticas de código en Dart, además de mejorar mi capacidad para documentar decisiones y alinear el entregable escrito con el avance técnico.</p>
       <p><b>Grandez Mansilla, Jean Pierre:</b></p>
       <p><b>Guevara Tejada, Jorge Enrique:</b></p>
+      <p><b>TB1:</b> Durante la TB1, reforcé y actualicé mis conocimientos al introducirme en el desarrollo móvil moderno con Jetpack Compose, comprendiendo su enfoque declarativo, la composición de UI y la gestión del estado. Además, aplicamos herramientas como Uxpressia y Structurizr, lo que me permitió unir el análisis funcional con los fundamentos de la arquitectura de software requerida para apps desarrolladas con Compose. Esta fase fue clave para actualizar mis criterios de diseño y estructura en proyectos móviles.</p>
+      <p><b>TP:</b> En la TP, continué profundizando en Jetpack Compose revisando las grabaciones y materiales del curso para asegurar la correcta comprensión de temas como la navegación, ViewModels, estados, recomposición y buenas prácticas. A través de ejercicios y desarrollo del proyecto, actualicé mis conocimientos en la construcción de interfaces modernas y reactivas, mejorando mi capacidad de implementar pantallas funcionales con Kotlin y Compose.</p>
+      <p><b>TB2:</b> En la TB2, amplié mis conocimientos migrando al enfoque multiplataforma con Flutter, donde aprendí la estructura del proyecto, el uso de widgets, la administración de estado y el flujo de datos. Esta etapa me permitió actualizar mis competencias técnicas al trabajar con el patrón BLoC, comprender el ciclo de vida en Flutter y adaptarme a un framework con una sintaxis y filosofía distinta a Android nativo, enriqueciendo así mi dominio tecnológico.</p>
     </td>
     <td>
       <p><b>TB1:</b> Como equipo, fortalecimos nuestros conocimientos aplicando diversas herramientas, como Uxpressia para la elaboración de user personas y journey mapping, Structurizr para el desarrollo del modelo C4, además de realizar un análisis de la competencia. Gracias a estas herramientas, logramos diseñar una solución de software más completa, coherente y centrada en las necesidades del usuario.</p>
@@ -223,12 +250,22 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     </td>
     <td>
       <p><b>Gamarra Vega, Anderson José:</b></p>
+      <p><b>TB1:</b> Durante la TB1, reconocí la importancia del aprendizaje continuo al incorporar nuevas metodologías de diseño centradas en el usuario. Esto me motivó a investigar de manera autónoma y actualizar mis conocimientos para mejorar el planteamiento del proyecto desde sus bases.</p>
+      <p><b>TP:</b> En la TP, al diseñar por completo la interfaz móvil en Figma, continué aprendiendo mediante la práctica, explorando nuevas herramientas, patrones visuales y recursos avanzados. Esta etapa reafirmó la necesidad de mantener un aprendizaje constante para seguir mejorando y adaptarme a los cambios del desarrollo de software.</p>
+      <p><b>TB2:</b>En la TB2, la implementación del IAM Service en Python con FastAPI me impulsó a profundizar en temas como autenticación, seguridad, desarrollo de endpoints y arquitectura limpia. Este reto técnico reforzó mi comprensión de que el aprendizaje permanente es indispensable para adaptarme a la rápida evolución de los entornos backend y para asegurar un desempeño profesional sólido.</p>
       <p><b>Castañeda Llanos, Kevin Alexander:</b></p>
+      <p><b>TB1:</b> Aprendí nuevos conceptos como los candidate bounded context que son importantes para la creación de la aplicación y definir posibles funcionalidades que tendrá a futuro la aplicación móvil.</p>
+      <p><b>TP:</b> Me encargue de la parte del backend, utilizando tecnologías modernas como FastAPI con el lenguaje de Python, para crear uno de los candidate bounded context del TB1, para posteriormente implementarlo en el Frontend usando Kotlin o Dart.</p>
+      <p><b>TB2:</b> Aprendí a más profundidad kotlin con jetpack compose, creando interfaces modernas y que sean atractivas para el usuario, creando pop ups, componentes reutilizables y vistas importantes.</p>
       <p><b>Peña Riofrio, María Fernanda:</b></p>
       <p><b>TB1:</b> Durante la TB1, comprendí la importancia del aprendizaje continuo al aplicar nuevas metodologías de diseño centradas en el usuario. Esto me impulsó a investigar y mejorar mis conocimientos de manera autónoma para el desarrollo del proyecto.</p>
       <p><b>TP:</b> En la TP, el diseño completo de la interfaz móvil en Figma me permitió seguir aprendiendo de forma práctica, explorando nuevas herramientas y recursos. Reafirmé la importancia del aprendizaje constante para adaptarme a los avances en el desarrollo de software.</p>
+      <p><b>TP:</b> Para completar estas tareas investigué documentación oficial y recursos técnicos de Flutter/Dart, reforzando un hábito de autoformación continua. Este proceso me ayudó a cerrar brechas técnicas y a planificar mejoras para el siguiente sprint (refinamiento de navegación, accesibilidad y validaciones).</p>
       <p><b>Grandez Mansilla, Jean Pierre:</b></p>
       <p><b>Guevara Tejada, Jorge Enrique:</b></p>
+      <p><b>TB1:</b> En la TB1, reconocí la importancia del aprendizaje permanente al enfrentar conceptos nuevos como la programación declarativa y el manejo de estados en Compose. El proceso de investigación, entrevistas y validación nos llevó a comprender que mantenerse actualizado es fundamental para desarrollar soluciones de software que respondan a las necesidades reales del usuario.</p>
+      <p><b>TP:</b> Durante la TP, la necesidad de seguir aprendiendo se hizo evidente al trabajar con un entorno nuevo como Android Studio y Jetpack Compose. La búsqueda constante de documentación, tutoriales y recursos oficiales fortaleció mi autonomía y me permitió entender mejor cómo construir una aplicación moderna. Esto reafirmó el valor del aprendizaje continuo para avanzar.</p>
+      <p><b>TB2:</b> En la TB2, comprendí aún más la importancia de aprender de manera continua al iniciar el desarrollo con Flutter por primera vez. Fue necesario investigar documentación oficial, explorar ejemplos y resolver problemas técnicos propios del framework. Este proceso reforzó mi compromiso con el aprendizaje permanente y demostró que adaptarse a nuevas tecnologías es esencial para desempeñarse eficazmente en proyectos reales.</p>
     </td>
     <td>
       <p><b>TB1:</b> La implementación de nuevas metodologías y la realización de entrevistas a usuarios nos motivaron a investigar y aprender de manera constante. Este proceso nos ayudó a comprender las necesidades reales del público objetivo y a aplicar estrategias colaborativas, valorando la importancia del aprendizaje continuo en nuestra formación profesional.</p>
@@ -246,9 +283,9 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     <tr>
       <td>
         <p class="objetivo"><b>Objetivo SMART 1:</b></p>
-        <p>Escribe aquí el primer objetivo SMART del integrante.</p>
+        <p>Desarrollar mi capacidad para construir servicios backend robustos mediante el dominio de Python y FastAPI, completando al menos tres proyectos prácticos —incluyendo APIs con autenticación, manejo de datos y pruebas automatizadas— durante los próximos ocho meses. Con ello, busco afianzar mis habilidades técnicas, ampliar mi portafolio profesional y prepararme para asumir roles más especializados en desarrollo backend.</p>
         <p class="objetivo"><b>Objetivo SMART 2:</b></p>
-        <p>Escribe aquí el segundo objetivo SMART del integrante.</p>
+        <p>Fortalecer mis conocimientos en arquitectura de software y buenas prácticas de desarrollo, estudiando patrones como DDD, Clean Architecture y principios SOLID, y aplicándolos en dos proyectos reales o personales durante los próximos nueve meses. El propósito es mejorar mi capacidad para diseñar sistemas escalables, escribir código mantenible y desempeñarme con mayor solidez en entornos profesionales.</p>
       </td>
     </tr>
   </table>
@@ -259,9 +296,9 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     <tr>
       <td>
         <p class="objetivo"><b>Objetivo SMART 1:</b></p>
-        <p>Escribe aquí el primer objetivo SMART del integrante.</p>
+        <p>Aprender tecnologías modernas para la creación de aplicaciones móviles usando Kotlin con Jetpack Compose, apoyándose de tecnologías como Shared Preference, Room y SQLite para la gestión de datos, para así formar prototipos e interfaces amigables con el usuario. Usé arquitecturas modernas como MVVM para la organización del código dependiendo de su funcionalidad.</p>
         <p class="objetivo"><b>Objetivo SMART 2:</b></p>
-        <p>Escribe aquí el segundo objetivo SMART del integrante.</p>
+        <p>Desarrollar aplicaciones moviles multiplataformas mediante el uso de Flutter con Dart y el patrón BLoc. Practique en clase y fuera de clase para entender como crear interfaces y utilizarlas en un entorno de trabajo real con el apoyo de arquitecturas de código limpio como lo es BLoC. </p>
       </td>
     </tr>
   </table>
@@ -298,9 +335,9 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     <tr>
       <td>
         <p class="objetivo"><b>Objetivo SMART 1:</b></p>
-        <p>Escribe aquí el primer objetivo SMART del integrante.</p>
+        <p>Consolidar mis habilidades en el desarrollo Android implementando arquitecturas modernas como MVVM y Clean Architecture. Para ello, me comprometo a crear módulos, prototipos y pequeñas apps con Kotlin y Jetpack Compose de manera continua durante los seis meses posteriores a mi graduación. Este proceso me permitirá fortalecer mi criterio técnico, mejorar la calidad de mis aplicaciones y asegurar un dominio práctico de las buenas prácticas del desarrollo móvil nativo.</p>
         <p class="objetivo"><b>Objetivo SMART 2:</b></p>
-        <p>Escribe aquí el segundo objetivo SMART del integrante.</p>
+        <p>Desarrollar un nivel avanzado en programación multiplataforma mediante el uso de Flutter y el patrón BLoC. Para conseguirlo, dedicaré tiempo semanal a estudiar documentación, resolver ejercicios y construir al menos un proyecto completo dentro del primer año después de obtener mi título. Mi objetivo es ampliar mi versatilidad como desarrollador y estar preparado para afrontar proyectos que demanden soluciones multiplataforma robustas y eficientes.</p>
       </td>
     </tr>
   </table>
@@ -2328,6 +2365,221 @@ La comunicación fue constante a través de plataforma usada: WhatsApp; y utiliz
 
 - Trello:
 ![trello](imgs/sprint1-trello.png)
+
+#### 4.2.2. Sprint 2
+El Sprint Planning es el evento clave de Scrum donde el equipo concreta el Sprint Goal y acuerda el alcance del trabajo. En la planificación de este Sprint 2, nos reunimos para revisar los requerimientos, priorizar el product backlog y distribuir responsabilidades. Esta sesión alineó expectativas sobre los entregables de corto plazo y definió el plan de ejecución, iniciando por la landing page y las bases de la app móvil. Durante el sprint se avanzó el frontend con Flutter y Kotlin, y se implementaron los backends correspondientes.
+
+##### 4.2.2.1. Sprint Planning 2
+| **Sprint #**                | 2                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 01/11/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través de Google Meet |
+| **Prepared by**             | Gamarra Vega, Anderson Jose	       |
+| **Attendees (to planning meeting)** | Castañeda Llanos, Kevin Alexander, Peña Riofrio, Maria Fernanda,Grandez Mansilla, Jean Pierre, Guevara Tejada, Jorge Enrique	 |
+| **Sprint 1 Review Summary** |Correción del capítulo 3 y 4|
+| **Sprint 1 Retrospective Summary** | Se realizó la distribución de temas para completar la documentación, además de diseñar e implementar la primera versión de nuestro landing page, creación de las secciones core de
+la aplicación movil, y la creación del 70% del backend |
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 2 Goal**           | **Nos enfocamos** en diseñar y mejorar la landing page de Ñango y la creación de secciones del frontend en dart y kotlin, y además de mejorar algunos bounded context en el backend. **Con ello buscamos** entregar una segunda versión funcional que comunique claramente el propósito y el alcance de la aplicación móvil. **Lo validaremos** cuando la landing, el frontend y el backend estén listos para despliegue y las entrevistas de validación respalden la propuesta.  |
+| **Sprint n Velocity**       | 2 semanas                           |
+| **Sum of Story Points**     | 20                                 |
+
+
+##### 4.2.2.2. Sprint Backlog 2
+
+El objetivo principal de este Sprint fue avanzar en el desarrollo de las funcionalidades clave de nuestra solución, priorizando aquellas que nos permitieran entregar una versión funcional inicial de la Landing Page y establecer las bases para el desarrollo posterior del sistema, creando secciones core en el frotned y cumpliendo con el 70% del backend. Para organizar y dar seguimiento a las tareas, utilizamos la herramienta Trello como nuestro tablero de control, donde cada integrante podía visualizar, actualizar y colaborar en las actividades asignadas. A continuación, se presenta una captura del tablero correspondiente al sprint 1:
+
+![trello-sprint1](./imgs/sprint1-trello.png)
+
+Enlace al trello: https://trello.com/invite/b/68e82abdd78299ef5e5d3523/ATTI0dc5611a4631c610dcf19bb2b603aafb35EFC687/nango-sprint
+
+| Sprint # | Sprint 1 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | Description | Estimated (Hours) | Assigned To | Status |
+| US06 | Registro de cuenta | Crear la opción de crear una nueva cuenta | 1 | Anderson | Done |
+| US14 | Inicio de sesión | Crear la opción de iniciar sesión | 1 | Anderson | Done |
+| US22 | Recuperación de contraseña | Crear la opción de recuperar la contraseña | 1 | Anderson | Done |
+| US05 | Buscar rutas disponibles | Ver las rutas disponibles para los pasajeros | 2 | Kevin | Done
+| US09 | Solicitar unirse a una ruta | Pasajero que quiera realizar una reserva  | 2 | Kevin | Done
+| US06 | Publicar Ruta | Crear la opción para que un conductor cree una ruta | 2  | - | To Do |
+| US26 | Configurar Notificaciones | Crear la configuración del gestor de notifacciones | 1 | Jean | Done |
+| US25 | Autenticación con JWT | Configurar la autenticación de usuario con JWT | 2 | Anderson | Done |
+| US27 | Ver información de Ñango | Como usuario quiero ver la info. de Ñango en la Landing Page | 1 | Anderson | Done |
+| US30 | Endpoint de login | Como developer quiero exponer un endpoint de login para iniciar sesión. | 1 | Anderson | Done |
+| US33 | Endpoint de solicitudes | Como developer quiero exponer un endpoint para gestionar solicitudes. | 1 | Kevin | Done |
+
+##### 4.2.2.3. Development Evidence for Sprint Review
+
+| **Repository**           | **Branch**     | **Commit Id** | **Commit Message**                                            | **Commit Message Body**                                                                          | **Committed on (Date)** |
+|--------------------------|----------------|---------------|---------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------|
+| **Nango_Flutter**         | `feature/history_passenger`         | `7092f6cf730efcbc254daafcf2b96be007fff48a`     | feat: add passenger history, reschedule and commentes UI                        | -                             | 13/10/2025           |
+| **Nango_Flutter**         | `feat/profile-options`         | `789f392f78efe1bfac2f09a0aa0f3622ab2e18b3`     | profile views and options implementationconf                                           | -                                    | 12/10/2025               |
+| **Nango_Flutter**         | `master`         | `18ab13216815acca7269b482e6d9324e2d085df3`     | chore: change container name prod                 | -            | 12/10/2025              |
+| **app**         | `main`         | `a9cf05e677e236306254c8847df61342fd57bed1`     | Subiendo vistas: login, profilevalidation, home y routes                             | -                       | 07/10/2025              |
+| **app**         | `main`         | `1864ec0d0cf45d929a56aea0b78f2f84a5da49d6`     |add views and components for drivers|      | 07/10/2025              |
+| **ap**         | `feat/profile-options`         | `b2c9ec4603f9d32f495effa52b56941d9fd6ec2d`     | feat: add profile views options selection and navigation route|- | 12/10/2025              |
+| **app**         | `feat/profile-options`         | `8b128f637e83871560a535b375a8d0949bdfe284f`     | feat: add shared preferences storage saving and profile options views |- | 07/10/2025              |                               | 09/10/2025              |
+| **IAM Service**          | `main`         | `73c526b`     | add service v0.1                                              | Versión inicial funcional del servicio IAM con endpoints básicos.                                | 09/10/2025              |
+| **IAM Service**          | `main`         | `643a047`     | ci: change webhook url to deploy on dokploy                   | Configuración del webhook para despliegue automático del servicio IAM.                           | 09/10/2025              |
+
+##### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+##### 4.2.2.5. Execution Evidence for Sprint Review
+ 
+En esta sección se presentan evidencias de la ejecución de la App Movil y la Landing Page del proyecto Ñango
+
+**Front End en Kotlin**
+
+- Primera View de la App Movil
+![app1](imgs/evidences/main.jpeg)
+
+- Registro de usuario en la App Movil
+![app2](imgs/evidences/register.jpeg)
+
+- Inicio de sesión en la App Movil
+![app3](imgs/evidences/signin.jpeg)
+
+- Resetear contraseña en la App Movil
+![app4](imgs/evidences/reset.jpeg)
+
+- Home de la App Movil
+![app5](imgs/evidences/home.jpeg)
+
+- Landing Page de Ñango
+![landing](imgs/landing-page-dokploy.png)
+
+- Validación de perfil en la App Movil
+![app7](imgs/evidences/profile-validation.jpeg)
+
+- Cuenta del usuario en la App Movil
+![app6](imgs/evidences/account.jpeg)
+
+- Rutas en la App Movil
+![app8](imgs/evidences/routes.jpeg)
+
+- Rutas detalladas en la App Movil
+![app9](imgs/evidences/routes2.jpeg)
+
+
+**Front End en Flutter**
+
+- Inicio de Sesipon
+![signin](imgs/signin_flutter.jpeg)
+
+- Resgistro de Sesión
+![reg](imgs/registration_flutter.jpeg)
+
+- Soporte
+![supp](imgs/support_flutter.jpeg)
+
+- Resetear contraseña en la App Movil
+![changepass](imgs/changepass_flutter.jpeg)
+
+- Cuenta del usuario en la App Movil
+![acc](imgs/account_flutter.jpeg)
+
+- Idioma
+![leng](imgs/language_flutter.jpeg)
+
+- historial
+![history](imgs/history_flutter.jpeg)
+
+- Comentarios
+![comm](imgs/comments_flutter.jpeg)
+
+- Reschedule
+![res](imgs/reschedule_flutter.jpeg)
+
+- Notificaciones
+![noti](imgs/noti_flutter.jpeg)
+
+
+##### 4.2.2.6. Services Documentation Evidence for Sprint Review
+Aqui se documentan los servicios del backend del proyecto Ñango
+
+
+## **IAM Service**
+
+**Base URL:** `/api/v1`
+**Auth requerida:** Bearer Token (para endpoints protegidos como `/users/`)
+
+|  Método  | Endpoint         | Descripción                               |
+| :------: | :--------------- | :---------------------------------------- |
+| **POST** | `/auth/register` | Registrar nuevo usuario.                  |
+| **POST** | `/auth/login`    | Iniciar sesión y obtener token JWT.       |
+|  **GET** | `/users/`        | Listar usuarios (requiere autenticación). |
+
+**Schemas visibles en Swagger:**
+`HTTPValidationError`, `LoginRequest`, `RegisterRequest`, `TokenResponse`, `UserOut`, `ValidationError`.
+
+
+![notification-swagger](imgs/document/iam.jpeg)
+
+
+
+## **Booking Service**
+
+|   Método   | Endpoint                        | Descripción                                |
+| :--------: | :------------------------------ | :----------------------------------------- |
+|   **GET**  | `/api/v1/bookings`              | Listar todas las reservas registradas.     |
+|  **POST**  | `/api/v1/bookings`              | Crear una nueva reserva.                   |
+| **DELETE** | `/api/v1/bookings/{booking_id}` | Eliminar una reserva por su identificador. |
+
+![notification-swagger](imgs/document/booking.jpeg)
+
+
+## **Notification Service**
+**Base URL:** `/api/v1`
+
+
+|   Método  | Endpoint                                       | Descripción                                          |
+| :-------: | :--------------------------------------------- | :--------------------------------------------------- |
+|  **POST** | `/api/v1/notifications`                        | Crear una nueva notificación.                        |
+|  **GET**  | `/api/v1/notifications/users/{user_id}`        | Obtener las notificaciones de un usuario específico. |
+| **PATCH** | `/api/v1/notifications/{notification_id}/read` | Marcar una notificación como leída.                  |
+
+
+|   Método  | Endpoint                              | Descripción                              |
+| :-------: | :------------------------------------ | :--------------------------------------- |
+|  **POST** | `/api/v1/preferences`                 | Crear preferencias de notificación.      |
+|  **GET**  | `/api/v1/preferences/users/{user_id}` | Obtener preferencias de un usuario.      |
+| **PATCH** | `/api/v1/preferences/{preference_id}` | Actualizar preferencias de notificación. |
+
+![notification-swagger](imgs/document/notify.png)
+
+
+
+
+¿Deseas que integre este bloque actualizado dentro del documento completo con **IAM**, **Notification** y **Booking**, en formato Markdown uniforme para tu reporte final del sprint?
+(Puedo reemplazar la versión anterior del IAM por esta y entregarte todo el bloque completo final listo para copiar y pegar.)
+
+
+##### 4.2.2.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint, se llevó a cabo el despliegue de la landing page de Ñango, intentamos crear esta página web con la mayor cantidad de información posible.
+
+
+- Landing Page de Ñango
+![landing](imgs/evidences/landing1.jpeg)
+
+- Landing Page Responsive 
+![landing-rsponsive](imgs/deployevidence2.jpg)
+
+##### 4.2.2.8. Team Collaboration Insights during Sprint
+
+Aqui se documentan las reuniones de equipo y las decisiones tomadas durante el sprint.
+
+La comunicación fue constante a través de plataforma usada: WhatsApp; y utilizamos herramientas como Trello, GitHub Pull Requests para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
+
+- Commits en GitHub: 
+![Commits-TB2-report](imgs/Commits_TB2_REPORT.png)
+![Commits_TB2_FRONT_KOTLIN](imgs/Commits_TB2_FRONT_KOTLIN.png)
+![Commits_TB2_FRONT_FLUTTER](imgs/Commits_TB2_FRONT_FLUTTER.png)
+
+
+
 
 ### 4.3. Validation Interviews
 

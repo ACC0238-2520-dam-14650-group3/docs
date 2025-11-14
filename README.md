@@ -1,14 +1,21 @@
-# <p align="center">Informe de Trabajo Final</p>
-
-## <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
-
 <div align="center">
   <img src="./imgs/upc-logo.png" alt="Logo de UPC" />
 </div>
 
-<p align="center">Ingeniería de Software</p>
-<p align="center">Aplicaciones para Dispositivos Móviles - 14650</p>
+# <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
+
+### <p align="center">Ingeniería de Software</p>
+
+<p align="center"><strong>Período:</strong> 202520</p>
+
+<p align="center"><strong>1ACC0238 | Aplicaciones para Dispositivos Móviles</strong> </p>
+<p align="center"><strong>NRC:</strong>14650</p>
 <p align="center"><strong>Docente:</strong>Eduardo Martin Reyes Rodriguez</p>
+
+---
+
+# <p align="center">Informe del Trabajo Parcial</p>
+
 <p align="center"><strong>Startup:</strong> TinkuyTech</p>
 <p align="center"><strong>Producto:</strong> Ñango</p>
 
@@ -24,7 +31,7 @@
 
 
 
-<p align="center"><strong>Ciclo 2025-02</strong></p>
+<p align="center"><strong>Diciembre 2025</strong></p>
 
 
 # Registro de versiones del informe
@@ -33,7 +40,7 @@
 | ------- | ----- | ----- | --------------------------- |
 | TB1 | 06/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo I: Introducción <br> Capítulo II: Requirements Development and Software Solution Design|
 | TB2 | 07/10/2025 | TinkuyTech |  Redación de los capítulos: <br> Capítulo III: Solution UI/UX Design <br> Capítulo IV: Product Implementation & Validation|
-| TB3 | 23/10/2025 | TinkuyTech |  |
+| TP | 13/11/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo IV: Product Implementation & Validation <br> Front-End en Kotlin y Flutter  |
 
 # Project Report Collaboration Insights
 

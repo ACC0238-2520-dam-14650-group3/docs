@@ -14,21 +14,41 @@
 
 ---
 
-# <p align="center">Informe del Trabajo Parcial</p>
+# <p align="center">Informe del Trabajo Final</p>
 
 <p align="center"><strong>Startup:</strong> TinkuyTech</p>
 <p align="center"><strong>Producto:</strong> Ñango</p>
 
 <p align="center"><strong>Team members:</strong></p>
 
-| Nombre                            | Código     |
-|-----------------------------------|------------|
-| Gamarra Vega, Anderson Jose       | u202016154 |
-| Castañeda Llanos, Kevin Alexander | U202318814 |
-| Peña Riofrio, Maria Fernanda      | u202113279 |
-| Grandez Mansilla, Jean Pierre     | u202212484 |
-| Guevara Tejada, Jorge Enrique     | U202318814 |
-
+<div style="text-align:center;">
+    <table align="center">
+        <tr>
+            <th style="text-align:center;">Código</th>
+            <th style="text-align:center;">Integrantes</th>
+        </tr>
+        <tr>
+            <td>U202318814</td>
+            <td>Castañeda Llanos, Kevin Alexander</td>
+        </tr>
+        <tr>
+            <td>u202016154</td>
+            <td>Gamarra Vega, Anderson Jose</td>
+        </tr>
+        <tr>
+            <td>u202212484</td>
+            <td>Grandez Mansilla, Jean Pierre</td>
+        </tr>
+        <tr>
+            <td>U202318814</td>
+            <td>Guevara Tejada, Jorge Enrique</td>
+        </tr>
+        <tr>
+            <td>u202113279</td>
+            <td>Peña Riofrio, Maria Fernanda</td>
+        </tr>
+    </table>
+</div>
 
 
 <p align="center"><strong>Diciembre 2025</strong></p>
@@ -41,6 +61,7 @@
 | TB1 | 06/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo I: Introducción <br> Capítulo II: Requirements Development and Software Solution Design|
 | TB2 | 07/10/2025 | TinkuyTech |  Redación de los capítulos: <br> Capítulo III: Solution UI/UX Design <br> Capítulo IV: Product Implementation & Validation|
 | TP | 13/11/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo IV: Product Implementation & Validation <br> Front-End en Kotlin y Flutter  |
+| TF | 04/12/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo IV: Product Implementation & Validation <br> Finalización del Front-End en Kotlin y Flutter <br> Conexión al backend <br> Conclusiones y Recomendaciones |
 
 # Project Report Collaboration Insights
 
@@ -84,6 +105,18 @@ A continuación, se presenta el proceso seguido para la elaboración del informe
 ![Commits-TB2-report](imgs/Commits_TB2_REPORT.png)
 ![Commits_TB2_FRONT_KOTLIN](imgs/Commits_TB2_FRONT_KOTLIN.png)
 ![Commits_TB2_FRONT_FLUTTER](imgs/Commits_TB2_FRONT_FLUTTER.png)
+*Historial de commits en la documentación, en el fron-end en flutter y kotlin adempas del backend*
+
+**Entrega N°4: TF**
+
+- - Todos los miembros del equipo participaron en diferentes aspectos del entregable. Algunos se encargaron del diseño de la aplicación en kotlin, otros Report, otros se enfocaron en la documentación, mientras que una parte del grupo trabajó en el desarrollo del front-end y los demás se responsabilizaron del backend.
+
+- Se establecieron fechas límite para completar cada tarea asignada y, aunque surgieron algunos inconvenientes durante el proceso, el equipo logró superarlos mediante una colaboración efectiva y trabajo conjunto.
+
+![]()
+![]()
+![]()
+
 *Historial de commits en la documentación, en el fron-end en flutter y kotlin adempas del backend*
 
 # Index

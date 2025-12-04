@@ -1026,9 +1026,10 @@ Detallamos los recorridos de usuario para ambos segmentos, identificando puntos 
 | **Trust (Confianza)**             | Percepción positiva que los usuarios tienen sobre la fiabilidad de otros miembros de la comunidad, reforzada por calificaciones o reseñas. |
 | **Availability (Disponibilidad)** | Oportunidad de encontrar un viaje en un horario y ruta determinados.                                                                       |
 | **Schedule (Horario)**            | Momento específico en el que se realiza un viaje.                                                                                          |
+
 ## 2.4 Requirements specification
 
-### As-is Scenario Mapping
+**As-is Scenario Mapping**
 
 El As-is Scenario Mapping describe la situación actual de los estudiantes universitarios frente a la necesidad de movilizarse hacia la universidad. Este análisis permite identificar los comportamientos, pensamientos y emociones que experimentan tanto los estudiantes que no cuentan con vehículo propio como aquellos que sí lo poseen. En este escenario se evidencian los principales problemas: inseguridad, falta de coordinación, costos elevados y dependencia de medios de transporte informales o poco confiables. Este punto de partida es esencial para comprender las dificultades que ÑanGo busca resolver.
 
@@ -1063,7 +1064,8 @@ El To-be Scenario Mapping presenta la experiencia proyectada de los estudiantes 
 
 
 
-### 2.4.1  User Stories
+### 2.4.1 User Stories
+
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-----------------|--------|-------------|--------------------------|---------------------------|
 | EP01 | Autenticación y gestión de usuarios | Como estudiante universitario quiero registrarme, iniciar sesión y administrar mis datos para poder usar la aplicación de manera segura. | - | - |
@@ -1125,7 +1127,7 @@ El To-be Scenario Mapping presenta la experiencia proyectada de los estudiantes 
 | US46 | Feedback en la app | Como estudiante quiero enviar feedback para mejorar la app. | **Given** formulario, **When** lo lleno, **Then** se envía al equipo. | EP07 |
 | US47 | Bloquear estudiante reportado | Como estudiante propietario de vehículo quiero bloquear estudiantes reportados para proteger la comunidad. | **Given** reporte válido, **When** bloqueo, **Then** el usuario no accede más. | EP05 |
 
-### 2.4.2  Impact Mapping
+### 2.4.2 Impact Mapping
 
 <p align="center">
     <img src="imgs/ImpactMapÑango.png" alt="impactMapNango"/>
@@ -2235,8 +2237,7 @@ Podemos considerar al Sprint Planning como una "ceremonia" fundamental dentro de
 | **Prepared by**             | Gamarra Vega, Anderson Jose	       |
 | **Attendees (to planning meeting)** | Castañeda Llanos, Kevin Alexander, Peña Riofrio, Maria Fernanda,Grandez Mansilla, Jean Pierre, Guevara Tejada, Jorge Enrique	 |
 | **Sprint 1 Review Summary** | Completar el desarrollo de los capítulos 3 y 4 del reporte. Codificación y despliegue del Landing Page. Creación de frontend de secciones core y backend al 70% |
-| **Sprint 1 Retrospective Summary** | Se realizó la distribución de temas para completar la documentación, además de diseñar e implementar la primera versión de nuestro landing page, creación de las secciones core de
-la aplicación movil, y la creación del 70% del backend |
+| **Sprint 1 Retrospective Summary** | Se realizó la distribución de temas para completar la documentación, además de diseñar e implementar la primera versión de nuestro landing page, creación de las secciones core de la aplicación movil, y la creación del 70% del backend |
 | **Sprint Goal & User Stories**                                     |
 | **Sprint 1 Goal**           | **Nos enfocamos** en diseñar y desarrollar la landing page de Ñango y la creación de secciones del frontend, y la creación de algunos bounded context en el backend. **Creemos que** esto dará una idea inicial de como servirá y los objetivos que pretendemos cumplir con nuestra aplicación movil. **Esto se confirmará** cuando la Landing Page, frontend y backend estén listos para el despliegue y en las entrevistas de validación, sean positivas con respecto a nuestro proyecto  |
 | **Sprint n Velocity**       | 1 semana                           |
@@ -2251,9 +2252,9 @@ El objetivo principal de este Sprint fue avanzar en el desarrollo de las funcion
 
 Enlace al trello: https://trello.com/invite/b/68e82abdd78299ef5e5d3523/ATTI0dc5611a4631c610dcf19bb2b603aafb35EFC687/nango-sprint
 
-| Sprint # | Sprint 1 |  |  |  |  |  |  |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| User Story |  | Work-Item / Task |  |  |  |  |  |
+| Sprint # | Sprint 1 |  |  |  |  |  
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  | 
 | ID | Title | Description | Estimated (Hours) | Assigned To | Status |
 | US01 | Registro de cuenta | Crear la opción de crear una nueva cuenta | 1 | Anderson | Done |
 | US02 | Inicio de sesión | Crear la opción de iniciar sesión | 1 | Anderson | Done |
@@ -2302,33 +2303,43 @@ Enlace al trello: https://trello.com/invite/b/68e82abdd78299ef5e5d3523/ATTI0dc56
 En esta sección se presentan evidencias de la ejecución de la App Movil y la Landing Page del proyecto Ñango
 
 - Primera View de la App Movil
+
 ![app1](imgs/evidences/main.jpeg)
 
 - Registro de usuario en la App Movil
+
 ![app2](imgs/evidences/register.jpeg)
 
 - Inicio de sesión en la App Movil
+
 ![app3](imgs/evidences/signin.jpeg)
 
 - Resetear contraseña en la App Movil
+
 ![app4](imgs/evidences/reset.jpeg)
 
 - Home de la App Movil
+
 ![app5](imgs/evidences/home.jpeg)
 
 - Landing Page de Ñango
+
 ![landing](imgs/landing-page-dokploy.png)
 
 - Validación de perfil en la App Movil
+
 ![app7](imgs/evidences/profile-validation.jpeg)
 
 - Cuenta del usuario en la App Movil
+
 ![app6](imgs/evidences/account.jpeg)
 
 - Rutas en la App Movil
+
 ![app8](imgs/evidences/routes.jpeg)
 
 - Rutas detalladas en la App Movil
+
 ![app9](imgs/evidences/routes2.jpeg)
 
 
@@ -2398,9 +2409,11 @@ Durante este Sprint, se llevó a cabo el despliegue de la landing page de Ñango
 
 
 - Landing Page de Ñango
+
 ![landing](imgs/evidences/landing1.jpeg)
 
 - Landing Page Responsive 
+
 ![landing-rsponsive](imgs/deployevidence2.jpg)
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
@@ -2410,9 +2423,11 @@ Aqui se documentan las reuniones de equipo y las decisiones tomadas durante el s
 La comunicación fue constante a través de plataforma usada: WhatsApp; y utilizamos herramientas como Trello, GitHub Pull Requests para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
 
 - Commits en GitHub: 
+
 ![commits](imgs/git-colabs.png)
 
 - Trello:
+
 ![trello](imgs/sprint1-trello.png)
 
 #### 4.2.2. Sprint 2
@@ -2428,8 +2443,7 @@ El Sprint Planning es el evento clave de Scrum donde el equipo concreta el Sprin
 | **Prepared by**             | Gamarra Vega, Anderson Jose	       |
 | **Attendees (to planning meeting)** | Castañeda Llanos, Kevin Alexander, Peña Riofrio, Maria Fernanda,Grandez Mansilla, Jean Pierre, Guevara Tejada, Jorge Enrique	 |
 | **Sprint 1 Review Summary** |Correción del capítulo 3 y 4|
-| **Sprint 1 Retrospective Summary** | Se realizó la distribución de temas para completar la documentación, además de diseñar e implementar la primera versión de nuestro landing page, creación de las secciones core de
-la aplicación movil, y la creación del 70% del backend |
+| **Sprint 1 Retrospective Summary** | Se realizó la distribución de temas para completar la documentación, además de diseñar e implementar la primera versión de nuestro landing page, creación de las secciones core de la aplicación movil, y la creación del 70% del backend |
 | **Sprint Goal & User Stories**                                     |
 | **Sprint 2 Goal**           | **Nos enfocamos** en diseñar y mejorar la landing page de Ñango y la creación de secciones del frontend en dart y kotlin, y además de mejorar algunos bounded context en el backend. **Con ello buscamos** entregar una segunda versión funcional que comunique claramente el propósito y el alcance de la aplicación móvil. **Lo validaremos** cuando la landing, el frontend y el backend estén listos para despliegue y las entrevistas de validación respalden la propuesta.  |
 | **Sprint n Velocity**       | 2 semanas                           |
@@ -2444,9 +2458,9 @@ El objetivo principal de este Sprint fue avanzar en el desarrollo de las funcion
 
 Enlace al trello: https://trello.com/invite/b/68e82abdd78299ef5e5d3523/ATTI0dc5611a4631c610dcf19bb2b603aafb35EFC687/nango-sprint
 
-| Sprint # | Sprint 1 |  |  |  |  |  |  |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| User Story |  | Work-Item / Task |  |  |  |  |  |
+| Sprint # | Sprint 2 |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | 
+| User Story |  | Work-Item / Task |  |  |  |
 | ID | Title | Description | Estimated (Hours) | Assigned To | Status |
 | US06 | Registro de cuenta | Crear la opción de crear una nueva cuenta | 1 | Anderson | Done |
 | US14 | Inicio de sesión | Crear la opción de iniciar sesión | 1 | Anderson | Done |
@@ -2476,6 +2490,19 @@ Enlace al trello: https://trello.com/invite/b/68e82abdd78299ef5e5d3523/ATTI0dc56
 
 ##### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
+Url del repositorio: https://github.com/ACC0238-2520-dam-14650-group3/Acceptance-test 
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body**   | **Committed on (Date)** |
+|-----|----|---|--------|-------------|-------|
+| **Acceptance-test** | `features` | `Create US01_registro_de_cuenta.feature` | `8aa14aa68c2bd44e1e2cb4b2a70945c762d53980` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US02_inicio_de_sesion.feature` | `dbebb16cd7c985178d796b7fac72ed1530733d76` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US03_recuperacion_de_contrasena.feature` | `220eda74614871defbec889e9b910d6ef9aae4c9` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US30_endpoint_registro.feature` | `07e3bd3addf7081c744685269445bab1c381cbfe` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US31_endpoint_login.feature` | `d11d09ff94e923b9677e8e82eff98dd4ed15af87` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US27_ver_info_landing.feature` | `220eda74614871defbec889e9b910d6ef9aae4c9` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US28_ver_beneficios_landing.feature` | `e7e1ce4532b307e1f4a20c5f2283ee7ca9a99467 `| - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US29_descarga_desde_landing.feature` | `8969c532d8a4d002ad03e18239088c3e67b176af` | - | 04/12/2025 |
+
 ##### 4.2.2.5. Execution Evidence for Sprint Review
  
 En esta sección se presentan evidencias de la ejecución de la App Movil y la Landing Page del proyecto Ñango
@@ -2483,66 +2510,86 @@ En esta sección se presentan evidencias de la ejecución de la App Movil y la L
 **Front End en Kotlin**
 
 - Primera View de la App Movil
+
 ![app1](imgs/evidences/main.jpeg)
 
 - Registro de usuario en la App Movil
+
 ![app2](imgs/evidences/register.jpeg)
 
 - Inicio de sesión en la App Movil
+
 ![app3](imgs/evidences/signin.jpeg)
 
 - Resetear contraseña en la App Movil
+
 ![app4](imgs/evidences/reset.jpeg)
 
 - Home de la App Movil
+
 ![app5](imgs/evidences/home.jpeg)
 
 - Landing Page de Ñango
+
 ![landing](imgs/landing-page-dokploy.png)
 
 - Validación de perfil en la App Movil
+
 ![app7](imgs/evidences/profile-validation.jpeg)
 
 - Cuenta del usuario en la App Movil
+
 ![app6](imgs/evidences/account.jpeg)
 
 - Rutas en la App Movil
+
 ![app8](imgs/evidences/routes.jpeg)
 
 - Rutas detalladas en la App Movil
+
 ![app9](imgs/evidences/routes2.jpeg)
 
 
 **Front End en Flutter**
 
 - Inicio de Sesipon
+
 ![signin](imgs/signin_flutter.jpeg)
 
 - Resgistro de Sesión
+
 ![reg](imgs/registration_flutter.jpeg)
 
 - Soporte
+
 ![supp](imgs/support_flutter.jpeg)
 
 - Resetear contraseña en la App Movil
+
 ![changepass](imgs/changepass_flutter.jpeg)
 
 - Cuenta del usuario en la App Movil
+
 ![acc](imgs/account_flutter.jpeg)
 
 - Idioma
+
 ![leng](imgs/language_flutter.jpeg)
 
 - historial
+
 ![history](imgs/history_flutter.jpeg)
 
 - Comentarios
+
 ![comm](imgs/comments_flutter.jpeg)
 
 - Reschedule
+
 ![res](imgs/reschedule_flutter.jpeg)
 
 - Notificaciones
+
 ![noti](imgs/noti_flutter.jpeg)
 
 
@@ -2611,9 +2658,11 @@ Durante este Sprint, se llevó a cabo el despliegue de la landing page de Ñango
 
 
 - Landing Page de Ñango
+
 ![landing](imgs/evidences/landing1.jpeg)
 
 - Landing Page Responsive 
+
 ![landing-rsponsive](imgs/deployevidence2.jpg)
 
 ##### 4.2.2.8. Team Collaboration Insights during Sprint
@@ -2629,19 +2678,70 @@ La comunicación fue constante a través de plataforma usada: WhatsApp; y utiliz
 
 
 #### 4.2.3. Sprint 3
-El Sprint Planning es el evento clave de Scrum donde el equipo concreta el Sprint Goal y acuerda el alcance del trabajo. En la planificación de este Sprint 2, nos reunimos para revisar los requerimientos, priorizar el product backlog y distribuir responsabilidades. Esta sesión alineó expectativas sobre los entregables de corto plazo y definió el plan de ejecución, iniciando por la landing page y las bases de la app móvil. Durante el sprint se avanzó el frontend con Flutter y Kotlin, y se implementaron los backends correspondientes.
+El Sprint Planning es el evento clave de Scrum donde el equipo concreta el Sprint Goal y acuerda el alcance del trabajo. En la planificación de este Sprint 3, nos reunimos para revisar los requerimientos, priorizar el product backlog y distribuir responsabilidades. Esta sesión alineó expectativas sobre los entregables de corto plazo y definió el plan de ejecución, iniciando por la landing page y las bases de la app móvil. Durante el sprint se avanzó el frontend con Flutter y Kotlin, y se implementaron los backends correspondientes.
 
 ##### 4.2.3.1. Sprint Planning 3
-                                |
 
+| Sprint # | 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| **Date** | 29/11/2025 |
+| **Time** | 21:00 |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared by** | Gamarra Vega, Anderson José |
+| **Attendees (to planning meeting)** | Castañeda Llanos, Kevin Alexander; Peña Riofrío, María Fernanda; Grandez Mansilla, Jean Pierre; Guevara Tejada, Jorge Enrique; Gamarra Vega, Anderson José |
+| **Sprint 2 Review Summary** | Se afianzó la base del producto (auth/JWT, landing y endpoints clave) y quedó habilitado el flujo de búsqueda/solicitud. |
+| **Sprint 2 Retrospective Summary** | Se reliazo enl front-end en Kotlin y Flutter, a la par que se estuve mejorando el backend |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 3 Goal** | Finalizar satisfactoriamente la aplicación móvil tanto en su versión de kotlin como en su versión de flutter |
+| **Sprint n Velocity** | 34 story points |
+| **Sum of Story Points** | 32 story points  |
 
 ##### 4.2.3.2. Sprint Backlog 3
 
+El objetivo principal de este Sprint fue avanzar en el desarrollo de las funcionalidades clave de nuestra solución, priorizando aquellas que nos permitieran entregar una versión final del frotned y cumpliendo con el 100% del backend. Para organizar y dar seguimiento a las tareas, utilizamos la herramienta Trello como nuestro tablero de control, donde cada integrante podía visualizar, actualizar y colaborar en las actividades asignadas. A continuación, se presenta una captura del tablero correspondiente al sprint 
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **User Story** | **Work-Item / Task** | **Estimated (Hours)** | **Assigned To** | **Status** |
+
+| ID | Title | Description (Work-Item / Task) | Estimated (Hours) | Assigned To | Status |
+|---|---|---|---:|---|---|
+| **US05** | Buscar rutas disponibles | **Quotes – UI & lógica**: formulario (origen/destino/fecha/hora), listado de resultados, validaciones y CTA “Find/Join Trip”. | Jorgue Guevara  | 3h | **Done** |
+| **US09** | Solicitar unirse a una ruta | **Reserve – detalle & solicitud**: vista con datos del viaje, botón **Request/Cancel**, manejo de estados de solicitud. | Mafer Peña | 3h | **Done** |
+| **US26** | Configurar Notificaciones | **Notifications – listado & lectura**: mostrar eventos (aceptación/rechazo/cambios), marcar leído/no leído y orden cronológico. | Jorgue Guevara  | 1.5h | **Done** |
+| **US05** | Buscar rutas disponibles | **Comments – reseñas del conductor (en detalle de ruta)**: promedio, conteo y lista de comentarios visibles desde Quotes/Reserve. | Jean Grandez | 3h | **Done** |
+| **US09** | Solicitar unirse a una ruta | **Chat – coordinación** (tras solicitud aceptada): lista de conversaciones y pantalla de chat por viaje, manejo de envío/recepción. | Jean Grandez  | 3h | **Done** |
+| **US33** | Endpoint de solicitudes | **Soporte BE para Reserve/Notifications**: actualizar estados (pending/accepted/rejected/cancelled) y exponerlos al FE. | Anderson Gamarra | 3h | In Progress |
+| **US06** | Publicar Ruta | **Datos para pruebas**: crear rutas mínimas desde BE/seed para alimentar Quotes durante la demo. | Kevin Castañeda  | 3h | In Progress |
+
+![trello_sprint3](imgs/sprint3_trello.png)
+
+Enlace al Trello: https://trello.com/invite/b/6931f444b1165a6332497eb7/ATTIed906fe5ea4bbdc836c346dfaef28d593E0615B9/nango-sprint-3 
 
 ##### 4.2.3.3. Development Evidence for Sprint Review
 
+| **Repository**           | **Branch**     | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----|----|----|----|-----|----|
+| **app** | `all-kotlin-views` | `1864ec0d0cf45d929a56aea0b78f2f84a5da49d6` | feat: add views and components for drivers | -  | 13/11/2025 |
+| **app** | `all-kotlin-views` | `7cc3e4ba39cb7f15ba4a8788a4e6d643f1a2f489` | feat: merge kotlin views | -  | 13/11/2025 |
+| **app** | `all-kotlin-views` | `8469d4345d6e76b7f57859e99d32809e43f06796` | feat: add comments view and open comments component | - | 03/12/2025 |
+| **Nango_Flutter** | `develop` | `96be39eb6a8078b440615b383f9977f7477dbcd1` | feat: added trip_history_service and implemented passenger views for chats, notifications, quotes, and reservations | - | 03/12/2025  |
+| **Nango_Flutter** | `develop` | `2b08e46b349546d9d71cd49d4da57eb6e04225ec` | feat: enhance passenger views with navigation to account, quotes, and history | - | 03/12/2025  |
+| **Nango_Flutter** | `develop` | `47efba81c5e07aa92bc48c40d2e94d1e8cd047f9` | Merge pull request #5 from ACC0238-2520-dam-14650-group3/feat/jorge | New version views added | 03/12/2025  |
 
 ##### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body**   | **Committed on (Date)** |
+|-----|----|---|--------|-------------|-------|
+| **Acceptance-test** | `features` | `Create US05_buscar_rutas_disponibles.feature` | `37dcadbcc75a854d7f4a2165b4a487d04e084abb` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US26_configurar_notificaciones.feature` | `85855403fdba269b9a488d163b81b54a17afe1a6` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US09_solicitar_unirse_a_ruta.feature` | `964afa159414b382a22a6efbb735e03fb6b48b00` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US33_endpoint_solicitudes.feature` | `7acd9e827e7581f1bdc34f8315e919850ee00776` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US13_chat_basico.feature` | `47e0b6e0f219c3a6564087db229b2882e5678528` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US34_endpoint_chat.feature` | `08c964a4ee385709148ffafc434fbd03063d9a5f` | - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US15_ver_perfil_conductor.feature` | `81796e11edaf2fd3539f45ab039f3c35ff100bfc`| - | 04/12/2025 |
+| **Acceptance-test** | `features` | `Create US17_calificar_viaje.feature` | `2a530a4c1f016324cb9c30c355e7de9baead2cd7` | - | 04/12/2025 |
 
 ##### 4.2.3.5. Execution Evidence for Sprint Review
  
@@ -2650,80 +2750,104 @@ En esta sección se presentan evidencias de la ejecución de la App Movil y la L
 **Front End en Kotlin**
 
 - Primera View de la App Movil
+
 ![app1](imgs/evidences/main.jpeg)
 
 - Registro de usuario en la App Movil
+
 ![app2](imgs/evidences/register.jpeg)
 
 - Inicio de sesión en la App Movil
+
 ![app3](imgs/evidences/signin.jpeg)
 
 - Resetear contraseña en la App Movil
+
 ![app4](imgs/evidences/reset.jpeg)
 
 - Home de la App Movil
+
 ![app5](imgs/evidences/home.jpeg)
  
 
 - Vista de gestión de rutas para conductores
+
 ![app6](imgs/evidences/routes.jpg)
 
 - Vista de comentarios de viajes
+
 ![app7](imgs/evidences/comments.jpg)
 
 - Vista de chat 
+
 ![app8](imgs/evidences/chat.jpg)
 
 - Vista de requests para conductores
+
 ![app9](imgs/evidences/request.jpg)
 
 
 - Landing Page de Ñango
+
 ![landing](imgs/landing-page-dokploy.png)
 
 - Validación de perfil en la App Movil
+
 ![app10](imgs/evidences/profile-validation.jpeg)
 
 - Cuenta del usuario en la App Movil
+
 ![app11](imgs/evidences/account.jpeg)
 
 - Rutas en la App Movil
+
 ![app12](imgs/evidences/routes.jpeg)
 
 - Rutas detalladas en la App Movil
+
 ![app13](imgs/evidences/routes2.jpeg)
 
 
 **Front End en Flutter**
 
-- Inicio de Sesipon
+- Inicio de Sesión
+
 ![signin](imgs/signin_flutter.jpeg)
 
 - Resgistro de Sesión
+
 ![reg](imgs/registration_flutter.jpeg)
 
 - Soporte
+
 ![supp](imgs/support_flutter.jpeg)
 
 - Resetear contraseña en la App Movil
+
 ![changepass](imgs/changepass_flutter.jpeg)
 
 - Cuenta del usuario en la App Movil
+
 ![acc](imgs/account_flutter.jpeg)
 
 - Idioma
+
 ![leng](imgs/language_flutter.jpeg)
 
 - historial
+
 ![history](imgs/history_flutter.jpeg)
 
 - Comentarios
+
 ![comm](imgs/comments_flutter.jpeg)
 
 - Reschedule
+
 ![res](imgs/reschedule_flutter.jpeg)
 
 - Notificaciones
+
 ![noti](imgs/noti_flutter.jpeg)
 
 
@@ -2788,9 +2912,11 @@ con datos reales..
 
 
 - Landing Page de Ñango
+
 ![landing](imgs/evidences/landing1.jpeg)
 
 - Landing Page Responsive 
+
 ![landing-rsponsive](imgs/deployevidence2.jpg)
 
 ##### 4.2.3.8. Team Collaboration Insights during Sprint
@@ -2800,10 +2926,10 @@ Aqui se documentan las reuniones de equipo y las decisiones tomadas durante el s
 La comunicación fue constante a través de plataforma usada: WhatsApp; y utilizamos herramientas como Trello, GitHub Pull Requests para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
 
 - Commits en GitHub: 
+
 ![Commits-TB2-report](imgs/tf-commits-kotlin.png)
+
 ![Commits_TB2_FRONT_KOTLIN](imgs/tf-commits-flutter.png)
-
-
 
 
 ### 4.3. Validation Interviews
@@ -2865,7 +2991,35 @@ La comunicación fue constante a través de plataforma usada: WhatsApp; y utiliz
   Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
   Carrera: Ingeniería de Sistemas
 
-#### 4.3.3. Evaluaciones según heurísticas
 ![Imagen de la entrevista](imgs/validacion-entrevista2.png)
 [Entrevista a Jose Sosa](https://www.youtube.com/watch?v=gwhtOEFI0Sc)
 
+
+#### 4.3.3. Evaluaciones según heurísticas
+
+
+# Conclusiones
+
+### Conclusiones y Recomendaciones
+
+A lo largo del curso pasamos de una idea a un prototipo funcional que ya se puede mostrar y evaluar. Logramos construir una base coherente entre diseño y desarrollo: definimos el estilo visual y el lenguaje de la marca, plasmamos los flujos clave y los llevamos a la práctica con las pantallas de Quotes, Notifications, Reserve, Comments y Chat. Eso nos obligó a pensar siempre en el recorrido real de un estudiante y a mantener la app clara y consistente. Como equipo, ordenamos mejor el trabajo por sprints, documentamos lo que hicimos y alineamos el frontend con el backend con criterios de aceptación; en el proceso también aprendimos a comunicarnos mejor, a dividir tareas en objetivos alcanzables y a sostener un ritmo estable de entrega. El resultado es ÑanGo como un producto demostrable que explica bien su propuesta de valor y está listo para recibir feedback de usuarios.
+
+Como recomendación para cerrar bien el TF, necesitamos estabilizar el backend y hacerlo predecible para la demo: cerrar el contrato de API (endpoints, DTOs, códigos y mensajes de error) y documentarlo en Swagger; asegurar consistencia en el ciclo de solicitudes con transacciones atómicas para evitar sobreasignar asientos y restringir las transiciones de estado (de pending a accepted/rejected, sin retornar); aplicar validaciones, paginación y filtros claros en la búsqueda (origen/destino/horario); disparar notificaciones al cambiar estados y habilitar un chat estable con polling simple; proteger todo con JWT y autorización por pertenencia. Como entrega, prepara Docker/Docker Compose con seed mínimo y ejecuta tests básicos (unit, integration y BDD) para que el jurado levante el sistema y recorra el flujo publicar → buscar → solicitar → aceptar/rechazar → coordinar → historial sin sorpresas.
+
+### Video App Validation
+
+**Link video about the product:** https://drive.google.com/drive/folders/1HmEvNH42wE-PqfoI7sdK41JiGHHO9rCi
+
+### Video About the product
+
+**Link video about the product:** https://drive.google.com/drive/folders/1HmEvNH42wE-PqfoI7sdK41JiGHHO9rCi
+
+### Video About the team
+
+**Link video about the team:** https://drive.google.com/drive/folders/1HmEvNH42wE-PqfoI7sdK41JiGHHO9rCi
+
+# Anexos
+
+**URL del Repositorio del Informe:** https://github.com/ACC0238-2520-dam-14650-group3/docs
+
+**Link de los repositorios de la organización:** https://github.com/ACC0238-2520-dam-14650-group3

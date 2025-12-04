@@ -2586,6 +2586,182 @@ La comunicación fue constante a través de plataforma usada: WhatsApp; y utiliz
 ![Commits_TB2_FRONT_FLUTTER](imgs/Commits_TB2_FRONT_FLUTTER.png)
 
 
+#### 4.2.3. Sprint 3
+El Sprint Planning es el evento clave de Scrum donde el equipo concreta el Sprint Goal y acuerda el alcance del trabajo. En la planificación de este Sprint 2, nos reunimos para revisar los requerimientos, priorizar el product backlog y distribuir responsabilidades. Esta sesión alineó expectativas sobre los entregables de corto plazo y definió el plan de ejecución, iniciando por la landing page y las bases de la app móvil. Durante el sprint se avanzó el frontend con Flutter y Kotlin, y se implementaron los backends correspondientes.
+
+##### 4.2.3.1. Sprint Planning 3
+                                |
+
+
+##### 4.2.3.2. Sprint Backlog 3
+
+
+##### 4.2.3.3. Development Evidence for Sprint Review
+
+
+##### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+##### 4.2.3.5. Execution Evidence for Sprint Review
+ 
+En esta sección se presentan evidencias de la ejecución de la App Movil y la Landing Page del proyecto Ñango
+
+**Front End en Kotlin**
+
+- Primera View de la App Movil
+![app1](imgs/evidences/main.jpeg)
+
+- Registro de usuario en la App Movil
+![app2](imgs/evidences/register.jpeg)
+
+- Inicio de sesión en la App Movil
+![app3](imgs/evidences/signin.jpeg)
+
+- Resetear contraseña en la App Movil
+![app4](imgs/evidences/reset.jpeg)
+
+- Home de la App Movil
+![app5](imgs/evidences/home.jpeg)
+ 
+
+- Vista de gestión de rutas para conductores
+![app6](imgs/evidences/routes.jpg)
+
+- Vista de comentarios de viajes
+![app7](imgs/evidences/comments.jpg)
+
+- Vista de chat 
+![app8](imgs/evidences/chat.jpg)
+
+- Vista de requests para conductores
+![app9](imgs/evidences/request.jpg)
+
+
+- Landing Page de Ñango
+![landing](imgs/landing-page-dokploy.png)
+
+- Validación de perfil en la App Movil
+![app10](imgs/evidences/profile-validation.jpeg)
+
+- Cuenta del usuario en la App Movil
+![app11](imgs/evidences/account.jpeg)
+
+- Rutas en la App Movil
+![app12](imgs/evidences/routes.jpeg)
+
+- Rutas detalladas en la App Movil
+![app13](imgs/evidences/routes2.jpeg)
+
+
+**Front End en Flutter**
+
+- Inicio de Sesipon
+![signin](imgs/signin_flutter.jpeg)
+
+- Resgistro de Sesión
+![reg](imgs/registration_flutter.jpeg)
+
+- Soporte
+![supp](imgs/support_flutter.jpeg)
+
+- Resetear contraseña en la App Movil
+![changepass](imgs/changepass_flutter.jpeg)
+
+- Cuenta del usuario en la App Movil
+![acc](imgs/account_flutter.jpeg)
+
+- Idioma
+![leng](imgs/language_flutter.jpeg)
+
+- historial
+![history](imgs/history_flutter.jpeg)
+
+- Comentarios
+![comm](imgs/comments_flutter.jpeg)
+
+- Reschedule
+![res](imgs/reschedule_flutter.jpeg)
+
+- Notificaciones
+![noti](imgs/noti_flutter.jpeg)
+
+
+##### 4.2.3.6. Services Documentation Evidence for Sprint Review
+Aqui se documentan los servicios del backend del proyecto Ñango
+
+
+## **IAM Service**
+
+**Base URL:** `/api/v1`
+**Auth requerida:** Bearer Token (para endpoints protegidos como `/users/`)
+
+|  Método  | Endpoint         | Descripción                               |
+| :------: | :--------------- | :---------------------------------------- |
+| **POST** | `/auth/register` | Registrar nuevo usuario.                  |
+| **POST** | `/auth/login`    | Iniciar sesión y obtener token JWT.       |
+|  **GET** | `/users/`        | Listar usuarios (requiere autenticación). |
+
+**Schemas visibles en Swagger:**
+`HTTPValidationError`, `LoginRequest`, `RegisterRequest`, `TokenResponse`, `UserOut`, `ValidationError`.
+
+
+![notification-swagger](imgs/document/iam.jpeg)
+
+
+
+## **Booking Service**
+
+|   Método   | Endpoint                        | Descripción                                |
+| :--------: | :------------------------------ | :----------------------------------------- |
+|   **GET**  | `/api/v1/bookings`              | Listar todas las reservas registradas.     |
+|  **POST**  | `/api/v1/bookings`              | Crear una nueva reserva.                   |
+| **DELETE** | `/api/v1/bookings/{booking_id}` | Eliminar una reserva por su identificador. |
+
+![notification-swagger](imgs/document/booking.jpeg)
+
+
+## **Notification Service**
+**Base URL:** `/api/v1`
+
+
+|   Método  | Endpoint                                       | Descripción                                          |
+| :-------: | :--------------------------------------------- | :--------------------------------------------------- |
+|  **POST** | `/api/v1/notifications`                        | Crear una nueva notificación.                        |
+|  **GET**  | `/api/v1/notifications/users/{user_id}`        | Obtener las notificaciones de un usuario específico. |
+| **PATCH** | `/api/v1/notifications/{notification_id}/read` | Marcar una notificación como leída.                  |
+
+
+|   Método  | Endpoint                              | Descripción                              |
+| :-------: | :------------------------------------ | :--------------------------------------- |
+|  **POST** | `/api/v1/preferences`                 | Crear preferencias de notificación.      |
+|  **GET**  | `/api/v1/preferences/users/{user_id}` | Obtener preferencias de un usuario.      |
+| **PATCH** | `/api/v1/preferences/{preference_id}` | Actualizar preferencias de notificación. |
+
+![notification-swagger](imgs/document/notify.png)
+
+
+##### 4.2.3.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint, se llevó a cabo la culminación de las últimas vistas tanto en Android Native como En Flutter, así como
+también la unión del backend con el frontend para trabajar
+con datos reales..
+
+
+- Landing Page de Ñango
+![landing](imgs/evidences/landing1.jpeg)
+
+- Landing Page Responsive 
+![landing-rsponsive](imgs/deployevidence2.jpg)
+
+##### 4.2.3.8. Team Collaboration Insights during Sprint
+
+Aqui se documentan las reuniones de equipo y las decisiones tomadas durante el sprint.
+
+La comunicación fue constante a través de plataforma usada: WhatsApp; y utilizamos herramientas como Trello, GitHub Pull Requests para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
+
+- Commits en GitHub: 
+![Commits-TB2-report](imgs/tf-commits-kotlin.png)
+![Commits_TB2_FRONT_KOTLIN](imgs/tf-commits-flutter.png)
+
+
 
 
 ### 4.3. Validation Interviews

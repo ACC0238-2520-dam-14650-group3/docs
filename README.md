@@ -113,9 +113,11 @@ A continuación, se presenta el proceso seguido para la elaboración del informe
 
 - Se establecieron fechas límite para completar cada tarea asignada y, aunque surgieron algunos inconvenientes durante el proceso, el equipo logró superarlos mediante una colaboración efectiva y trabajo conjunto.
 
-![]()
-![]()
-![]()
+![Commits-TF-report](imgs/Commits_TF_report.png)
+
+![Commits-TB2-report](imgs/tf-commits-kotlin.png)
+
+![Commits_TB2_FRONT_KOTLIN](imgs/tf-commits-flutter.png)
 
 *Historial de commits en la documentación, en el fron-end en flutter y kotlin adempas del backend*
 
@@ -277,6 +279,9 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <p><b>TB1:</b> Durante la TB1, reforcé mis conocimientos aplicando metodologías como el Lean UX Process y herramientas de análisis (5W y 2H, UX Canvas, Hypothesis Statements), desarrollando el Capítulo 1 del proyecto. Esto me permitió actualizar mis competencias en el diseño y planteamiento de soluciones de software.</p>
       <p><b>TP:</b> En la TP, actualicé mis habilidades en diseño digital al crear toda la interfaz móvil en Figma, aplicando principios de usabilidad y diseño visual coherente. Este proceso fortaleció mis capacidades en la creación de interfaces funcionales y modernas.</p>
       <p><b>TB2:</b>Durante la TB2 consolidé aprendizajes al elaborar el reporte del proyecto y desarrollar vistas iniciales en Flutter para la app móvil. Apliqué principios de diseño de interfaces, estructura de navegación básica y componentes de Material para garantizar legibilidad y coherencia visual. Este trabajo me permitió actualizar conceptos sobre organización de UI, manejo de estados simples y buenas prácticas de código en Dart, además de mejorar mi capacidad para documentar decisiones y alinear el entregable escrito con el avance técnico.</p>
+      <p><b>TB1:</b> Durante la TB1, reforcé mis conocimientos aplicando metodologías como el Lean UX Process y herramientas de análisis (5W y 2H, UX Canvas, Hypothesis Statements), desarrollando el Capítulo 1 del proyecto. Esto me permitió actualizar mis competencias en el diseño y planteamiento de soluciones de software.</p>
+      <p><b>TP:</b> En la TP, actualicé mis habilidades en diseño digital al crear toda la interfaz móvil en Figma, aplicando principios de usabilidad y diseño visual coherente. Este proceso fortaleció mis capacidades en la creación de interfaces funcionales y modernas.</p>
+      <p><b>TF:</b>Durante la TF el equipo no solo consolidó habilidades técnicas en el desarrollo móvil (Flutter/Kotlin) y en el soporte de backend, sino que también fortaleció prácticas de ingeniería (definición de flujos, contratos de API y pruebas BDD), junto con la gestión ágil y la comunicación del trabajo (planificación por sprints, PRs y documentación). Todo ello fue clave para el crecimiento profesional del grupo y para entregar un prototipo coherente, funcional y listo para ser demostrado.</p>
       <p><b>Grandez Mansilla, Jean Pierre:</b></p>
       <p><b>Guevara Tejada, Jorge Enrique:</b></p>
       <p><b>TB1:</b> Durante la TB1, reforcé y actualicé mis conocimientos al introducirme en el desarrollo móvil moderno con Jetpack Compose, comprendiendo su enfoque declarativo, la composición de UI y la gestión del estado. Además, aplicamos herramientas como Uxpressia y Structurizr, lo que me permitió unir el análisis funcional con los fundamentos de la arquitectura de software requerida para apps desarrolladas con Compose. Esta fase fue clave para actualizar mis criterios de diseño y estructura en proyectos móviles.</p>
@@ -286,6 +291,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     <td>
       <p><b>TB1:</b> Como equipo, fortalecimos nuestros conocimientos aplicando diversas herramientas, como Uxpressia para la elaboración de user personas y journey mapping, Structurizr para el desarrollo del modelo C4, además de realizar un análisis de la competencia. Gracias a estas herramientas, logramos diseñar una solución de software más completa, coherente y centrada en las necesidades del usuario.</p>
       <p><b>TP:</b> Durante la TP, fue necesario repasar y revisar las grabaciones de las clases del profesor. Estos recursos resultaron fundamentales para comprender los conceptos y avanzar en el desarrollo del proyecto de manera autónoma.</p>
+      <p><b>TF:</b>En ÑanGo profundizamos lo visto en clase con Flutter, y para sumar funciones nuevas —como Google Maps— tuvimos que investigar por cuenta propia. Nos apoyamos en la documentación oficial y tutoriales (YouTube) para configurar la API, mostrar el mapa, gestionar permisos, colocar marcadores y trazar rutas, conectándolo luego con nuestros flujos de Quotes y Reserve. Ese trabajo autónomo nos permitió aterrizar lo aprendido en una implementación práctica para el TF.</p>
     </td>
   </tr>
 
@@ -310,6 +316,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <p><b>TB1:</b> Durante la TB1, comprendí la importancia del aprendizaje continuo al aplicar nuevas metodologías de diseño centradas en el usuario. Esto me impulsó a investigar y mejorar mis conocimientos de manera autónoma para el desarrollo del proyecto.</p>
       <p><b>TP:</b> En la TP, el diseño completo de la interfaz móvil en Figma me permitió seguir aprendiendo de forma práctica, explorando nuevas herramientas y recursos. Reafirmé la importancia del aprendizaje constante para adaptarme a los avances en el desarrollo de software.</p>
       <p><b>TP:</b> Para completar estas tareas investigué documentación oficial y recursos técnicos de Flutter/Dart, reforzando un hábito de autoformación continua. Este proceso me ayudó a cerrar brechas técnicas y a planificar mejoras para el siguiente sprint (refinamiento de navegación, accesibilidad y validaciones).</p>
+      <p><b>TF:</b>Este proceso de “improvisar, investigar y aplicar” me demostró que, en desarrollo de software, lo aprendido en clase no es suficiente: cada funcionalidad nueva me exige sumergirme en documentación oficial, tutoriales, foros y repositorios de la comunidad. Los avances obtenidos con ÑanGo refuerzan la necesidad de mantenerme actualizado y de cultivar un hábito de aprendizaje continuo a lo largo de mi carrera profesional.</p>
       <p><b>Grandez Mansilla, Jean Pierre:</b></p>
       <p><b>Guevara Tejada, Jorge Enrique:</b></p>
       <p><b>TB1:</b> En la TB1, reconocí la importancia del aprendizaje permanente al enfrentar conceptos nuevos como la programación declarativa y el manejo de estados en Compose. El proceso de investigación, entrevistas y validación nos llevó a comprender que mantenerse actualizado es fundamental para desarrollar soluciones de software que respondan a las necesidades reales del usuario.</p>
@@ -319,6 +326,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     <td>
       <p><b>TB1:</b> La implementación de nuevas metodologías y la realización de entrevistas a usuarios nos motivaron a investigar y aprender de manera constante. Este proceso nos ayudó a comprender las necesidades reales del público objetivo y a aplicar estrategias colaborativas, valorando la importancia del aprendizaje continuo en nuestra formación profesional.</p>
       <p><b>TP:</b> Trabajar por primera vez con Android Studio y comprender su estructura de desarrollo representó un reto significativo. No obstante, fue una experiencia enriquecedora que nos permitió descubrir el proceso de creación de una aplicación y familiarizarnos con el lenguaje Kotlin, fortaleciendo nuestras habilidades técnicas.</p>
+      <p><b>TF:</b>A lo largo del proyecto comprobamos que lo visto en clase no cubría todos los escenarios reales que enfrentamos. Esto nos impulsó a investigar por nuestra cuenta, reforzar lo aprendido y explorar nuevas alternativas técnicas para resolver los problemas. Entendimos que el aprendizaje continuo es indispensable para afrontar los retos del desarrollo de software y seguir creciendo profesionalmente más allá del entorno académico..</p>
     </td>
   </tr>
 </table>
@@ -2994,9 +3002,73 @@ La comunicación fue constante a través de plataforma usada: WhatsApp; y utiliz
 ![Imagen de la entrevista](imgs/validacion-entrevista2.png)
 [Entrevista a Jose Sosa](https://www.youtube.com/watch?v=gwhtOEFI0Sc)
 
+**Segemento 2: Estudiantes sin vehículo (pasajeros)**
+
+- Entrevista a Huber Requejo
+  Edad: 22
+  Universidad: Pontificia Universidad Católica del Perú (PUCP)
+  Carrera: Ingeniería de Sistemas
+
+![Imagen de la entrevista](imgs/validationinterview3.jpeg)
+[Entrevista a D]( https://drive.google.com/drive/folders/1HmEvNH42wE-PqfoI7sdK41JiGHHO9rCi)
 
 #### 4.3.3. Evaluaciones según heurísticas
 
+**Tareas a evaluar**
+
+El alcance de esta evaluación considera la usabilidad de las siguientes tareas en **ÑanGo** (web y móvil):
+1. **Visualización del perfil de usuario** (acceso desde icono/avatar y edición básica).
+2. **Descubrimiento y acceso a funciones clave** (Quotes, Reserve, Comments, Chat).
+3. **Política de privacidad y Términos y condiciones** (accesibles desde la landing/app).
+
+---
+
+**Escala de severidad**
+Los hallazgos se puntúan con la siguiente escala:
+
+| Nivel | Descripción |
+|---:|---|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | 	Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+**Tabla resumen (problemas)**
+
+| # | Problema | Escala de severidad | Heurística / Principio violado |
+|---:|---|:---:|---|
+| **1** | La aplicación **no ofrece modo oscuro (dark mode)** en web/móvil. | **1** | **Accesibilidad – Preferencias y contraste** |
+| **2** | **No existe versión en inglés** (sin internacionalización/i18n). | **1** | **Usabilidad – Internacionalización y consistencia de lenguaje** |
+| **3** | El **Chat** se muestra de forma **incompleta** (limitado/estado inestable) en viajes confirmados. | **2** | **Usabilidad – Consistencia y estándares** |
+
+---
+
+**Problema #1: La app no ofrece modo oscuro**
+
+- **Severidad:** 1  
+- **Heurística violada:** Accesibilidad – Preferencias y contraste  
+- **Descripción:** No hay opción de **tema oscuro**, lo que afecta la lectura en ambientes con poca luz y reduce el confort visual para usuarios que lo prefieren.  
+- **Recomendación:** Incorporar **selector de tema** (claro/oscuro/sistema), persistir la preferencia (perfil/localStorage) y asegurar **contraste** acorde a **WCAG AA**. En web, respetar `prefers-color-scheme`; en móvil, proveer paletas equivalentes en ambos temas.
+
+---
+
+**Problema #2: No hay versión en inglés (i18n)**
+
+- **Severidad:** 1  
+- **Heurística violada:** Usabilidad – Internacionalización y consistencia de lenguaje  
+- **Descripción:** La interfaz está solo en español; usuarios no hispanohablantes no pueden comprender flujos clave ni textos legales.  
+- **Recomendación:** Habilitar **i18n** con archivos de traducción (ES/EN), **selector de idioma**, y *fallback* por defecto. Asegurar formatos locales para **fecha/hora**, números y monedas; revisar textos de **Policies/Terms** y mensajes del sistema para mantener consistencia entre plataformas.
+
+---
+
+**Problema #3: El sistema de Chat se presenta de forma incompleta**
+
+- **Severidad:** 2  
+- **Heurística violada:** Usabilidad – Consistencia y estándares  
+- **Descripción:** El **Chat** posterior a la aceptación de la solicitud muestra limitaciones (p. ej., mensajes que no aparecen, estados de envío/lectura ausentes o reconexión inestable), lo que afecta la coordinación del viaje.  
+- **Recomendación:** Completar el flujo mínimo del chat: lista de conversaciones por viaje, envío/recepción confiable, estado básico de **entrega/lectura** o indicador “enviado”, manejo de **reintento** ante red caída y toasts de error. Mantener consistencia visual con el resto de la app y contemplar vacíos (sin mensajes) y cargas.
 
 # Conclusiones
 
